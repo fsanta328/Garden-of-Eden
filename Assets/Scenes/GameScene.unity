@@ -583,6 +583,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 84bebdd5e681b4a79a7996a4f15087b5, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &260600872 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 135312, guid: 480c6c210965543a7bea6795b272f5d7, type: 2}
+  m_PrefabInternal: {fileID: 383159332}
 --- !u!1001 &383159332
 Prefab:
   m_ObjectHideFlags: 0
@@ -683,14 +687,14 @@ Transform:
   m_PrefabParentObject: {fileID: 400002, guid: f094ff41182c944939aa1ec4f9c8c37a, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 408102434}
-  m_LocalRotation: {x: 0, y: 0.49686947, z: 0, w: 0.86782527}
-  m_LocalPosition: {x: -0.4, y: 0.016, z: -0.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.00000011920929, y: 0.49686953, z: 0.000000030733645, w: 0.86782527}
+  m_LocalPosition: {x: -0.14400029, y: 0.0234003, z: -0.15999994}
+  m_LocalScale: {x: 0.39999998, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 1897593861}
   - {fileID: 1807541915}
-  m_Father: {fileID: 1159526660}
-  m_RootOrder: 0
+  m_Father: {fileID: 1321825809}
+  m_RootOrder: 5
 --- !u!1 &421717762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,6 +1375,10 @@ Prefab:
       propertyPath: m_Radius
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 13538398, guid: e8b502b0cd3634285bd7dbb24a46034c, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8b502b0cd3634285bd7dbb24a46034c, type: 2}
   m_IsPrefabParent: 0
@@ -1690,7 +1698,7 @@ Prefab:
     - target: {fileID: 9500000, guid: df7ef05fa87d48248ba181823b336391, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: dc0b4d7920856498a8700f8379136721, type: 2}
+      objectReference: {fileID: 9100000, guid: 44b98132d86f74d8d9350604b89b0c35, type: 2}
     - target: {fileID: 13700006, guid: df7ef05fa87d48248ba181823b336391, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1745,7 +1753,7 @@ MonoBehaviour:
     - {fileID: 1096530162}
     - {fileID: 1096530163}
     _serializedCustomData: []
---- !u!114 &1096530166
+--- !u!114 &1096530165
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1753,29 +1761,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1096530162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef6401a6bd0044efd9a089e3ee0baa2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 14578c2c7b5cc4eb799236aa046eacb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_cam: {fileID: 450612598}
+  m_weapon: {fileID: 408102434}
   m_speed: 3
-  m_front: 0
-  m_back: 180
-  m_left: 270
-  m_right: 90
-  m_forntRight: 45
-  m_frontLeft: 315
-  m_backRight: 135
-  m_backLeft: 225
-  m_animationList:
-  - -1
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  Weapon: {fileID: 408102434}
 --- !u!114 &1096530167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1955,34 +1946,6 @@ Transform:
   - {fileID: 1136420055}
   m_Father: {fileID: 1999753731}
   m_RootOrder: 2
---- !u!1 &1159526659
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: f094ff41182c944939aa1ec4f9c8c37a, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1159526660}
-  m_Layer: 0
-  m_Name: Ice Sword
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1159526660
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: f094ff41182c944939aa1ec4f9c8c37a, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1159526659}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.016, y: 0.017, z: -0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_Children:
-  - {fileID: 408102437}
-  m_Father: {fileID: 1321825809}
-  m_RootOrder: 5
 --- !u!1 &1200665718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,10 +2832,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy:
-  - {fileID: 135312, guid: 480c6c210965543a7bea6795b272f5d7, type: 2}
-  - {fileID: 135312, guid: 480c6c210965543a7bea6795b272f5d7, type: 2}
-  - {fileID: 135312, guid: 480c6c210965543a7bea6795b272f5d7, type: 2}
-  - {fileID: 135312, guid: 480c6c210965543a7bea6795b272f5d7, type: 2}
+  - {fileID: 260600872}
+  - {fileID: 260600872}
+  - {fileID: 260600872}
+  - {fileID: 260600872}
   spawnTime: 30
   spawnPoints:
   - {fileID: 942914741}
@@ -3722,6 +3685,10 @@ Prefab:
       objectReference: {fileID: 9100000, guid: 4c0c539764bb24d4c8e461b36edfba4c, type: 2}
     - target: {fileID: 13538398, guid: e8b502b0cd3634285bd7dbb24a46034c, type: 2}
       propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13538398, guid: e8b502b0cd3634285bd7dbb24a46034c, type: 2}
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

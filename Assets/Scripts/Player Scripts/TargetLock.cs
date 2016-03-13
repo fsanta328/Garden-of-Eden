@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class TargetLock : MonoBehaviour 
 {
+	internal List<GameObject> m_targets = new List<GameObject>();
+
 	internal GameObject m_target;
 
 	internal Vector3 m_distance;
@@ -10,15 +12,28 @@ public class TargetLock : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		m_target = GameObject.FindGameObjectWithTag ("Enemy");
+		foreach (GameObject a_target in GameObject.FindGameObjectsWithTag("Enemy")) 
+		{
+			m_targets.Add (a_target);
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if(m_target.activeInHierarchy == true)
+		foreach (GameObject a_target in m_targets) 
 		{
-			m_distance = m_target.transform.position - transform.position;
+			if(a_target.activeInHierarchy == true)
+			{
+				m_target = a_target;
+				m_distance = a_target.transform.position - transform.position;
+
+				break;
+			}
+			else
+			{
+				break;
+			}
 		}
 
 		if(Input.GetKey(KeyCode.D) && m_target.activeInHierarchy == true && m_distance.magnitude <= 5)
@@ -26,7 +41,7 @@ public class TargetLock : MonoBehaviour
 			LockOnm_target ();
 		}
 
-		else if(Input.GetKeyUp(KeyCode.D) || m_target.activeInHierarchy == false)
+		else if(Input.GetKeyUp(KeyCode.D) || m_target.activeInHierarchy  == false)
 		{
 			transform.eulerAngles = new Vector3 (0,transform.eulerAngles.y,0);
 		}
