@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class ButtonTransactions : MonoBehaviour {
 
@@ -13,5 +15,14 @@ public class ButtonTransactions : MonoBehaviour {
 	public void TogglePanel (GameObject panel) 
 	{
 		panel.SetActive (!panel.activeSelf);
+
+	}
+
+	public void TogglePauseMenu()
+	{
+		if () 
+		{
+
+		}
 	}
 }
