@@ -20,9 +20,6 @@ public class ButtonTransactions : MonoBehaviour {
 
 	public void TogglePauseMenu()
 	{
-		if () 
-		{
-
-		}
+		
 	}
 }

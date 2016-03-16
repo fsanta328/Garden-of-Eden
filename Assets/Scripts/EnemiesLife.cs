@@ -8,7 +8,7 @@ public class EnemiesLife : MonoBehaviour {
 
 
 	// this bool is for future refrence.. we use it if u want to check something after the death of the enemy
-	private bool enemyDead = false;
+	public bool enemyDead = false;
 
 
 	// Use this for initialization
@@ -36,6 +36,8 @@ public class EnemiesLife : MonoBehaviour {
 
 			// Destroy the zombie 
 			Destroy(gameObject);
+
+	
 		}
 	}
 

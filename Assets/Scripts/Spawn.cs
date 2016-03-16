@@ -8,11 +8,10 @@ public class Spawn : MonoBehaviour {
 	// The enemy prefab to be spawned.
 	public GameObject[] enemy; 
 
-	// How long between each spawn.
-	public float spawnTime = 0;            
+	 
 	public Transform[] spawnPoints;         
 
-	private float timer = 0;
+	private float timer = 3;
 
 
 
@@ -32,9 +31,12 @@ public class Spawn : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		timer -= Time.deltaTime;
 
+		if (timer >0)
+		{
+			timer -= Time.deltaTime;
 
+		}
 		if (timer <= 0 )
 		{
 			// If all of our enemies are dead, respawn after 5 seconds.
@@ -42,7 +44,7 @@ public class Spawn : MonoBehaviour {
 			{
 				EnemySpawner();	
 				timer = 5;
-				Debug.Log("It's me " + timer);
+
 			}
 
 		}
@@ -60,9 +62,6 @@ public class Spawn : MonoBehaviour {
 
 	void EnemySpawner ()
 	{
-		
-
-
 		// Create an instance of the enemy prefab at the randomly selected spawn point's position.
 		//Create the enemies at a random transform 
 		for (int i = 0; i<m_enemyCount;i++)
