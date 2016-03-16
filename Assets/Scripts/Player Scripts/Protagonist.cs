@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public enum AnimationClip
 {
@@ -30,6 +30,9 @@ public class Protagonist
 	internal GameObject m_cam;
 	internal int m_hit = 0;
 
+	internal float m_maxDistance = 5, m_rotationSpeed = 10;
+	internal Vector3 m_distance;
+
 	internal void Animation(AnimationClip a_animationClip)
 	{
 		m_animator.SetFloat ("Anim", (int)a_animationClip);
@@ -40,20 +43,25 @@ public class Protagonist
 		return Input.GetKey (a_key) && (m_hit == 0) && m_timer == 0;
 	}
 
+	internal bool Is_lockedOn()
+	{
+		return Input.GetKey (KeyCode.Mouse1) && m_distance.magnitude <= m_maxDistance;
+	}
+
 	internal void Move(Direction a_direction)
 	{
 		m_transform.Translate (Vector3.forward * m_speed * Time.deltaTime);
 
 		Animation (AnimationClip.WalkForward);
 
-		m_transform.eulerAngles = new Vector3 (0, m_cam.transform.eulerAngles.y + (int)a_direction, 0);
+		m_transform.eulerAngles = new Vector3 (0,  m_cam.transform.eulerAngles.y + (int)a_direction, 0);
 
 		CombatState ();
 	}
 
 	internal void CombatState()
 	{
-		if (Input.GetKeyDown (KeyCode.A)) 
+		if (Input.GetKeyDown (KeyCode.Mouse0)) 
 		{
 			m_hit++;
 		}
@@ -72,7 +80,7 @@ public class Protagonist
 		}
 	}
 
-	void Punch(int a_punch, float a_timerLimit)
+	internal void Punch(int a_punch, float a_timerLimit)
 	{
 		m_timer += Time.deltaTime;
 
@@ -101,5 +109,10 @@ public class Protagonist
 		m_transform.Translate (a_position * m_speed * Time.deltaTime);
 		Animation(a_animationClip);
 		CombatState ();
+	}
+
+	internal void LockXZ()
+	{
+		m_transform.eulerAngles = new Vector3 (0, m_transform.eulerAngles.y, 0);
 	}
 }
