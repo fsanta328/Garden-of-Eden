@@ -32,6 +32,7 @@ public class Protagonist
 
 	internal float m_maxDistance = 5, m_rotationSpeed = 10;
 	internal Vector3 m_distance;
+	public Player m_player;
 
 	internal void Animation(AnimationClip a_animationClip)
 	{
@@ -61,23 +62,27 @@ public class Protagonist
 
 	internal void CombatState()
 	{
-		if (Input.GetKeyDown (KeyCode.Mouse0)) 
-		{
-			m_hit++;
-		}
+//		if (m_player.collected = 1) 
+//		{
+			
+		if (Input.GetKeyDown (KeyCode.E)) 
+			{
+				m_hit++;
+			}
 
-		if (m_hit == 1) 
-		{
-			Punch (1, 0.55f);
-		}
-		else if(m_hit == 2)
-		{
-			Punch (2, 0.85f);
-		}
-		else if(m_hit >= 3)
-		{
-			Punch (3, 1f);
-		}
+			if (m_hit == 1) 
+			{
+				Punch (1, 0.55f);
+			} 
+			else if (m_hit == 2) 
+			{
+				Punch (2, 0.85f);
+			} 
+			else if (m_hit >= 3) 
+			{
+				Punch (3, 1f);
+			}
+//		}
 	}
 
 	internal void Punch(int a_punch, float a_timerLimit)

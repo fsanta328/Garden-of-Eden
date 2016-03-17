@@ -7,6 +7,8 @@ TagManager:
   - Target
   - Enemy
   - gem
+  - Weapon
+  - Item
   layers:
   - Default
   - TransparentFX
