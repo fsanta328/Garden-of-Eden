@@ -3,20 +3,20 @@ using System.Collections;
 using UnityEngine.UI;
 
 
-public class PauseMenu : MonoBehaviour {
+public class UIManger : MonoBehaviour {
 
 	// canvas for pause and game scene set in engine 
 	public Canvas m_gameCanvas;
 	public Canvas m_pauseCanvas;
+	public Canvas m_helpCanas;
 
 	// audio for the back ground music 
 	//public AudioClip Background_music;
 
 	//private AudioSource bk_source;
 
-
-
 	bool IsPasued = false;
+
 
 
 
@@ -34,6 +34,7 @@ public class PauseMenu : MonoBehaviour {
 	{
 		// at first the pause canvas is set to false
 		m_pauseCanvas.enabled = false;
+		m_helpCanas.enabled = false;
 
 
 
@@ -49,8 +50,6 @@ public class PauseMenu : MonoBehaviour {
 
 	}
 
-
-
 	public void Unpause()
 	{
 
@@ -63,10 +62,6 @@ public class PauseMenu : MonoBehaviour {
 		Time.timeScale = 1;
 
 
-	//	DisableScript();
-
-
-
 		IsPasued = false;
 
 		// return audio
@@ -76,38 +71,32 @@ public class PauseMenu : MonoBehaviour {
 	public  void Pause()
 	{
 
-//		if (Input.GetKey(KeyCode.P) )
-//		{
-
 			Time.timeScale = 0;
 			//bk_source.Pause();
 
 			// game canvas is set to off
-			m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = false;
+			m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
 
 			// Enable the pause Scene .
 			m_pauseCanvas.enabled = true;	
 
 			
-		//DisableScript();
+			IsPasued = true;
+
+	}
+
+	public void OpenHelpCanvas()
+	{
+		m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
+		m_helpCanas.enabled = true;
 
 
-		IsPasued = true;
-	//	}
+	}
 
-//		if (Input.GetKey(KeyCode.R))
-//		{
-//
-//			// game canvas is set to on
-//			m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
-//
-//			//bk_source.UnPause();
-//
-//			// Disables the pause Canvas. 
-//			m_pauseCanvas.enabled = false;
-//
-//			Time.timeScale = 1;
-//		}
+	public void CloseHelpCanvas()
+	{
+		m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
+		m_helpCanas.enabled = false;
 
 
 	}
