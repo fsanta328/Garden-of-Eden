@@ -7,6 +7,8 @@ public class ButtonTransactions : MonoBehaviour {
 	public void ChangeScene (string sceneChange) 
 	{
 		Application.LoadLevel(sceneChange);
+		Time.timeScale = 1;
+
 	
 	}
 	
