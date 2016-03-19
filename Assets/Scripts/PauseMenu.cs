@@ -16,6 +16,9 @@ public class PauseMenu : MonoBehaviour {
 
 
 
+	bool IsPasued = false;
+
+
 
 
 	void Awake()
@@ -31,6 +34,10 @@ public class PauseMenu : MonoBehaviour {
 	{
 		// at first the pause canvas is set to false
 		m_pauseCanvas.enabled = false;
+
+
+
+
 
 	}
 
@@ -55,7 +62,12 @@ public class PauseMenu : MonoBehaviour {
 		// unpause the game
 		Time.timeScale = 1;
 
-	
+
+	//	DisableScript();
+
+
+
+		IsPasued = false;
 
 		// return audio
 		//bk_source.UnPause();
@@ -74,10 +86,13 @@ public class PauseMenu : MonoBehaviour {
 			m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = false;
 
 			// Enable the pause Scene .
-			m_pauseCanvas.enabled = true;		
+			m_pauseCanvas.enabled = true;	
+
+			
+		//DisableScript();
 
 
-
+		IsPasued = true;
 	//	}
 
 //		if (Input.GetKey(KeyCode.R))
@@ -96,4 +111,24 @@ public class PauseMenu : MonoBehaviour {
 
 
 	}
+
+//	void DisableScript()
+//	{
+//		GameObject followTargetScriptClass = GameObject.Find("MainCamera");
+//		GameObject PlayerScriptClass = GameObject.Find("Berserker");
+//
+//		if (IsPasued)
+//		{
+//
+//			followTargetScriptClass.GetComponentInChildren<followTarget>().enabled = false;
+//			PlayerScriptClass.GetComponent<Player>().enabled = false;
+//		}
+//
+//		if (IsPasued == false)
+//		{
+//
+//			followTargetScriptClass.GetComponentInChildren<followTarget>().enabled = true;
+//			PlayerScriptClass.GetComponent<Player>().enabled = true;
+//		}
+//	}
 }
