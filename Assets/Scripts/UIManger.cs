@@ -16,6 +16,7 @@ public class UIManger : MonoBehaviour {
 	//private AudioSource bk_source;
 
 	bool IsPasued = false;
+	bool isHelpOpend = false;
 
 
 
@@ -70,7 +71,10 @@ public class UIManger : MonoBehaviour {
 
 	public  void Pause()
 	{
-
+		if (isHelpOpend == false)
+		{
+			
+		
 			Time.timeScale = 0;
 			//bk_source.Pause();
 
@@ -82,13 +86,21 @@ public class UIManger : MonoBehaviour {
 
 			
 			IsPasued = true;
+		}
 
 	}
 
 	public void OpenHelpCanvas()
 	{
-		m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
-		m_helpCanas.enabled = true;
+		if (IsPasued == false)
+		{
+			m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
+			m_helpCanas.enabled = true;
+			isHelpOpend = true;
+		}
+
+
+	
 
 
 	}
@@ -97,6 +109,7 @@ public class UIManger : MonoBehaviour {
 	{
 		m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
 		m_helpCanas.enabled = false;
+		isHelpOpend = false;
 
 
 	}
