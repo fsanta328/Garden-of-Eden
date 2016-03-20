@@ -2027,7 +2027,7 @@ Animator:
   m_GameObject: {fileID: 135312}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 39d03f82786b57d41af8bd27bce84402, type: 3}
-  m_Controller: {fileID: 9100000, guid: 6197a852bc40f44f594166b35cb1bdc7, type: 2}
+  m_Controller: {fileID: 9100000, guid: d354e3a04162c4e379e74958d4b0fa2d, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2269,7 +2269,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: da71df04cb7d54ca793962e809dc75e2, type: 2}
+  - {fileID: 2100000, guid: 3ee9f14dbe12f4e4ea83d6691604b640, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2362,6 +2362,14 @@ Prefab:
       propertyPath: m_drop
       value: 
       objectReference: {fileID: 180838, guid: ee2f8c584e0ac45efb5d85958bd1e04b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ee9f14dbe12f4e4ea83d6691604b640, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d354e3a04162c4e379e74958d4b0fa2d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 135312}
