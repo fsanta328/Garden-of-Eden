@@ -10,6 +10,9 @@ public class UIManger : MonoBehaviour {
 	public Canvas m_pauseCanvas;
 	public Canvas m_helpCanas;
 
+
+
+
 	// audio for the back ground music 
 	//public AudioClip Background_music;
 
@@ -26,6 +29,7 @@ public class UIManger : MonoBehaviour {
 	{
 		// get component from engine
 		//bk_source =GetComponent<AudioSource>();
+
 
 
 	}
@@ -53,7 +57,6 @@ public class UIManger : MonoBehaviour {
 
 	public void Unpause()
 	{
-
 		// disable the canvas 
 		m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
 		// disable the pause canvas
@@ -61,9 +64,10 @@ public class UIManger : MonoBehaviour {
 
 		// unpause the game
 		Time.timeScale = 1;
-
-
 		IsPasued = false;
+
+		DisableScript();
+
 
 		// return audio
 		//bk_source.UnPause();
@@ -73,8 +77,8 @@ public class UIManger : MonoBehaviour {
 	{
 		if (isHelpOpend == false)
 		{
-			
-		
+			IsPasued = true;
+
 			Time.timeScale = 0;
 			//bk_source.Pause();
 
@@ -83,9 +87,9 @@ public class UIManger : MonoBehaviour {
 
 			// Enable the pause Scene .
 			m_pauseCanvas.enabled = true;	
+			DisableScript();
 
 			
-			IsPasued = true;
 		}
 
 	}
@@ -114,23 +118,23 @@ public class UIManger : MonoBehaviour {
 
 	}
 
-//	void DisableScript()
-//	{
-//		GameObject followTargetScriptClass = GameObject.Find("MainCamera");
-//		GameObject PlayerScriptClass = GameObject.Find("Berserker");
-//
-//		if (IsPasued)
-//		{
-//
-//			followTargetScriptClass.GetComponentInChildren<followTarget>().enabled = false;
-//			PlayerScriptClass.GetComponent<Player>().enabled = false;
-//		}
-//
-//		if (IsPasued == false)
-//		{
-//
-//			followTargetScriptClass.GetComponentInChildren<followTarget>().enabled = true;
-//			PlayerScriptClass.GetComponent<Player>().enabled = true;
-//		}
-//	}
+	void DisableScript()
+	{
+		GameObject followTargetScriptClass = GameObject.Find("Main Camera");
+		GameObject PlayerScriptClass = GameObject.Find("Berserker");
+
+		if (IsPasued)
+		{
+
+			followTargetScriptClass.GetComponentInChildren<followTarget>().enabled = false;
+			PlayerScriptClass.GetComponent<Player>().enabled = false;
+		}
+
+		if (IsPasued == false)
+		{
+
+			followTargetScriptClass.GetComponentInChildren<followTarget>().enabled = true;
+			PlayerScriptClass.GetComponent<Player>().enabled = true;
+		}
+	}
 }
