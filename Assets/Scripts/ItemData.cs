@@ -87,12 +87,16 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 						{
 							m_player.GetComponent<Player> ().m_attack = m_player.GetComponent<Player> ().m_attack + m_item.m_attack;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
+							m_item.m_equipped = true;
+							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
 						}
 
 						if (m_item.m_ID == 1)
 						{
 							m_player.GetComponent<Player> ().m_defence = m_player.GetComponent<Player> ().m_defence + m_item.m_defence;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
+							m_item.m_equipped = true;
+							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
 						}
 					}
 
@@ -102,12 +106,16 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 						{
 							m_player.GetComponent<Player> ().m_attack = m_player.GetComponent<Player> ().m_attack - m_item.m_attack;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.white;
+							m_item.m_equipped = false;
+							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "";
 						}
 
 						if (m_item.m_ID == 1)
 						{
 							m_player.GetComponent<Player> ().m_defence = m_player.GetComponent<Player> ().m_defence - m_item.m_defence;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.white;
+							m_item.m_equipped = false;
+							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "";
 						}
 					}
 				}	

@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
 
 		if ((Input.GetKeyUp (KeyCode.K)) && (m_visible == 1)) 
 		{
-			m_inventory.AddItem (2);
+			m_inventory.AddItem (1);
 		}
 
 		if (Input.GetKeyUp (KeyCode.Comma)) 
@@ -165,14 +165,14 @@ public class Player : MonoBehaviour
 		if (collision.gameObject.tag == "Item") 
 		{
 			m_inventory.AddItem (1);
-			Debug.Log ("idrop");
+			//Debug.Log ("idrop");
 		}
 
 		if (collision.gameObject.tag == "Enemy") 
 		{
 			if (invu == false) 
 			{
-				m_health = m_health - 20;
+				//m_health = m_health - 20;
 				Debug.Log ("hurt");
 			} 
 
@@ -180,6 +180,16 @@ public class Player : MonoBehaviour
 			{
 				ApplyDamage (collision); 					
 			}
+		}
+
+		foreach (ContactPoint c in collision.contacts) 
+		{
+			if ((c.thisCollider.tag == "Weapon") && (collision.gameObject.tag == "Enemy"))
+			{
+				Debug.Log ("swordhit");
+				ApplyDamage (collision);
+			}
+
 		}
 	}
 

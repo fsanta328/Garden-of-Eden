@@ -4,17 +4,6 @@ using System.Collections;
 public class Weapon : MonoBehaviour 
 {
 	public Player m_player;
-	// Use this for initialization
-	void Start () 
-	{
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
 
 	void OnCollisionEnter (Collision a_collision)
 	{
@@ -25,7 +14,6 @@ public class Weapon : MonoBehaviour
 
 			m_player.ApplyDamage (a_collision);
 			Debug.Log (a_collision.gameObject.GetComponent<EnemiesLife> ().g_currentHealth);
-
 		}
 	}
 }

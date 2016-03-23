@@ -74,7 +74,7 @@ public class Item
 		this.m_title = a_title;
 		this.m_value = a_value;
 		this.m_attack = a_attack;
-		this.m_defence = m_defence;
+		this.m_defence = a_defence;
 		this.m_health = a_health;
 		this.m_description = a_description;
 		this.m_stackable = a_stackable;

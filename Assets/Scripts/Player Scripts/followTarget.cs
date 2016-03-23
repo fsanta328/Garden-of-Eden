@@ -6,10 +6,11 @@ public  class followTarget : MonoBehaviour
 	public Transform lookAt;
 	private Transform camTransform;
 
-	private float distance = 1.5f;
+	private float distance = 12.5f;
 	private float currentX = 0.01f;
+	private float m_height = 12f;
 
-	public float zoom = 5f;
+	public float zoom = 2f;
 
 	void Start()
 	{
@@ -24,7 +25,7 @@ public  class followTarget : MonoBehaviour
 	private void LateUpdate()
 	{
 		// rotate the camera
-		Vector3 dir = new Vector3 (2,1.5f, -distance);
+		Vector3 dir = new Vector3 (2, m_height, -distance);
 		Quaternion rotation = Quaternion.Euler(0 , -currentX , 0);
 		camTransform.position = lookAt.position + rotation * dir;
 

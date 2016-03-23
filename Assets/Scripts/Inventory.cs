@@ -13,7 +13,8 @@ public class Inventory : MonoBehaviour
 	public GameObject m_inventoryItem;
 	public GameObject m_inventoryCanvas;
 	public GameObject m_toggleButton;
-
+	public Transform m_itemCount;
+	public Transform m_itemEquipped;
 	int m_slotCount;
 	public List<Item> m_items = new List<Item>();
 	public List<GameObject> m_slots = new List<GameObject>();
@@ -28,6 +29,8 @@ public class Inventory : MonoBehaviour
 		m_slotCount = 20;
 		m_inventoryPanel = GameObject.Find ("InventoryPanel");
 		m_slotsPanel = m_inventoryPanel.transform.FindChild ("Slot Panel").gameObject;
+		m_itemCount = transform.Find ("Stack Amount");
+		m_itemEquipped = transform.Find ("Equipped");
 
 		for (int i=0; i < m_slotCount; i++)
 		{
@@ -40,6 +43,7 @@ public class Inventory : MonoBehaviour
 		//AddItem (1);
 		//RemoveItemAtPos(m_inventoryItem.transform.GetInstanceID(),
 		m_toggleButton = GameObject.Find("Toggle");
+
 	}
 
 	public void AddItem(int a_id)
@@ -108,13 +112,15 @@ public class Inventory : MonoBehaviour
 				{
 					if (data.m_amount == 1) 
 					{
-						data.transform.GetComponentInChildren<Text> ().text = "";
+						//data.transform.GetComponentInChildren<Text> ().text = "";
+						m_itemCount.GetComponent<Text> ().text = "";
 						data.m_amount = 0;
 					}
 
 					else 
 					{
-						data.transform.GetComponentInChildren<Text> ().text = (data.m_amount-1).ToString ();
+						//data.transform.GetComponentInChildren<Text> ().text = (data.m_amount-1).ToString ();
+						m_itemCount.GetComponent<Text> ().text = (data.m_amount-1).ToString ();
 						data.m_amount = data.m_amount - 1;
 						return data.m_amount;
 					}
