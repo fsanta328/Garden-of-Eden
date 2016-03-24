@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 	public float m_speed;
 	private Animator m_animator;
 	private float timer;
-	private Vector3 jumpVelocity = new  Vector3(0, 4.50f, 0);
+	private Vector3 jumpVelocity = new  Vector3(0, 3.50f, 0);
 	bool m_actionMovement;
 	public Inventory m_inventory;
 	public GameObject m_inventoryCanvas;
@@ -103,22 +103,20 @@ public class Player : MonoBehaviour
 			if (timer >= 1.5f) 
 			{
 				m_animator.SetTrigger ("Charged");
-				Invoke ("ActionMovement", 0.5f);
+				Invoke ("ActionMovement", 0.75f);
 				Invoke ("DisableChargeAttack", 1.5f);
 			}
-
 		} 
 		else if (Input.GetKeyUp (KeyCode.Q)) 
 		{
-			timer = 0;
-			m_aura.SetActive (false);
+			DisableChargeAttack ();
 		}			
 
-		if (Input.GetKeyDown (KeyCode.Space) && m_actionMovement == false) 
+		if (Input.GetKeyDown (KeyCode.Space) && m_animator.GetCurrentAnimatorStateInfo(0).IsTag("Jump").Equals(false) && m_actionMovement == false) 
 		{
 			m_actionMovement = true;
 			m_animator.SetTrigger ("Jump");
-			Invoke ("jump", 0.5f);
+			Invoke ("Jump", 0.5f);
 		}
 
 		if (m_actionMovement == true) 
@@ -132,23 +130,19 @@ public class Player : MonoBehaviour
 	{
 		transform.Translate (Vector3.forward * 4 * Time.deltaTime);
 	}
-
-	void DisableChargeAttack()
-	{
-		m_actionMovement = false;
-		m_animator.ResetTrigger ("Charged");
-		timer = 0;
-		m_aura.SetActive (false);
-	}
-
-	void jump()
-	{
-		GetComponent<Rigidbody>().AddForce (jumpVelocity, ForceMode.VelocityChange);
-	}
-
 	void ActionMovementmentDisable()
 	{
 		m_actionMovement = false;
+	}
+	void Jump()
+	{
+		GetComponent<Rigidbody>().AddForce (jumpVelocity, ForceMode.VelocityChange);
+	}
+	void DisableChargeAttack()
+	{
+		m_animator.ResetTrigger ("Charged");
+		timer = 0;
+		m_aura.SetActive (false);
 	}
 
 	void OnCollisionEnter(Collision collision)

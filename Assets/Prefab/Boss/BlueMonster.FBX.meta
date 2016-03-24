@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: de3dd5e810aba4918aead2f9fc6ecf2b
+timeCreated: 1458825194
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anim_Chest01
+    100002: Anim_Head01
+    100004: Anim_LArm01
+    100006: Anim_LElbow01
+    100008: Anim_LLeg01
+    100010: Anim_LPalm01
+    100012: Anim_Pelvis01
+    100014: Anim_RArm01
+    100016: Anim_RElbow01
+    100018: Anim_RLeg01
+    100020: Anim_RPalm01
+    100022: Anim_Stomach01
+    100024: //RootNode
+    100026: Box001
+    100028: CATRigLArm1IKPt
+    100030: CATRigLArm2IKPt
+    100032: CATRigLArm2Nub
+    100034: CATRigLLeg1IKPt
+    100036: CATRigLLeg2IKPt
+    100038: CATRigLLeg2Nub
+    100040: CATRigRArm1IKPt
+    100042: CATRigRArm2IKPt
+    100044: CATRigRArm2Nub
+    100046: CATRigRLeg1IKPt
+    100048: CATRigRLeg2IKPt
+    100050: CATRigRLeg2Nub
+    100052: IK Chain001
+    100054: IK Chain002
+    100056: MASTER
+    100058: MASTER_Chest01
+    100060: MASTER_Head01
+    100062: MASTER_LArm01
+    100064: MASTER_LArm02
+    100066: MASTER_LArm0Palm
+    100068: MASTER_LLeg01
+    100070: MASTER_LLeg01LFoot01
+    100072: MASTER_LLeg02
+    100074: MASTER_LLeg0Ankle
+    100076: MASTER_LLeg0UpVectorNode
+    100078: MASTER_Pelvis01
+    100080: MASTER_RArm01
+    100082: MASTER_RArm02
+    100084: MASTER_RArm0Palm
+    100086: MASTER_RLeg01
+    100088: MASTER_RLeg01RFoot01
+    100090: MASTER_RLeg02
+    100092: MASTER_RLeg0Ankle
+    100094: MASTER_RLeg0UpVectorNode
+    100096: MASTERSpine
+    100098: MASTERSpine_Spine01
+    100100: MASTERSpine_Spine02
+    100102: Object007
+    400000: Anim_Chest01
+    400002: Anim_Head01
+    400004: Anim_LArm01
+    400006: Anim_LElbow01
+    400008: Anim_LLeg01
+    400010: Anim_LPalm01
+    400012: Anim_Pelvis01
+    400014: Anim_RArm01
+    400016: Anim_RElbow01
+    400018: Anim_RLeg01
+    400020: Anim_RPalm01
+    400022: Anim_Stomach01
+    400024: //RootNode
+    400026: Box001
+    400028: CATRigLArm1IKPt
+    400030: CATRigLArm2IKPt
+    400032: CATRigLArm2Nub
+    400034: CATRigLLeg1IKPt
+    400036: CATRigLLeg2IKPt
+    400038: CATRigLLeg2Nub
+    400040: CATRigRArm1IKPt
+    400042: CATRigRArm2IKPt
+    400044: CATRigRArm2Nub
+    400046: CATRigRLeg1IKPt
+    400048: CATRigRLeg2IKPt
+    400050: CATRigRLeg2Nub
+    400052: IK Chain001
+    400054: IK Chain002
+    400056: MASTER
+    400058: MASTER_Chest01
+    400060: MASTER_Head01
+    400062: MASTER_LArm01
+    400064: MASTER_LArm02
+    400066: MASTER_LArm0Palm
+    400068: MASTER_LLeg01
+    400070: MASTER_LLeg01LFoot01
+    400072: MASTER_LLeg02
+    400074: MASTER_LLeg0Ankle
+    400076: MASTER_LLeg0UpVectorNode
+    400078: MASTER_Pelvis01
+    400080: MASTER_RArm01
+    400082: MASTER_RArm02
+    400084: MASTER_RArm0Palm
+    400086: MASTER_RLeg01
+    400088: MASTER_RLeg01RFoot01
+    400090: MASTER_RLeg02
+    400092: MASTER_RLeg0Ankle
+    400094: MASTER_RLeg0UpVectorNode
+    400096: MASTERSpine
+    400098: MASTERSpine_Spine01
+    400100: MASTERSpine_Spine02
+    400102: Object007
+    2300000: Anim_LArm01
+    2300002: Anim_RArm01
+    3300000: Anim_LArm01
+    3300002: Anim_RArm01
+    4300000: Anim_LArm01
+    4300002: Anim_RArm01
+    4300004: Box001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Box001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: MASTER_Pelvis01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LLeg01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RLeg01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LLeg02
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RLeg02
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LLeg0Ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RLeg0Ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTERSpine_Spine01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_Chest01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_Head01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LArm01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RArm01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LArm02
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RArm02
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LArm0Palm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RArm0Palm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_LLeg01LFoot01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MASTER_RLeg01RFoot01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: BlueMonster(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_Chest01
+      position: {x: -0.00000000591457, y: 1.2989455, z: -0.08106416}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_Head01
+      position: {x: 0.000043190703, y: 1.5985185, z: -0.04267916}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_LArm01
+      position: {x: -0.7347866, y: 0.43686774, z: 0.009677323}
+      rotation: {x: 0.6475111, y: 0.46714333, z: 0.23158577, w: 0.5557648}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK Chain001
+      position: {x: 0.39878038, y: 0, z: -0.00000009689331}
+      rotation: {x: 0.85084456, y: 0.16656418, z: 0.49407607, w: 0.06487448}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Anim_LElbow01
+      position: {x: -0.4144542, y: 1.0209378, z: -0.09506331}
+      rotation: {x: 0.6901453, y: 0.42004198, z: 0.27283853, w: 0.5223249}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_LLeg01
+      position: {x: -0.28561753, y: -0.000000008258039, z: -0.050687566}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_LPalm01
+      position: {x: -0.5528278, y: 0.7807653, z: -0.077789}
+      rotation: {x: 0.64742935, y: 0.46707928, z: 0.23164485, w: 0.55588925}
+      scale: {x: 1.0000035, y: 0.9999995, z: 0.99999684}
+      transformModified: 1
+    - name: Anim_Pelvis01
+      position: {x: 7.3634966e-14, y: 0.869935, z: -0.050687667}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_RArm01
+      position: {x: 0.735, y: 0.4368678, z: 0.009677363}
+      rotation: {x: 0.23158568, y: 0.555765, z: 0.64751095, w: 0.4671434}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: IK Chain002
+      position: {x: 0.39887762, y: 0.00007436561, z: -0.00017431106}
+      rotation: {x: 0.49407607, y: -0.064874314, z: 0.85084456, w: -0.16656432}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: Anim_RElbow01
+      position: {x: 0.41445434, y: 1.0209378, z: -0.09506307}
+      rotation: {x: 0.27283853, y: 0.5223251, z: 0.69014513, w: 0.42004207}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_RLeg01
+      position: {x: 0.28561753, y: -0.000000008258055, z: -0.05068748}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_RPalm01
+      position: {x: 0.552827, y: 0.78076607, z: -0.07778904}
+      rotation: {x: 0.23158583, y: 0.5557649, z: 0.64751107, w: 0.4671432}
+      scale: {x: 0.99999964, y: 0.9999987, z: 1.0000013}
+      transformModified: 1
+    - name: Anim_Stomach01
+      position: {x: -0.0000000029572484, y: 1.0844402, z: -0.06587592}
+      rotation: {x: 0.48201942, y: -0.5173561, z: -0.48201942, w: 0.5173561}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Box001
+      position: {x: 0, y: 0.86919343, z: 0.00000003799365}
+      rotation: {x: 0.00000006657903, y: 0.000000059604645, z: -3.9684192e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Object007
+      position: {x: 0, y: 0.86919343, z: 0.00000003799365}
+      rotation: {x: 0.00000008146034, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER_Pelvis01
+      position: {x: 7.3634966e-14, y: 0.869935, z: -0.050687667}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CATRigLLeg1IKPt
+      position: {x: -0, y: 0.000000006055832, z: 0.12189168}
+      rotation: {x: -0.06265019, y: 0.98968714, z: -0.00038687573, w: 0.12881835}
+      scale: {x: 0.99999964, y: 1, z: 1.0000004}
+      transformModified: 1
+    - name: CATRigLLeg2IKPt
+      position: {x: -0.36977103, y: 0.0000013262272, z: -0.00000082359315}
+      rotation: {x: -0.0017556155, y: 0.10013735, z: 0.113605544, w: 0.98846513}
+      scale: {x: 1.0000017, y: 1.0000001, z: 0.9999988}
+      transformModified: 1
+    - name: CATRigLLeg2Nub
+      position: {x: -0.32956436, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0000000018626451, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: CATRigRLeg1IKPt
+      position: {x: -0, y: 0.000000006055832, z: -0.12189168}
+      rotation: {x: -0.062644, y: 0.9896884, z: 0.0005590833, w: -0.12881137}
+      scale: {x: 1.0000004, y: 1, z: 0.99999946}
+      transformModified: 1
+    - name: CATRigRLeg2IKPt
+      position: {x: -0.36977106, y: 0.0000014170646, z: 0.0000006782532}
+      rotation: {x: 0.001743966, y: -0.100192375, z: 0.11360599, w: 0.9884595}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+      transformModified: 1
+    - name: CATRigRLeg2Nub
+      position: {x: -0.32956436, y: 0, z: 0}
+      rotation: {x: 2.3283062e-10, y: 8.6736163e-19, z: 0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER_LLeg0UpVectorNode
+      position: {x: 0.35460693, y: 0.045964092, z: 0.21608265}
+      rotation: {x: 8.027391e-21, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER_RLeg0UpVectorNode
+      position: {x: 0.354595, y: 0.045889396, z: -0.2161633}
+      rotation: {x: 8.027391e-21, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER_LLeg01
+      position: {x: -0, y: 0.000000006055832, z: 0.12189168}
+      rotation: {x: -0.062747024, y: 0.98969465, z: -0.00038536717, w: 0.12871367}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: MASTER_LLeg02
+      position: {x: -0.36977106, y: 0.0000014594555, z: -0.0000006298065}
+      rotation: {x: -0.001746128, y: 0.10009189, z: 0.11364892, w: 0.9884647}
+      scale: {x: 0.99999934, y: 0.99999964, z: 1.0000002}
+      transformModified: 1
+    - name: MASTER_LLeg0Ankle
+      position: {x: -0.32956442, y: -0.000000006055832, z: 0}
+      rotation: {x: 0.0022818504, y: 0.02909744, z: -0.295523, w: 0.95488966}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+      transformModified: 1
+    - name: MASTER_LLeg01LFoot01
+      position: {x: -0.18053721, y: 0.018396206, z: -0.013627536}
+      rotation: {x: -0.00028305914, y: 0.0004770988, z: -0.5103327, w: 0.8599769}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: MASTER_RLeg01
+      position: {x: -0, y: 0.000000006055832, z: -0.12189168}
+      rotation: {x: -0.06262298, y: 0.9896865, z: 0.0005598735, w: -0.12883617}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: MASTER_RLeg02
+      position: {x: -0.36977112, y: 0.0000014715671, z: 0.0000006298065}
+      rotation: {x: 0.0017668096, y: -0.1000926, z: 0.11344592, w: 0.98848796}
+      scale: {x: 0.9999992, y: 1, z: 1.0000008}
+      transformModified: 1
+    - name: MASTER_RLeg0Ankle
+      position: {x: -0.32956442, y: 0, z: 0}
+      rotation: {x: -0.0022031441, y: -0.029546263, z: -0.29558066, w: 0.95485824}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+      transformModified: 1
+    - name: MASTER_RLeg01RFoot01
+      position: {x: -0.18053718, y: 0.018396212, z: 0.013627584}
+      rotation: {x: 0.00009722241, y: -0.00016406282, z: -0.51022214, w: 0.86004263}
+      scale: {x: 0.99999934, y: 1.0000006, z: 0.99999994}
+      transformModified: 1
+    - name: MASTERSpine_Spine02
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -1.855657e-14, y: 0.000000003791185, z: 0.035336778, w: 0.99937546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTERSpine_Spine01
+      position: {x: -0.2150423, y: 0.000000003027916, z: -7.219114e-16}
+      rotation: {x: 1.2767565e-14, y: 4.440892e-16, z: -5.6699378e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER_Chest01
+      position: {x: -0.2150424, y: 0, z: 0}
+      rotation: {x: -2.4472912e-15, y: -0.0000000037912167, z: -0.035336778, w: 0.99937546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CATRigLArm1IKPt
+      position: {x: -0.10015357, y: -0.000000036334992, z: -0.20898347}
+      rotation: {x: 0.050421428, y: 0.9598947, z: 0.13306926, w: -0.2415626}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: CATRigLArm2IKPt
+      position: {x: -0.43060473, y: -0.00000009689331, z: 0.00000014533997}
+      rotation: {x: -0.013813812, y: 0.025815047, z: -0.041618414, w: 0.9987045}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: CATRigLArm2Nub
+      position: {x: -0.27771905, y: -0.000000048446655, z: 0}
+      rotation: {x: 0, y: 0.000000014901161, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CATRigRArm1IKPt
+      position: {x: -0.10015367, y: -0.000000042390823, z: 0.20898351}
+      rotation: {x: 0.050377622, y: 0.95991915, z: -0.1329047, w: 0.24156518}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: CATRigRArm2IKPt
+      position: {x: -0.43060458, y: 0.000000024223327, z: 0.00000014533997}
+      rotation: {x: 0.013813249, y: -0.025815511, z: -0.041618712, w: 0.9987045}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: CATRigRArm2Nub
+      position: {x: -0.27771905, y: 0.000000048446655, z: -0.000000048446655}
+      rotation: {x: 0.000000024214383, y: -0.000000014901163, z: 3.6082246e-16, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: MASTER_LArm01
+      position: {x: -0.10015367, y: -0.000000036334992, z: 0.20898351}
+      rotation: {x: 0.105262205, y: 0.71072197, z: -0.10797346, w: 0.68712157}
+      scale: {x: 1.000001, y: 1.0000002, z: 0.9999992}
+      transformModified: 1
+    - name: MASTER_LArm02
+      position: {x: -0.43060458, y: 0, z: 0.000000048446655}
+      rotation: {x: 0.013716694, y: -0.024592496, z: -0.03575903, w: 0.99896365}
+      scale: {x: 1.0000015, y: 0.99999934, z: 0.99999857}
+      transformModified: 1
+    - name: MASTER_LArm0Palm
+      position: {x: -0.27771905, y: 0, z: 0}
+      rotation: {x: -0.015168245, y: -0.006282199, z: -0.08108611, w: 0.9965719}
+      scale: {x: 1.0000011, y: 0.99999994, z: 0.99999905}
+      transformModified: 1
+    - name: MASTERSpine
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 3.4397737e-13, y: -0.00007165221, z: -0.06367575, w: 0.99797064}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER_Head01
+      position: {x: -0.30202216, y: 0, z: 1.18277966e-11}
+      rotation: {x: 3.4397737e-13, y: 0.00007165221, z: 0.06367575, w: 0.99797064}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: MASTER_RArm01
+      position: {x: -0.10015357, y: -0.00000003027916, z: -0.20898347}
+      rotation: {x: 0.10538143, y: 0.7107036, z: 0.10809679, w: -0.6871028}
+      scale: {x: 1.0000002, y: 0.9999997, z: 0.9999999}
+      transformModified: 1
+    - name: MASTER_RArm02
+      position: {x: -0.43060464, y: 0, z: 0.000000048446655}
+      rotation: {x: -0.0137164295, y: 0.024591587, z: -0.03575339, w: 0.99896395}
+      scale: {x: 0.99999905, y: 0.9999998, z: 1.0000006}
+      transformModified: 1
+    - name: MASTER_RArm0Palm
+      position: {x: -0.27771914, y: -0.000000024223327, z: -0.000000048446655}
+      rotation: {x: 0.015168173, y: 0.006282195, z: -0.08108608, w: 0.9965719}
+      scale: {x: 1.0000005, y: 0.99999946, z: 1.000001}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
