@@ -165,6 +165,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 516275796}
   - 108: {fileID: 516275797}
+  - 114: {fileID: 516275798}
   m_Layer: 0
   m_Name: Spotlight (1)
   m_TagString: Untagged
@@ -217,6 +218,20 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &516275798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516275795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b680c712af61a4c17a848c7e32b40bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  repeatRate: 0
+  light: {fileID: 516275797}
 --- !u!1 &576793593
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +896,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1168943339}
+--- !u!1 &1211755858 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100108, guid: df7ef05fa87d48248ba181823b336391, type: 3}
+  m_PrefabInternal: {fileID: 1464532140}
+--- !u!114 &1211755859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1211755858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ce9ede204e54203a37f63b0361ed3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1403421078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,6 +1071,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1613154047}
   - 108: {fileID: 1613154048}
+  - 114: {fileID: 1613154049}
   m_Layer: 0
   m_Name: Spotlight
   m_TagString: Untagged
@@ -1093,6 +1124,20 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &1613154049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613154046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b680c712af61a4c17a848c7e32b40bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  repeatRate: 0
+  light: {fileID: 1613154048}
 --- !u!1 &1678720233
 GameObject:
   m_ObjectHideFlags: 0
