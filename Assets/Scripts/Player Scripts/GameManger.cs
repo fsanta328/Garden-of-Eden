@@ -11,6 +11,7 @@ public class GameManger : MonoBehaviour
 
 	public ParticleSystem arena;
 	public ParticleSystem Thunder;
+	public ParticleSystem Smoke;
 
 
 
@@ -60,9 +61,10 @@ public class GameManger : MonoBehaviour
 
 		if (gameObject.CompareTag("Player"))
 		{
-			transform.position = new Vector3(48.8f, 4f, 471.8f);
+			transform.position = new Vector3(50.3f, 5.5f, 478.2f);
 			arena.Play();
 			Thunder.Play();
+			Smoke.Play();
 			bk_source.Play();
 
 			if (Thunder.IsAlive(false))
