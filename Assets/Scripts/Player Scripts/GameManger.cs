@@ -61,11 +61,12 @@ public class GameManger : MonoBehaviour
 
 		if (gameObject.CompareTag("Player"))
 		{
-			transform.position = new Vector3(50.3f, 5.5f, 478.2f);
+			transform.position = new Vector3(25.57f, 1.57f, 475.6f);
 			arena.Play();
 			Thunder.Play();
 			Smoke.Play();
 			bk_source.Play();
+
 
 			if (Thunder.IsAlive(false))
 			{
