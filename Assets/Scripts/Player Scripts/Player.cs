@@ -162,6 +162,10 @@ public class Player : MonoBehaviour
 			//Debug.Log ("idrop");
 		}
 
+
+
+
+
 		if (collision.gameObject.tag == "Enemy") 
 		{
 			if (invu == false) 

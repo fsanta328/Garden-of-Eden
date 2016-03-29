@@ -11,6 +11,7 @@ TagManager:
   - Item
   - SnowBall
   - Boss
+  - wall
   layers:
   - Default
   - TransparentFX

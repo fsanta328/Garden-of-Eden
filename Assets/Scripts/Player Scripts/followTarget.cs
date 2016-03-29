@@ -6,9 +6,9 @@ public  class followTarget : MonoBehaviour
 	public Transform m_lookAt;
 	private Transform m_camTransform;
 
-	private float m_distance = 4.0f;
+	private float m_distance = 3.0f;
 	private float m_currentX = 0.01f;
-	private float m_height = 3.0f;
+	private float m_height = 2.0f;
 
 	void Start()
 	{
