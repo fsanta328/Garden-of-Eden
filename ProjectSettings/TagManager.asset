@@ -12,6 +12,7 @@ TagManager:
   - SnowBall
   - Boss
   - wall
+  - Crystal
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - panel
   - Snowball
   - Boss
-  - 
+  - gems
   - 
   - 
   - 

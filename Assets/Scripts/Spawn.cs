@@ -9,8 +9,8 @@ public class Spawn : MonoBehaviour {
 	public GameObject[] enemy; 
 
 	 
-	public Transform[] spawnPoints;         
-
+	//public Transform[] spawnPoints;         
+	public List<Transform> spawnPoints = new List<Transform>();
 	private float timer = 3;
 
 
@@ -21,12 +21,8 @@ public class Spawn : MonoBehaviour {
 
 	List <GameObject> EnemiesList = new List<GameObject>();
 
-	private int m_enemyCount = 5;
+	private int m_enemyCount = 8;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -62,17 +58,21 @@ public class Spawn : MonoBehaviour {
 
 	void EnemySpawner ()
 	{
+
+		List<Transform> availablePoints = new List<Transform>(spawnPoints);
+
 		// Create an instance of the enemy prefab at the randomly selected spawn point's position.
 		//Create the enemies at a random transform 
 		for (int i = 0; i<m_enemyCount;i++)
 		{
-			int spawnPointIndex = Random.Range (0, spawnPoints.Length);
+			int spawnPointIndex = Random.Range (0, availablePoints.Count);
+			Transform pos = spawnPoints[spawnPointIndex];
 
-			GameObject InstanceEnemies= Instantiate ( enemy[index] , spawnPoints[spawnPointIndex].position , Quaternion.identity) as GameObject;
+			GameObject InstanceEnemies= Instantiate ( enemy[index] , availablePoints[spawnPointIndex].position , Quaternion.identity) as GameObject;
 
 			// Create enemies and add them to our list.
 			EnemiesList.Add(InstanceEnemies);
-
+			availablePoints.RemoveAt(spawnPointIndex);
 		}
 
 		m_numberOfSpawn++;

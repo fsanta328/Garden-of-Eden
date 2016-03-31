@@ -6,7 +6,7 @@ public class GameManger : MonoBehaviour
 {
 	public GameObject[] m_gems;
 	int index = 0;
-	int MaxGems = 2;
+	int MaxGems = 10;
 	private bool isLastBossDead = false;
 
 	public ParticleSystem arena;
@@ -34,14 +34,21 @@ public class GameManger : MonoBehaviour
 
 	}
 
-	//	// Update is called once per frame
-	//	void Update () 
-	//	{
-	//		if ( index >= MaxGems && isLastBossDead == true)
-	//			{
-	//				Application.LoadLevel("cameraScene");
-	//			}	
-	//	}
+		// Update is called once per frame
+		void Update () 
+		{
+			if ( index >= MaxGems && isLastBossDead == true)
+				{
+					Application.LoadLevel("cameraScene");
+				}	
+
+			else if (isLastBossDead == true && index < MaxGems)
+			{
+				Application.LoadLevel("MainMenu");
+
+			}
+
+		}
 
 	void OnCollisionEnter(Collision obj)
 	{
@@ -61,7 +68,7 @@ public class GameManger : MonoBehaviour
 
 		if (gameObject.CompareTag("Player"))
 		{
-			transform.position = new Vector3(25.57f, 1.57f, 475.6f);
+			transform.position = new Vector3(2504.89f, 1.57f, 475.2653f);
 			arena.Play();
 			Thunder.Play();
 			Smoke.Play();
