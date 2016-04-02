@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Scenes/CreditScene.unity
   - enabled: 1
     path: Assets/Scenes/BonusScene.unity
+  - enabled: 1
+    path: Assets/GemExample/Scenes/Gems.unity

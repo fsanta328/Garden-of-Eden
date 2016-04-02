@@ -6,12 +6,13 @@ public class GameManger : MonoBehaviour
 {
 	public GameObject[] m_gems;
 	int index = 0;
-	int MaxGems = 10;
+	int MaxGems = 4;
 	private bool isLastBossDead = false;
 
 	public ParticleSystem arena;
 	public ParticleSystem Thunder;
 	public ParticleSystem Smoke;
+
 
 
 
@@ -32,19 +33,24 @@ public class GameManger : MonoBehaviour
 		bk_source =GetComponent<AudioSource>();
 
 
+
+
 	}
 
 		// Update is called once per frame
 		void Update () 
 		{
-			if ( index >= MaxGems && isLastBossDead == true)
+		if ( index >= MaxGems && blah2.isBossDead == true)
 				{
-					Application.LoadLevel("cameraScene");
+					Application.LoadLevel("BonusScene");
+					blah2.isBossDead = false;
+			 
 				}	
 
-			else if (isLastBossDead == true && index < MaxGems)
+		else if (blah2.isBossDead == true && index < MaxGems)
 			{
-				Application.LoadLevel("MainMenu");
+				Application.LoadLevel("Main Menu");
+				blah2.isBossDead = false;
 
 			}
 
