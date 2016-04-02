@@ -10,7 +10,7 @@ AnimatorController:
   m_AnimatorParameters:
   - m_Name: BossAnim
     m_Type: 1
-    m_DefaultFloat: 0
+    m_DefaultFloat: 1
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
@@ -656,8 +656,8 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Punch
-  m_Speed: 0.5
+  m_Name: Slam
+  m_Speed: 1.25
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110185882}
@@ -672,7 +672,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f1dbc4a71c494414daa58a9fdead6145, type: 3}
+  m_Motion: {fileID: 7400000, guid: 6a88b85f6464f4bfdb50b3bc696b8aa3, type: 2}
   m_Tag: Punch
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -699,7 +699,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d0c3a6466ac9c4d27a98d38766cb1a41, type: 3}
+  m_Motion: {fileID: 7400000, guid: 16e2a65ce9cc94b38b3796871efad9aa, type: 2}
   m_Tag: Idle
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -726,7 +726,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4913b941c5ab54484addb4aaf518eb38, type: 3}
+  m_Motion: {fileID: 7400000, guid: eff1a1ad15b5644c99695c6d871bde25, type: 2}
   m_Tag: Run
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -738,7 +738,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ThrowFire
-  m_Speed: 0.75
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110193120}
@@ -753,7 +753,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9356363166833465e8dc736dc82d8036, type: 2}
+  m_Motion: {fileID: 7400000, guid: b7b992fa42456459bbe7e8ddc0b6f095, type: 2}
   m_Tag: ThrowFire
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -812,7 +812,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Walking
-  m_Speed: 1
+  m_Speed: 1.25
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110142468}
@@ -827,7 +827,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a3a7c23b5028843ee9d5bf8bbcd5d614, type: 3}
+  m_Motion: {fileID: 7400000, guid: 599c28d66eaf84bcb822c16b617964ca, type: 2}
   m_Tag: Walking
   m_SpeedParameter: 
   m_MirrorParameter: 

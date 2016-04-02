@@ -1,0 +1,1700 @@
+fileFormatVersion: 2
+guid: 835a93acd74b64e3d89367005653a288
+timeCreated: 1459503930
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Be_Arm01
+    100002: Be_Head01
+    100004: Be_Jaw01
+    100006: Be_Whip01
+    100008: Be_Whip02
+    100010: Be_Whip03
+    100012: Be_Whip04
+    100014: Be_Whip05
+    100016: Be_Whip06
+    100018: Be_Whip07
+    100020: Be_Whip08
+    100022: Be_Whip09
+    100024: Be_Whip10
+    100026: Be_Whip11
+    100028: Be_Whip12
+    100030: Be_Whip13
+    100032: Be_Whip14
+    100034: Be_Whip15
+    100036: Be_Whip16
+    100038: Be_Whip17
+    100040: Be_Whip18
+    100042: Be_Whip19
+    100044: Be_Whip20
+    100046: Be_Whip21
+    100048: Be_Whip22
+    100050: Be_Whip23
+    100052: Be_Whip24
+    100054: Bn_Arm01
+    100056: Bn_Chest01
+    100058: Bn_Head01
+    100060: Bn_Jaw01
+    100062: Bn_Neck01
+    100064: Bn_Pelvis01
+    100066: Bn_Stomach01
+    100068: Bn_Whip01
+    100070: Bn_Whip02
+    100072: Bn_Whip03
+    100074: Bn_Whip04
+    100076: Bn_Whip05
+    100078: Bn_Whip06
+    100080: Bn_Whip07
+    100082: Bn_Whip08
+    100084: Bn_Whip09
+    100086: Bn_Whip10
+    100088: Bn_Whip11
+    100090: Bn_Whip12
+    100092: Bn_Whip13
+    100094: Bn_Whip14
+    100096: Bn_Whip15
+    100098: Bn_Whip16
+    100100: Bn_Whip17
+    100102: Bn_Whip18
+    100104: Bn_Whip19
+    100106: Bn_Whip20
+    100108: Bn_Whip21
+    100110: Bn_Whip22
+    100112: Bn_Whip23
+    100114: Bn_Whip24
+    100116: CATRig_Tentacle_L1_1
+    100118: CATRig_Tentacle_L1_2
+    100120: CATRig_Tentacle_L1_3
+    100122: CATRig_Tentacle_L1_4
+    100124: CATRig_Tentacle_L1_5
+    100126: CATRig_Tentacle_L1_6
+    100128: CATRig_Tentacle_L1_7
+    100130: CATRig_Tentacle_L1_8
+    100132: CATRig_Tentacle_L2_1
+    100134: CATRig_Tentacle_L2_10
+    100136: CATRig_Tentacle_L2_2
+    100138: CATRig_Tentacle_L2_3
+    100140: CATRig_Tentacle_L2_4
+    100142: CATRig_Tentacle_L2_5
+    100144: CATRig_Tentacle_L2_6
+    100146: CATRig_Tentacle_L2_7
+    100148: CATRig_Tentacle_L2_8
+    100150: CATRig_Tentacle_L2_9
+    100152: CATRig_Tentacle_L3_1
+    100154: CATRig_Tentacle_L3_10
+    100156: CATRig_Tentacle_L3_2
+    100158: CATRig_Tentacle_L3_3
+    100160: CATRig_Tentacle_L3_4
+    100162: CATRig_Tentacle_L3_5
+    100164: CATRig_Tentacle_L3_6
+    100166: CATRig_Tentacle_L3_7
+    100168: CATRig_Tentacle_L3_8
+    100170: CATRig_Tentacle_L3_9
+    100172: CATRig_Tentacle_M1_1
+    100174: CATRig_Tentacle_M1_2
+    100176: CATRig_Tentacle_M1_3
+    100178: CATRig_Tentacle_M1_4
+    100180: CATRig_Tentacle_M1_5
+    100182: CATRig_Tentacle_M1_6
+    100184: CATRig_Tentacle_M1_7
+    100186: CATRig_Tentacle_M1_8
+    100188: CATRig_Tentacle_M1_9
+    100190: CATRig_Tentacle_M2_1
+    100192: CATRig_Tentacle_M2_10
+    100194: CATRig_Tentacle_M2_2
+    100196: CATRig_Tentacle_M2_3
+    100198: CATRig_Tentacle_M2_4
+    100200: CATRig_Tentacle_M2_5
+    100202: CATRig_Tentacle_M2_6
+    100204: CATRig_Tentacle_M2_7
+    100206: CATRig_Tentacle_M2_8
+    100208: CATRig_Tentacle_M2_9
+    100210: CATRig_Tentacle_R1_1
+    100212: CATRig_Tentacle_R1_2
+    100214: CATRig_Tentacle_R1_3
+    100216: CATRig_Tentacle_R1_4
+    100218: CATRig_Tentacle_R1_5
+    100220: CATRig_Tentacle_R1_6
+    100222: CATRig_Tentacle_R1_7
+    100224: CATRig_Tentacle_R1_8
+    100226: CATRig_Tentacle_R2_1
+    100228: CATRig_Tentacle_R2_10
+    100230: CATRig_Tentacle_R2_2
+    100232: CATRig_Tentacle_R2_3
+    100234: CATRig_Tentacle_R2_4
+    100236: CATRig_Tentacle_R2_5
+    100238: CATRig_Tentacle_R2_6
+    100240: CATRig_Tentacle_R2_7
+    100242: CATRig_Tentacle_R2_8
+    100244: CATRig_Tentacle_R2_9
+    100246: CATRig_Tentacle_R3_1
+    100248: CATRig_Tentacle_R3_10
+    100250: CATRig_Tentacle_R3_2
+    100252: CATRig_Tentacle_R3_3
+    100254: CATRig_Tentacle_R3_4
+    100256: CATRig_Tentacle_R3_5
+    100258: CATRig_Tentacle_R3_6
+    100260: CATRig_Tentacle_R3_7
+    100262: CATRig_Tentacle_R3_8
+    100264: CATRig_Tentacle_R3_9
+    100266: CATRigTentacle_L_011IKPt
+    100268: CATRigTentacle_L_011IKPt 1
+    100270: CATRigTentacle_L_012IKPt
+    100272: CATRigTentacle_L_012IKPt 1
+    100274: CATRigTentacle_L_013IKPt
+    100276: CATRigTentacle_L_013IKPt 1
+    100278: CATRigTentacle_L_014IKPt
+    100280: CATRigTentacle_L_014IKPt 1
+    100282: CATRigTentacle_L_015IKPt
+    100284: CATRigTentacle_L_015IKPt 1
+    100286: CATRigTentacle_L_016IKPt
+    100288: CATRigTentacle_L_016IKPt 1
+    100290: CATRigTentacle_L_017IKPt
+    100292: CATRigTentacle_L_017IKPt 1
+    100294: CATRigTentacle_L_018IKPt
+    100296: CATRigTentacle_L_018IKPt 1
+    100298: CATRigTentacle_L_018Nub
+    100300: CATRigTentacle_L_018Nub 1
+    100302: CATRigTentacle_L_0210IKPt
+    100304: CATRigTentacle_L_0210IKPt 1
+    100306: CATRigTentacle_L_0210Nub
+    100308: CATRigTentacle_L_0210Nub 1
+    100310: CATRigTentacle_L_021IKPt
+    100312: CATRigTentacle_L_021IKPt 1
+    100314: CATRigTentacle_L_022IKPt
+    100316: CATRigTentacle_L_022IKPt 1
+    100318: CATRigTentacle_L_023IKPt
+    100320: CATRigTentacle_L_023IKPt 1
+    100322: CATRigTentacle_L_024IKPt
+    100324: CATRigTentacle_L_024IKPt 1
+    100326: CATRigTentacle_L_025IKPt
+    100328: CATRigTentacle_L_025IKPt 1
+    100330: CATRigTentacle_L_026IKPt
+    100332: CATRigTentacle_L_026IKPt 1
+    100334: CATRigTentacle_L_027IKPt
+    100336: CATRigTentacle_L_027IKPt 1
+    100338: CATRigTentacle_L_028IKPt
+    100340: CATRigTentacle_L_028IKPt 1
+    100342: CATRigTentacle_L_029IKPt
+    100344: CATRigTentacle_L_029IKPt 1
+    100346: CATRigTentacle_L_0310IKPt
+    100348: CATRigTentacle_L_0310IKPt 1
+    100350: CATRigTentacle_L_0310Nub
+    100352: CATRigTentacle_L_0310Nub 1
+    100354: CATRigTentacle_L_031IKPt
+    100356: CATRigTentacle_L_031IKPt 1
+    100358: CATRigTentacle_L_032IKPt
+    100360: CATRigTentacle_L_032IKPt 1
+    100362: CATRigTentacle_L_033IKPt
+    100364: CATRigTentacle_L_033IKPt 1
+    100366: CATRigTentacle_L_034IKPt
+    100368: CATRigTentacle_L_034IKPt 1
+    100370: CATRigTentacle_L_035IKPt
+    100372: CATRigTentacle_L_035IKPt 1
+    100374: CATRigTentacle_L_036IKPt
+    100376: CATRigTentacle_L_036IKPt 1
+    100378: CATRigTentacle_L_037IKPt
+    100380: CATRigTentacle_L_037IKPt 1
+    100382: CATRigTentacle_L_038IKPt
+    100384: CATRigTentacle_L_038IKPt 1
+    100386: CATRigTentacle_L_039IKPt
+    100388: CATRigTentacle_L_039IKPt 1
+    100390: CATRigTentacle_M_011IKPt
+    100392: CATRigTentacle_M_012IKPt
+    100394: CATRigTentacle_M_013IKPt
+    100396: CATRigTentacle_M_014IKPt
+    100398: CATRigTentacle_M_015IKPt
+    100400: CATRigTentacle_M_016IKPt
+    100402: CATRigTentacle_M_017IKPt
+    100404: CATRigTentacle_M_018IKPt
+    100406: CATRigTentacle_M_019IKPt
+    100408: CATRigTentacle_M_019Nub
+    100410: CATRigTentacle_M_0210IKPt
+    100412: CATRigTentacle_M_0210Nub
+    100414: CATRigTentacle_M_021IKPt
+    100416: CATRigTentacle_M_022IKPt
+    100418: CATRigTentacle_M_023IKPt
+    100420: CATRigTentacle_M_024IKPt
+    100422: CATRigTentacle_M_025IKPt
+    100424: CATRigTentacle_M_026IKPt
+    100426: CATRigTentacle_M_027IKPt
+    100428: CATRigTentacle_M_028IKPt
+    100430: CATRigTentacle_M_029IKPt
+    100432: Circle008
+    100434: Circle013
+    100436: Circle014
+    100438: Circle015
+    100440: Circle016
+    100442: Circle017
+    100444: Circle018
+    100446: Control_Arm01
+    100448: Control_BottomLayer_Tentacle01
+    100450: Control_Chest01
+    100452: Control_Head01
+    100454: Control_Jaw01
+    100456: Control_L1_Tentacle01
+    100458: Control_L1_Tentacle02
+    100460: Control_L1_Tentacle03
+    100462: Control_L2_Tentacle01
+    100464: Control_L2_Tentacle02
+    100466: Control_L2_Tentacle03
+    100468: Control_L3_Tentacle01
+    100470: Control_L3_Tentacle02
+    100472: Control_L3_Tentacle03
+    100474: Control_M1_Tentacle01
+    100476: Control_M1_Tentacle02
+    100478: Control_M1_Tentacle03
+    100480: Control_M2_Tentacle01
+    100482: Control_M2_Tentacle02
+    100484: Control_M2_Tentacle03
+    100486: Control_MASTER01
+    100488: Control_MiddleLayer_Tentacle01
+    100490: Control_Neck01
+    100492: Control_Pelvis01
+    100494: Control_R1_Tentacle01
+    100496: Control_R1_Tentacle02
+    100498: Control_R1_Tentacle03
+    100500: Control_R2_Tentacle01
+    100502: Control_R2_Tentacle02
+    100504: Control_R2_Tentacle03
+    100506: Control_R3_Tentacle01
+    100508: Control_R3_Tentacle02
+    100510: Control_R3_Tentacle03
+    100512: Control_Stomach01
+    100514: Control_TopLayer_Tentacle01
+    100516: DO NOT DELETE_ KEEP HIDDEN01
+    100518: DO NOT DELETE_ KEEP HIDDEN02
+    100520: Gengon007
+    100522: IK Chain001
+    100524: IK Chain002
+    100526: IK Chain003
+    100528: IK Chain004
+    100530: IK Chain005
+    100532: IK Chain006
+    100534: IK Chain007
+    100536: IK Chain008
+    100538: Line001
+    100540: Line002
+    100542: //RootNode
+    100544: Plane004
+    100546: Point001
+    100548: Point002
+    100550: Point003
+    100552: Point004
+    100554: Point005
+    100556: Point006
+    100558: Point007
+    100560: Point008
+    100562: Point009
+    100564: Point010
+    100566: Point011
+    100568: Point012
+    100570: Point013
+    100572: Point014
+    100574: Point015
+    100576: Point016
+    100578: Point017
+    100580: Point018
+    100582: Point019
+    100584: Point020
+    100586: Point021
+    100588: Point022
+    100590: Point023
+    100592: Point024
+    100594: Point025
+    100596: Point026
+    100598: Point027
+    100600: Point028
+    100602: Point029
+    100604: Point030
+    100606: Point031
+    100608: Point032
+    100610: Point058
+    100612: Point059
+    100614: Point060
+    100616: Point061
+    100618: Point062
+    100620: Point064
+    100622: Point113
+    100624: Point114
+    100626: Point115
+    100628: Point116
+    100630: Point117
+    100632: Point118
+    100634: Point119
+    100636: Point120
+    100638: Point121
+    100640: Point122
+    100642: Point123
+    100644: Point124
+    100646: Point125
+    100648: Point126
+    100650: Point127
+    100652: Point128
+    100654: Point129
+    100656: Point130
+    100658: Point131
+    100660: Point132
+    100662: Point133
+    100664: Point134
+    100666: Point135
+    100668: Point136
+    100670: Point137
+    100672: Point138
+    100674: Point139
+    100676: Point140
+    100678: Point141
+    100680: Point142
+    100682: Point143
+    100684: Point144
+    100686: Point145
+    100688: Point146
+    100690: Point147
+    100692: Point148
+    100694: Point149
+    100696: Point150
+    100698: Point151
+    100700: Point152
+    100702: Point153
+    100704: Point154
+    100706: Point155
+    100708: Point156
+    100710: Point157
+    100712: Point158
+    100714: Point159
+    100716: Point160
+    100718: Point161
+    100720: Point162
+    100722: Point163
+    100724: Point164
+    100726: Point165
+    100728: PtDrv_Jaw01
+    100730: Shape001
+    100732: Shape002
+    100734: Tentacle_L1_IKSpline
+    100736: Tentacle_L2_IKSpline
+    100738: Tentacle_L3_IKSpline
+    100740: Tentacle_M1_IKSpline
+    100742: Tentacle_M2_IKSpline
+    100744: Tentacle_R1_IKSpline
+    100746: Tentacle_R2_IKSpline
+    100748: Tentacle_R3_IKSpline
+    100750: Text001
+    100752: Text002
+    100754: Text003
+    100756: Text004
+    400000: Be_Arm01
+    400002: Be_Head01
+    400004: Be_Jaw01
+    400006: Be_Whip01
+    400008: Be_Whip02
+    400010: Be_Whip03
+    400012: Be_Whip04
+    400014: Be_Whip05
+    400016: Be_Whip06
+    400018: Be_Whip07
+    400020: Be_Whip08
+    400022: Be_Whip09
+    400024: Be_Whip10
+    400026: Be_Whip11
+    400028: Be_Whip12
+    400030: Be_Whip13
+    400032: Be_Whip14
+    400034: Be_Whip15
+    400036: Be_Whip16
+    400038: Be_Whip17
+    400040: Be_Whip18
+    400042: Be_Whip19
+    400044: Be_Whip20
+    400046: Be_Whip21
+    400048: Be_Whip22
+    400050: Be_Whip23
+    400052: Be_Whip24
+    400054: Bn_Arm01
+    400056: Bn_Chest01
+    400058: Bn_Head01
+    400060: Bn_Jaw01
+    400062: Bn_Neck01
+    400064: Bn_Pelvis01
+    400066: Bn_Stomach01
+    400068: Bn_Whip01
+    400070: Bn_Whip02
+    400072: Bn_Whip03
+    400074: Bn_Whip04
+    400076: Bn_Whip05
+    400078: Bn_Whip06
+    400080: Bn_Whip07
+    400082: Bn_Whip08
+    400084: Bn_Whip09
+    400086: Bn_Whip10
+    400088: Bn_Whip11
+    400090: Bn_Whip12
+    400092: Bn_Whip13
+    400094: Bn_Whip14
+    400096: Bn_Whip15
+    400098: Bn_Whip16
+    400100: Bn_Whip17
+    400102: Bn_Whip18
+    400104: Bn_Whip19
+    400106: Bn_Whip20
+    400108: Bn_Whip21
+    400110: Bn_Whip22
+    400112: Bn_Whip23
+    400114: Bn_Whip24
+    400116: CATRig_Tentacle_L1_1
+    400118: CATRig_Tentacle_L1_2
+    400120: CATRig_Tentacle_L1_3
+    400122: CATRig_Tentacle_L1_4
+    400124: CATRig_Tentacle_L1_5
+    400126: CATRig_Tentacle_L1_6
+    400128: CATRig_Tentacle_L1_7
+    400130: CATRig_Tentacle_L1_8
+    400132: CATRig_Tentacle_L2_1
+    400134: CATRig_Tentacle_L2_10
+    400136: CATRig_Tentacle_L2_2
+    400138: CATRig_Tentacle_L2_3
+    400140: CATRig_Tentacle_L2_4
+    400142: CATRig_Tentacle_L2_5
+    400144: CATRig_Tentacle_L2_6
+    400146: CATRig_Tentacle_L2_7
+    400148: CATRig_Tentacle_L2_8
+    400150: CATRig_Tentacle_L2_9
+    400152: CATRig_Tentacle_L3_1
+    400154: CATRig_Tentacle_L3_10
+    400156: CATRig_Tentacle_L3_2
+    400158: CATRig_Tentacle_L3_3
+    400160: CATRig_Tentacle_L3_4
+    400162: CATRig_Tentacle_L3_5
+    400164: CATRig_Tentacle_L3_6
+    400166: CATRig_Tentacle_L3_7
+    400168: CATRig_Tentacle_L3_8
+    400170: CATRig_Tentacle_L3_9
+    400172: CATRig_Tentacle_M1_1
+    400174: CATRig_Tentacle_M1_2
+    400176: CATRig_Tentacle_M1_3
+    400178: CATRig_Tentacle_M1_4
+    400180: CATRig_Tentacle_M1_5
+    400182: CATRig_Tentacle_M1_6
+    400184: CATRig_Tentacle_M1_7
+    400186: CATRig_Tentacle_M1_8
+    400188: CATRig_Tentacle_M1_9
+    400190: CATRig_Tentacle_M2_1
+    400192: CATRig_Tentacle_M2_10
+    400194: CATRig_Tentacle_M2_2
+    400196: CATRig_Tentacle_M2_3
+    400198: CATRig_Tentacle_M2_4
+    400200: CATRig_Tentacle_M2_5
+    400202: CATRig_Tentacle_M2_6
+    400204: CATRig_Tentacle_M2_7
+    400206: CATRig_Tentacle_M2_8
+    400208: CATRig_Tentacle_M2_9
+    400210: CATRig_Tentacle_R1_1
+    400212: CATRig_Tentacle_R1_2
+    400214: CATRig_Tentacle_R1_3
+    400216: CATRig_Tentacle_R1_4
+    400218: CATRig_Tentacle_R1_5
+    400220: CATRig_Tentacle_R1_6
+    400222: CATRig_Tentacle_R1_7
+    400224: CATRig_Tentacle_R1_8
+    400226: CATRig_Tentacle_R2_1
+    400228: CATRig_Tentacle_R2_10
+    400230: CATRig_Tentacle_R2_2
+    400232: CATRig_Tentacle_R2_3
+    400234: CATRig_Tentacle_R2_4
+    400236: CATRig_Tentacle_R2_5
+    400238: CATRig_Tentacle_R2_6
+    400240: CATRig_Tentacle_R2_7
+    400242: CATRig_Tentacle_R2_8
+    400244: CATRig_Tentacle_R2_9
+    400246: CATRig_Tentacle_R3_1
+    400248: CATRig_Tentacle_R3_10
+    400250: CATRig_Tentacle_R3_2
+    400252: CATRig_Tentacle_R3_3
+    400254: CATRig_Tentacle_R3_4
+    400256: CATRig_Tentacle_R3_5
+    400258: CATRig_Tentacle_R3_6
+    400260: CATRig_Tentacle_R3_7
+    400262: CATRig_Tentacle_R3_8
+    400264: CATRig_Tentacle_R3_9
+    400266: CATRigTentacle_L_011IKPt
+    400268: CATRigTentacle_L_011IKPt 1
+    400270: CATRigTentacle_L_012IKPt
+    400272: CATRigTentacle_L_012IKPt 1
+    400274: CATRigTentacle_L_013IKPt
+    400276: CATRigTentacle_L_013IKPt 1
+    400278: CATRigTentacle_L_014IKPt
+    400280: CATRigTentacle_L_014IKPt 1
+    400282: CATRigTentacle_L_015IKPt
+    400284: CATRigTentacle_L_015IKPt 1
+    400286: CATRigTentacle_L_016IKPt
+    400288: CATRigTentacle_L_016IKPt 1
+    400290: CATRigTentacle_L_017IKPt
+    400292: CATRigTentacle_L_017IKPt 1
+    400294: CATRigTentacle_L_018IKPt
+    400296: CATRigTentacle_L_018IKPt 1
+    400298: CATRigTentacle_L_018Nub
+    400300: CATRigTentacle_L_018Nub 1
+    400302: CATRigTentacle_L_0210IKPt
+    400304: CATRigTentacle_L_0210IKPt 1
+    400306: CATRigTentacle_L_0210Nub
+    400308: CATRigTentacle_L_0210Nub 1
+    400310: CATRigTentacle_L_021IKPt
+    400312: CATRigTentacle_L_021IKPt 1
+    400314: CATRigTentacle_L_022IKPt
+    400316: CATRigTentacle_L_022IKPt 1
+    400318: CATRigTentacle_L_023IKPt
+    400320: CATRigTentacle_L_023IKPt 1
+    400322: CATRigTentacle_L_024IKPt
+    400324: CATRigTentacle_L_024IKPt 1
+    400326: CATRigTentacle_L_025IKPt
+    400328: CATRigTentacle_L_025IKPt 1
+    400330: CATRigTentacle_L_026IKPt
+    400332: CATRigTentacle_L_026IKPt 1
+    400334: CATRigTentacle_L_027IKPt
+    400336: CATRigTentacle_L_027IKPt 1
+    400338: CATRigTentacle_L_028IKPt
+    400340: CATRigTentacle_L_028IKPt 1
+    400342: CATRigTentacle_L_029IKPt
+    400344: CATRigTentacle_L_029IKPt 1
+    400346: CATRigTentacle_L_0310IKPt
+    400348: CATRigTentacle_L_0310IKPt 1
+    400350: CATRigTentacle_L_0310Nub
+    400352: CATRigTentacle_L_0310Nub 1
+    400354: CATRigTentacle_L_031IKPt
+    400356: CATRigTentacle_L_031IKPt 1
+    400358: CATRigTentacle_L_032IKPt
+    400360: CATRigTentacle_L_032IKPt 1
+    400362: CATRigTentacle_L_033IKPt
+    400364: CATRigTentacle_L_033IKPt 1
+    400366: CATRigTentacle_L_034IKPt
+    400368: CATRigTentacle_L_034IKPt 1
+    400370: CATRigTentacle_L_035IKPt
+    400372: CATRigTentacle_L_035IKPt 1
+    400374: CATRigTentacle_L_036IKPt
+    400376: CATRigTentacle_L_036IKPt 1
+    400378: CATRigTentacle_L_037IKPt
+    400380: CATRigTentacle_L_037IKPt 1
+    400382: CATRigTentacle_L_038IKPt
+    400384: CATRigTentacle_L_038IKPt 1
+    400386: CATRigTentacle_L_039IKPt
+    400388: CATRigTentacle_L_039IKPt 1
+    400390: CATRigTentacle_M_011IKPt
+    400392: CATRigTentacle_M_012IKPt
+    400394: CATRigTentacle_M_013IKPt
+    400396: CATRigTentacle_M_014IKPt
+    400398: CATRigTentacle_M_015IKPt
+    400400: CATRigTentacle_M_016IKPt
+    400402: CATRigTentacle_M_017IKPt
+    400404: CATRigTentacle_M_018IKPt
+    400406: CATRigTentacle_M_019IKPt
+    400408: CATRigTentacle_M_019Nub
+    400410: CATRigTentacle_M_0210IKPt
+    400412: CATRigTentacle_M_0210Nub
+    400414: CATRigTentacle_M_021IKPt
+    400416: CATRigTentacle_M_022IKPt
+    400418: CATRigTentacle_M_023IKPt
+    400420: CATRigTentacle_M_024IKPt
+    400422: CATRigTentacle_M_025IKPt
+    400424: CATRigTentacle_M_026IKPt
+    400426: CATRigTentacle_M_027IKPt
+    400428: CATRigTentacle_M_028IKPt
+    400430: CATRigTentacle_M_029IKPt
+    400432: Circle008
+    400434: Circle013
+    400436: Circle014
+    400438: Circle015
+    400440: Circle016
+    400442: Circle017
+    400444: Circle018
+    400446: Control_Arm01
+    400448: Control_BottomLayer_Tentacle01
+    400450: Control_Chest01
+    400452: Control_Head01
+    400454: Control_Jaw01
+    400456: Control_L1_Tentacle01
+    400458: Control_L1_Tentacle02
+    400460: Control_L1_Tentacle03
+    400462: Control_L2_Tentacle01
+    400464: Control_L2_Tentacle02
+    400466: Control_L2_Tentacle03
+    400468: Control_L3_Tentacle01
+    400470: Control_L3_Tentacle02
+    400472: Control_L3_Tentacle03
+    400474: Control_M1_Tentacle01
+    400476: Control_M1_Tentacle02
+    400478: Control_M1_Tentacle03
+    400480: Control_M2_Tentacle01
+    400482: Control_M2_Tentacle02
+    400484: Control_M2_Tentacle03
+    400486: Control_MASTER01
+    400488: Control_MiddleLayer_Tentacle01
+    400490: Control_Neck01
+    400492: Control_Pelvis01
+    400494: Control_R1_Tentacle01
+    400496: Control_R1_Tentacle02
+    400498: Control_R1_Tentacle03
+    400500: Control_R2_Tentacle01
+    400502: Control_R2_Tentacle02
+    400504: Control_R2_Tentacle03
+    400506: Control_R3_Tentacle01
+    400508: Control_R3_Tentacle02
+    400510: Control_R3_Tentacle03
+    400512: Control_Stomach01
+    400514: Control_TopLayer_Tentacle01
+    400516: DO NOT DELETE_ KEEP HIDDEN01
+    400518: DO NOT DELETE_ KEEP HIDDEN02
+    400520: Gengon007
+    400522: IK Chain001
+    400524: IK Chain002
+    400526: IK Chain003
+    400528: IK Chain004
+    400530: IK Chain005
+    400532: IK Chain006
+    400534: IK Chain007
+    400536: IK Chain008
+    400538: Line001
+    400540: Line002
+    400542: //RootNode
+    400544: Plane004
+    400546: Point001
+    400548: Point002
+    400550: Point003
+    400552: Point004
+    400554: Point005
+    400556: Point006
+    400558: Point007
+    400560: Point008
+    400562: Point009
+    400564: Point010
+    400566: Point011
+    400568: Point012
+    400570: Point013
+    400572: Point014
+    400574: Point015
+    400576: Point016
+    400578: Point017
+    400580: Point018
+    400582: Point019
+    400584: Point020
+    400586: Point021
+    400588: Point022
+    400590: Point023
+    400592: Point024
+    400594: Point025
+    400596: Point026
+    400598: Point027
+    400600: Point028
+    400602: Point029
+    400604: Point030
+    400606: Point031
+    400608: Point032
+    400610: Point058
+    400612: Point059
+    400614: Point060
+    400616: Point061
+    400618: Point062
+    400620: Point064
+    400622: Point113
+    400624: Point114
+    400626: Point115
+    400628: Point116
+    400630: Point117
+    400632: Point118
+    400634: Point119
+    400636: Point120
+    400638: Point121
+    400640: Point122
+    400642: Point123
+    400644: Point124
+    400646: Point125
+    400648: Point126
+    400650: Point127
+    400652: Point128
+    400654: Point129
+    400656: Point130
+    400658: Point131
+    400660: Point132
+    400662: Point133
+    400664: Point134
+    400666: Point135
+    400668: Point136
+    400670: Point137
+    400672: Point138
+    400674: Point139
+    400676: Point140
+    400678: Point141
+    400680: Point142
+    400682: Point143
+    400684: Point144
+    400686: Point145
+    400688: Point146
+    400690: Point147
+    400692: Point148
+    400694: Point149
+    400696: Point150
+    400698: Point151
+    400700: Point152
+    400702: Point153
+    400704: Point154
+    400706: Point155
+    400708: Point156
+    400710: Point157
+    400712: Point158
+    400714: Point159
+    400716: Point160
+    400718: Point161
+    400720: Point162
+    400722: Point163
+    400724: Point164
+    400726: Point165
+    400728: PtDrv_Jaw01
+    400730: Shape001
+    400732: Shape002
+    400734: Tentacle_L1_IKSpline
+    400736: Tentacle_L2_IKSpline
+    400738: Tentacle_L3_IKSpline
+    400740: Tentacle_M1_IKSpline
+    400742: Tentacle_M2_IKSpline
+    400744: Tentacle_R1_IKSpline
+    400746: Tentacle_R2_IKSpline
+    400748: Tentacle_R3_IKSpline
+    400750: Text001
+    400752: Text002
+    400754: Text003
+    400756: Text004
+    4300000: Plane004
+    4300002: Gengon007
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Gengon007
+    13700002: Plane004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Whip01
+        weight: 1
+      - path: Bn_Whip01/Be_Whip01
+        weight: 1
+      - path: Bn_Whip02
+        weight: 1
+      - path: Bn_Whip02/Be_Whip02
+        weight: 1
+      - path: Bn_Whip03
+        weight: 1
+      - path: Bn_Whip03/Be_Whip03
+        weight: 1
+      - path: Bn_Whip04
+        weight: 1
+      - path: Bn_Whip04/Be_Whip04
+        weight: 1
+      - path: Bn_Whip05
+        weight: 1
+      - path: Bn_Whip05/Be_Whip05
+        weight: 1
+      - path: Bn_Whip06
+        weight: 1
+      - path: Bn_Whip06/Be_Whip06
+        weight: 1
+      - path: Bn_Whip07
+        weight: 1
+      - path: Bn_Whip07/Be_Whip07
+        weight: 1
+      - path: Bn_Whip08
+        weight: 1
+      - path: Bn_Whip08/Be_Whip08
+        weight: 1
+      - path: Bn_Whip09
+        weight: 1
+      - path: Bn_Whip09/Be_Whip09
+        weight: 1
+      - path: Bn_Whip10
+        weight: 1
+      - path: Bn_Whip10/Be_Whip10
+        weight: 1
+      - path: Bn_Whip11
+        weight: 1
+      - path: Bn_Whip11/Be_Whip11
+        weight: 1
+      - path: Bn_Whip12
+        weight: 1
+      - path: Bn_Whip12/Be_Whip12
+        weight: 1
+      - path: Bn_Whip13
+        weight: 1
+      - path: Bn_Whip13/Be_Whip13
+        weight: 1
+      - path: Bn_Whip14
+        weight: 1
+      - path: Bn_Whip14/Be_Whip14
+        weight: 1
+      - path: Bn_Whip15
+        weight: 1
+      - path: Bn_Whip15/Be_Whip15
+        weight: 1
+      - path: Bn_Whip16
+        weight: 1
+      - path: Bn_Whip16/Be_Whip16
+        weight: 1
+      - path: Bn_Whip17
+        weight: 1
+      - path: Bn_Whip17/Be_Whip17
+        weight: 1
+      - path: Bn_Whip18
+        weight: 1
+      - path: Bn_Whip18/Be_Whip18
+        weight: 1
+      - path: Bn_Whip19
+        weight: 1
+      - path: Bn_Whip19/Be_Whip19
+        weight: 1
+      - path: Bn_Whip20
+        weight: 1
+      - path: Bn_Whip20/Be_Whip20
+        weight: 1
+      - path: Bn_Whip21
+        weight: 1
+      - path: Bn_Whip21/Be_Whip21
+        weight: 1
+      - path: Bn_Whip22
+        weight: 1
+      - path: Bn_Whip22/Be_Whip22
+        weight: 1
+      - path: Bn_Whip23
+        weight: 1
+      - path: Bn_Whip23/Be_Whip23
+        weight: 1
+      - path: Bn_Whip24
+        weight: 1
+      - path: Bn_Whip24/Be_Whip24
+        weight: 1
+      - path: Circle008
+        weight: 1
+      - path: Circle013
+        weight: 1
+      - path: Control_MASTER01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Arm01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Arm01/Be_Arm01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Neck01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Neck01/Bn_Head01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Neck01/Bn_Head01/Be_Head01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Neck01/Bn_Head01/Bn_Jaw01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Bn_Stomach01/Bn_Chest01/Bn_Neck01/Bn_Head01/Bn_Jaw01/Be_Jaw01
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2/CATRig_Tentacle_L1_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2/CATRig_Tentacle_L1_3/CATRig_Tentacle_L1_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2/CATRig_Tentacle_L1_3/CATRig_Tentacle_L1_4/CATRig_Tentacle_L1_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2/CATRig_Tentacle_L1_3/CATRig_Tentacle_L1_4/CATRig_Tentacle_L1_5/CATRig_Tentacle_L1_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2/CATRig_Tentacle_L1_3/CATRig_Tentacle_L1_4/CATRig_Tentacle_L1_5/CATRig_Tentacle_L1_6/CATRig_Tentacle_L1_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L1_1/CATRig_Tentacle_L1_2/CATRig_Tentacle_L1_3/CATRig_Tentacle_L1_4/CATRig_Tentacle_L1_5/CATRig_Tentacle_L1_6/CATRig_Tentacle_L1_7/CATRig_Tentacle_L1_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4/CATRig_Tentacle_L2_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4/CATRig_Tentacle_L2_5/CATRig_Tentacle_L2_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4/CATRig_Tentacle_L2_5/CATRig_Tentacle_L2_6/CATRig_Tentacle_L2_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4/CATRig_Tentacle_L2_5/CATRig_Tentacle_L2_6/CATRig_Tentacle_L2_7/CATRig_Tentacle_L2_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4/CATRig_Tentacle_L2_5/CATRig_Tentacle_L2_6/CATRig_Tentacle_L2_7/CATRig_Tentacle_L2_8/CATRig_Tentacle_L2_9
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L2_1/CATRig_Tentacle_L2_2/CATRig_Tentacle_L2_3/CATRig_Tentacle_L2_4/CATRig_Tentacle_L2_5/CATRig_Tentacle_L2_6/CATRig_Tentacle_L2_7/CATRig_Tentacle_L2_8/CATRig_Tentacle_L2_9/CATRig_Tentacle_L2_10
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4/CATRig_Tentacle_L3_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4/CATRig_Tentacle_L3_5/CATRig_Tentacle_L3_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4/CATRig_Tentacle_L3_5/CATRig_Tentacle_L3_6/CATRig_Tentacle_L3_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4/CATRig_Tentacle_L3_5/CATRig_Tentacle_L3_6/CATRig_Tentacle_L3_7/CATRig_Tentacle_L3_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4/CATRig_Tentacle_L3_5/CATRig_Tentacle_L3_6/CATRig_Tentacle_L3_7/CATRig_Tentacle_L3_8/CATRig_Tentacle_L3_9
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_L3_1/CATRig_Tentacle_L3_2/CATRig_Tentacle_L3_3/CATRig_Tentacle_L3_4/CATRig_Tentacle_L3_5/CATRig_Tentacle_L3_6/CATRig_Tentacle_L3_7/CATRig_Tentacle_L3_8/CATRig_Tentacle_L3_9/CATRig_Tentacle_L3_10
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3/CATRig_Tentacle_M1_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3/CATRig_Tentacle_M1_4/CATRig_Tentacle_M1_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3/CATRig_Tentacle_M1_4/CATRig_Tentacle_M1_5/CATRig_Tentacle_M1_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3/CATRig_Tentacle_M1_4/CATRig_Tentacle_M1_5/CATRig_Tentacle_M1_6/CATRig_Tentacle_M1_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3/CATRig_Tentacle_M1_4/CATRig_Tentacle_M1_5/CATRig_Tentacle_M1_6/CATRig_Tentacle_M1_7/CATRig_Tentacle_M1_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M1_1/CATRig_Tentacle_M1_2/CATRig_Tentacle_M1_3/CATRig_Tentacle_M1_4/CATRig_Tentacle_M1_5/CATRig_Tentacle_M1_6/CATRig_Tentacle_M1_7/CATRig_Tentacle_M1_8/CATRig_Tentacle_M1_9
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4/CATRig_Tentacle_M2_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4/CATRig_Tentacle_M2_5/CATRig_Tentacle_M2_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4/CATRig_Tentacle_M2_5/CATRig_Tentacle_M2_6/CATRig_Tentacle_M2_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4/CATRig_Tentacle_M2_5/CATRig_Tentacle_M2_6/CATRig_Tentacle_M2_7/CATRig_Tentacle_M2_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4/CATRig_Tentacle_M2_5/CATRig_Tentacle_M2_6/CATRig_Tentacle_M2_7/CATRig_Tentacle_M2_8/CATRig_Tentacle_M2_9
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_M2_1/CATRig_Tentacle_M2_2/CATRig_Tentacle_M2_3/CATRig_Tentacle_M2_4/CATRig_Tentacle_M2_5/CATRig_Tentacle_M2_6/CATRig_Tentacle_M2_7/CATRig_Tentacle_M2_8/CATRig_Tentacle_M2_9/CATRig_Tentacle_M2_10
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2/CATRig_Tentacle_R1_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2/CATRig_Tentacle_R1_3/CATRig_Tentacle_R1_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2/CATRig_Tentacle_R1_3/CATRig_Tentacle_R1_4/CATRig_Tentacle_R1_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2/CATRig_Tentacle_R1_3/CATRig_Tentacle_R1_4/CATRig_Tentacle_R1_5/CATRig_Tentacle_R1_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2/CATRig_Tentacle_R1_3/CATRig_Tentacle_R1_4/CATRig_Tentacle_R1_5/CATRig_Tentacle_R1_6/CATRig_Tentacle_R1_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R1_1/CATRig_Tentacle_R1_2/CATRig_Tentacle_R1_3/CATRig_Tentacle_R1_4/CATRig_Tentacle_R1_5/CATRig_Tentacle_R1_6/CATRig_Tentacle_R1_7/CATRig_Tentacle_R1_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4/CATRig_Tentacle_R2_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4/CATRig_Tentacle_R2_5/CATRig_Tentacle_R2_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4/CATRig_Tentacle_R2_5/CATRig_Tentacle_R2_6/CATRig_Tentacle_R2_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4/CATRig_Tentacle_R2_5/CATRig_Tentacle_R2_6/CATRig_Tentacle_R2_7/CATRig_Tentacle_R2_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4/CATRig_Tentacle_R2_5/CATRig_Tentacle_R2_6/CATRig_Tentacle_R2_7/CATRig_Tentacle_R2_8/CATRig_Tentacle_R2_9
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R2_1/CATRig_Tentacle_R2_2/CATRig_Tentacle_R2_3/CATRig_Tentacle_R2_4/CATRig_Tentacle_R2_5/CATRig_Tentacle_R2_6/CATRig_Tentacle_R2_7/CATRig_Tentacle_R2_8/CATRig_Tentacle_R2_9/CATRig_Tentacle_R2_10
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4/CATRig_Tentacle_R3_5
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4/CATRig_Tentacle_R3_5/CATRig_Tentacle_R3_6
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4/CATRig_Tentacle_R3_5/CATRig_Tentacle_R3_6/CATRig_Tentacle_R3_7
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4/CATRig_Tentacle_R3_5/CATRig_Tentacle_R3_6/CATRig_Tentacle_R3_7/CATRig_Tentacle_R3_8
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4/CATRig_Tentacle_R3_5/CATRig_Tentacle_R3_6/CATRig_Tentacle_R3_7/CATRig_Tentacle_R3_8/CATRig_Tentacle_R3_9
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRig_Tentacle_R3_1/CATRig_Tentacle_R3_2/CATRig_Tentacle_R3_3/CATRig_Tentacle_R3_4/CATRig_Tentacle_R3_5/CATRig_Tentacle_R3_6/CATRig_Tentacle_R3_7/CATRig_Tentacle_R3_8/CATRig_Tentacle_R3_9/CATRig_Tentacle_R3_10
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt/CATRigTentacle_L_014IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt/CATRigTentacle_L_014IKPt
+          1/CATRigTentacle_L_015IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt/CATRigTentacle_L_014IKPt
+          1/CATRigTentacle_L_015IKPt/CATRigTentacle_L_016IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt/CATRigTentacle_L_014IKPt
+          1/CATRigTentacle_L_015IKPt/CATRigTentacle_L_016IKPt/CATRigTentacle_L_017IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt/CATRigTentacle_L_014IKPt
+          1/CATRigTentacle_L_015IKPt/CATRigTentacle_L_016IKPt/CATRigTentacle_L_017IKPt/CATRigTentacle_L_018IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt/CATRigTentacle_L_012IKPt/CATRigTentacle_L_013IKPt/CATRigTentacle_L_014IKPt
+          1/CATRigTentacle_L_015IKPt/CATRigTentacle_L_016IKPt/CATRigTentacle_L_017IKPt/CATRigTentacle_L_018IKPt/CATRigTentacle_L_018Nub
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1/CATRigTentacle_L_014IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1/CATRigTentacle_L_014IKPt/CATRigTentacle_L_015IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1/CATRigTentacle_L_014IKPt/CATRigTentacle_L_015IKPt
+          1/CATRigTentacle_L_016IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1/CATRigTentacle_L_014IKPt/CATRigTentacle_L_015IKPt
+          1/CATRigTentacle_L_016IKPt 1/CATRigTentacle_L_017IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1/CATRigTentacle_L_014IKPt/CATRigTentacle_L_015IKPt
+          1/CATRigTentacle_L_016IKPt 1/CATRigTentacle_L_017IKPt 1/CATRigTentacle_L_018IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_011IKPt 1/CATRigTentacle_L_012IKPt
+          1/CATRigTentacle_L_013IKPt 1/CATRigTentacle_L_014IKPt/CATRigTentacle_L_015IKPt
+          1/CATRigTentacle_L_016IKPt 1/CATRigTentacle_L_017IKPt 1/CATRigTentacle_L_018IKPt
+          1/CATRigTentacle_L_018Nub 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1/CATRigTentacle_L_026IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1/CATRigTentacle_L_026IKPt 1/CATRigTentacle_L_027IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1/CATRigTentacle_L_026IKPt 1/CATRigTentacle_L_027IKPt/CATRigTentacle_L_028IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1/CATRigTentacle_L_026IKPt 1/CATRigTentacle_L_027IKPt/CATRigTentacle_L_028IKPt/CATRigTentacle_L_029IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1/CATRigTentacle_L_026IKPt 1/CATRigTentacle_L_027IKPt/CATRigTentacle_L_028IKPt/CATRigTentacle_L_029IKPt
+          1/CATRigTentacle_L_0210IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt/CATRigTentacle_L_022IKPt/CATRigTentacle_L_023IKPt/CATRigTentacle_L_024IKPt/CATRigTentacle_L_025IKPt
+          1/CATRigTentacle_L_026IKPt 1/CATRigTentacle_L_027IKPt/CATRigTentacle_L_028IKPt/CATRigTentacle_L_029IKPt
+          1/CATRigTentacle_L_0210IKPt/CATRigTentacle_L_0210Nub
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt/CATRigTentacle_L_026IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt/CATRigTentacle_L_026IKPt/CATRigTentacle_L_027IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt/CATRigTentacle_L_026IKPt/CATRigTentacle_L_027IKPt
+          1/CATRigTentacle_L_028IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt/CATRigTentacle_L_026IKPt/CATRigTentacle_L_027IKPt
+          1/CATRigTentacle_L_028IKPt 1/CATRigTentacle_L_029IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt/CATRigTentacle_L_026IKPt/CATRigTentacle_L_027IKPt
+          1/CATRigTentacle_L_028IKPt 1/CATRigTentacle_L_029IKPt/CATRigTentacle_L_0210IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_021IKPt 1/CATRigTentacle_L_022IKPt
+          1/CATRigTentacle_L_023IKPt 1/CATRigTentacle_L_024IKPt 1/CATRigTentacle_L_025IKPt/CATRigTentacle_L_026IKPt/CATRigTentacle_L_027IKPt
+          1/CATRigTentacle_L_028IKPt 1/CATRigTentacle_L_029IKPt/CATRigTentacle_L_0210IKPt
+          1/CATRigTentacle_L_0210Nub 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1/CATRigTentacle_L_036IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1/CATRigTentacle_L_036IKPt/CATRigTentacle_L_037IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1/CATRigTentacle_L_036IKPt/CATRigTentacle_L_037IKPt/CATRigTentacle_L_038IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1/CATRigTentacle_L_036IKPt/CATRigTentacle_L_037IKPt/CATRigTentacle_L_038IKPt
+          1/CATRigTentacle_L_039IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1/CATRigTentacle_L_036IKPt/CATRigTentacle_L_037IKPt/CATRigTentacle_L_038IKPt
+          1/CATRigTentacle_L_039IKPt/CATRigTentacle_L_0310IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt/CATRigTentacle_L_032IKPt/CATRigTentacle_L_033IKPt/CATRigTentacle_L_034IKPt/CATRigTentacle_L_035IKPt
+          1/CATRigTentacle_L_036IKPt/CATRigTentacle_L_037IKPt/CATRigTentacle_L_038IKPt
+          1/CATRigTentacle_L_039IKPt/CATRigTentacle_L_0310IKPt 1/CATRigTentacle_L_0310Nub
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt/CATRigTentacle_L_036IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt/CATRigTentacle_L_036IKPt
+          1/CATRigTentacle_L_037IKPt 1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt/CATRigTentacle_L_036IKPt
+          1/CATRigTentacle_L_037IKPt 1/CATRigTentacle_L_038IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt/CATRigTentacle_L_036IKPt
+          1/CATRigTentacle_L_037IKPt 1/CATRigTentacle_L_038IKPt/CATRigTentacle_L_039IKPt
+          1
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt/CATRigTentacle_L_036IKPt
+          1/CATRigTentacle_L_037IKPt 1/CATRigTentacle_L_038IKPt/CATRigTentacle_L_039IKPt
+          1/CATRigTentacle_L_0310IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_L_031IKPt 1/CATRigTentacle_L_032IKPt
+          1/CATRigTentacle_L_033IKPt 1/CATRigTentacle_L_034IKPt 1/CATRigTentacle_L_035IKPt/CATRigTentacle_L_036IKPt
+          1/CATRigTentacle_L_037IKPt 1/CATRigTentacle_L_038IKPt/CATRigTentacle_L_039IKPt
+          1/CATRigTentacle_L_0310IKPt/CATRigTentacle_L_0310Nub
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt/CATRigTentacle_M_015IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt/CATRigTentacle_M_015IKPt/CATRigTentacle_M_016IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt/CATRigTentacle_M_015IKPt/CATRigTentacle_M_016IKPt/CATRigTentacle_M_017IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt/CATRigTentacle_M_015IKPt/CATRigTentacle_M_016IKPt/CATRigTentacle_M_017IKPt/CATRigTentacle_M_018IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt/CATRigTentacle_M_015IKPt/CATRigTentacle_M_016IKPt/CATRigTentacle_M_017IKPt/CATRigTentacle_M_018IKPt/CATRigTentacle_M_019IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_011IKPt/CATRigTentacle_M_012IKPt/CATRigTentacle_M_013IKPt/CATRigTentacle_M_014IKPt/CATRigTentacle_M_015IKPt/CATRigTentacle_M_016IKPt/CATRigTentacle_M_017IKPt/CATRigTentacle_M_018IKPt/CATRigTentacle_M_019IKPt/CATRigTentacle_M_019Nub
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt/CATRigTentacle_M_026IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt/CATRigTentacle_M_026IKPt/CATRigTentacle_M_027IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt/CATRigTentacle_M_026IKPt/CATRigTentacle_M_027IKPt/CATRigTentacle_M_028IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt/CATRigTentacle_M_026IKPt/CATRigTentacle_M_027IKPt/CATRigTentacle_M_028IKPt/CATRigTentacle_M_029IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt/CATRigTentacle_M_026IKPt/CATRigTentacle_M_027IKPt/CATRigTentacle_M_028IKPt/CATRigTentacle_M_029IKPt/CATRigTentacle_M_0210IKPt
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/CATRigTentacle_M_021IKPt/CATRigTentacle_M_022IKPt/CATRigTentacle_M_023IKPt/CATRigTentacle_M_024IKPt/CATRigTentacle_M_025IKPt/CATRigTentacle_M_026IKPt/CATRigTentacle_M_027IKPt/CATRigTentacle_M_028IKPt/CATRigTentacle_M_029IKPt/CATRigTentacle_M_0210IKPt/CATRigTentacle_M_0210Nub
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point001
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point001/Point002
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point001/Point002/Point003
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point001/Point002/Point003/Point004
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point005
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point005/Point006
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point005/Point006/Point007
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point005/Point006/Point007/Point008
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point009
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point009/Point010
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point009/Point010/Point011
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point009/Point010/Point011/Point012
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point013
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point013/Point014
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point013/Point014/Point015
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point013/Point014/Point015/Point016
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point017
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point017/Point018
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point017/Point018/Point019
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point017/Point018/Point019/Point020
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point021
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point021/Point022
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point021/Point022/Point023
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point021/Point022/Point023/Point024
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point025
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point025/Point026
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point025/Point026/Point027
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point025/Point026/Point027/Point028
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point029
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point029/Point030
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point029/Point030/Point031
+        weight: 1
+      - path: Control_MASTER01/Bn_Pelvis01/Point029/Point030/Point031/Point032
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_L1_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_L2_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_L3_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_M1_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_M2_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_R1_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_R2_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_BottomLayer_Tentacle01/Control_R3_Tentacle03
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_L1_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_L2_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_L3_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_M1_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_M2_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_R1_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_R2_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_MiddleLayer_Tentacle01/Control_R3_Tentacle02
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Arm01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Arm01/Circle014
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Arm01/Circle014/Circle015
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Arm01/Circle014/Circle015/Circle016
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Arm01/Circle014/Circle015/Circle016/Circle017
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Arm01/Circle014/Circle015/Circle016/Circle017/Circle018
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Neck01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Neck01/Control_Head01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Neck01/Control_Head01/Control_Jaw01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_Stomach01/Control_Chest01/Control_Neck01/Control_Head01/Control_Jaw01/PtDrv_Jaw01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_L1_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_L2_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_L3_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_M1_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_M2_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_R1_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_R2_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Control_TopLayer_Tentacle01/Control_R3_Tentacle01
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Text001
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Text002
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Text003
+        weight: 1
+      - path: Control_MASTER01/Control_Pelvis01/Text004
+        weight: 1
+      - path: DO NOT DELETE_ KEEP HIDDEN01
+        weight: 1
+      - path: DO NOT DELETE_ KEEP HIDDEN02
+        weight: 1
+      - path: Gengon007
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain005
+        weight: 1
+      - path: IK Chain006
+        weight: 1
+      - path: IK Chain007
+        weight: 1
+      - path: IK Chain008
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Point058
+        weight: 1
+      - path: Point058/Point137
+        weight: 1
+      - path: Point059
+        weight: 1
+      - path: Point059/Point138
+        weight: 1
+      - path: Point060
+        weight: 1
+      - path: Point060/Point139
+        weight: 1
+      - path: Point061
+        weight: 1
+      - path: Point061/Point140
+        weight: 1
+      - path: Point062
+        weight: 1
+      - path: Point062/Point141
+        weight: 1
+      - path: Point064
+        weight: 1
+      - path: Point113
+        weight: 1
+      - path: Point114
+        weight: 1
+      - path: Point115
+        weight: 1
+      - path: Point116
+        weight: 1
+      - path: Point117
+        weight: 1
+      - path: Point118
+        weight: 1
+      - path: Point119
+        weight: 1
+      - path: Point120
+        weight: 1
+      - path: Point121
+        weight: 1
+      - path: Point122
+        weight: 1
+      - path: Point123
+        weight: 1
+      - path: Point124
+        weight: 1
+      - path: Point125
+        weight: 1
+      - path: Point126
+        weight: 1
+      - path: Point127
+        weight: 1
+      - path: Point128
+        weight: 1
+      - path: Point129
+        weight: 1
+      - path: Point130
+        weight: 1
+      - path: Point131
+        weight: 1
+      - path: Point132
+        weight: 1
+      - path: Point133
+        weight: 1
+      - path: Point134
+        weight: 1
+      - path: Point135
+        weight: 1
+      - path: Point136
+        weight: 1
+      - path: Point142
+        weight: 1
+      - path: Point143
+        weight: 1
+      - path: Point144
+        weight: 1
+      - path: Point145
+        weight: 1
+      - path: Point146
+        weight: 1
+      - path: Point147
+        weight: 1
+      - path: Point148
+        weight: 1
+      - path: Point149
+        weight: 1
+      - path: Point150
+        weight: 1
+      - path: Point151
+        weight: 1
+      - path: Point152
+        weight: 1
+      - path: Point153
+        weight: 1
+      - path: Point154
+        weight: 1
+      - path: Point155
+        weight: 1
+      - path: Point156
+        weight: 1
+      - path: Point157
+        weight: 1
+      - path: Point158
+        weight: 1
+      - path: Point159
+        weight: 1
+      - path: Point160
+        weight: 1
+      - path: Point161
+        weight: 1
+      - path: Point162
+        weight: 1
+      - path: Point163
+        weight: 1
+      - path: Point164
+        weight: 1
+      - path: Point165
+        weight: 1
+      - path: Shape001
+        weight: 1
+      - path: Shape002
+        weight: 1
+      - path: Tentacle_L1_IKSpline
+        weight: 1
+      - path: Tentacle_L2_IKSpline
+        weight: 1
+      - path: Tentacle_L3_IKSpline
+        weight: 1
+      - path: Tentacle_M1_IKSpline
+        weight: 1
+      - path: Tentacle_M2_IKSpline
+        weight: 1
+      - path: Tentacle_R1_IKSpline
+        weight: 1
+      - path: Tentacle_R2_IKSpline
+        weight: 1
+      - path: Tentacle_R3_IKSpline
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

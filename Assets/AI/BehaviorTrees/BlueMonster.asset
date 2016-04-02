@@ -48,7 +48,7 @@ MonoBehaviour:
       traversetype=&quot;pingpong&quot; traverseorder=&quot;forward&quot; repeatuntil=&quot;&quot;
       pathtargetvariable=&quot;&quot; name=&quot;waypointpatrol&quot; movetargetvariable=&quot;moveTarget&quot;
       debugbreak=&quot;False&quot;&gt;&lt;move turnspeed=&quot;&quot; repeatuntil=&quot;&quot;
-      name=&quot;PatrolPoints&quot; movetarget=&quot;moveTarget&quot; movespeed=&quot;4&quot;
+      name=&quot;PatrolPoints&quot; movetarget=&quot;moveTarget&quot; movespeed=&quot;1&quot;
       facetarget=&quot;&quot; debugbreak=&quot;False&quot; closeenoughdistance=&quot;&quot;
       closeenoughangle=&quot;&quot; /&gt;&lt;/waypointpatrol&gt;&lt;/decision&gt;&lt;/sequencer&gt;&lt;/constraint&gt;&lt;constraint
       repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;player_InLongRange&quot;
