@@ -16,8 +16,6 @@ public class DetectionAction : RAINAction
     {
 		minions = ai.WorkingMemory.GetItem("InstantiateMinions") as GameObject;
         base.Start(ai);
-		//isMinionsInstantiated = (bool)ai.WorkingMemory.GetItem("isMinionsInstantiated");
-		//ai.WorkingMemory.SetItem ("InstantiateMinions",GameObject.FindGameObjectWithTag("Player").transform.position);
 
 
     }
@@ -27,8 +25,6 @@ public class DetectionAction : RAINAction
 		InstantiateHandler(ai);
 		Debug.Log(isMinionsInstantiated);
 		return ActionResult.SUCCESS;
-
-
     }
 
     public override void Stop(RAIN.Core.AI ai)

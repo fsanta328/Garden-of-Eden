@@ -15,7 +15,7 @@ public class SnowBallScript : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		m_player = GameObject.Find("Berserker");
+		m_player = GameObject.FindGameObjectWithTag ("Player");
 
 		m_distance = m_player.transform.position - transform.position;
 
