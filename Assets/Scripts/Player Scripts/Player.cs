@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour 
 {
@@ -14,14 +15,13 @@ public class Player : MonoBehaviour
 	public GameObject m_inventoryCanvas;
 	public bool m_inventoryNotOpen;
 	public float m_visible;
-	public float m_health;
-	public float m_attack;
-	public float m_defence;
+	public float m_health, m_attack, m_defence;
 	public int collected = 0;
-	public Weapon m_weaponScript;
 	public bool invu;
-
+	public Slider m_healthSlider;
+	public Image m_edenPortrait;
 	PlayerBehaviour m_playerBehaviour;
+	public List<Sprite> m_edenFaces;
 
 	// Use this for initialization
 	void Start () 
@@ -33,8 +33,9 @@ public class Player : MonoBehaviour
 
 		m_inventoryNotOpen = false;
 		m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
-
-		m_health = 90;
+		m_healthSlider = GameObject.FindObjectOfType<Slider> ();
+		//m_edenPortrait = GameObject.FindObjectOfType<Image> ();
+		m_health = 100;
 		m_attack = 10;
 		m_defence = 5;
 	}
@@ -43,13 +44,14 @@ public class Player : MonoBehaviour
 	void Update ()
 	{
 		if (Input.GetKeyUp (KeyCode.M))
-			{
-				invu = true;
-			}
+		{
+			invu = true;
+		}
 		if (Input.GetKeyUp (KeyCode.N))
 		{
 			invu = false;
 		}
+
 		Death ();
 		//key to open or close inv
 		if (Input.GetKeyUp (KeyCode.I)) 
@@ -89,11 +91,6 @@ public class Player : MonoBehaviour
 		}
 
 		m_playerBehaviour.Behaviour ();
-		
-//		if (Input.GetKeyUp (KeyCode.Space)) 
-//		{
-//			GetComponent<Health> ().ApplyDamage ();
-//		}
 
 		if (Input.GetKey (KeyCode.Q) && m_playerBehaviour.m_hit == 0) 
 		{
@@ -106,7 +103,8 @@ public class Player : MonoBehaviour
 				Invoke ("ActionMovement", 0.75f);
 				Invoke ("DisableChargeAttack", 1.5f);
 			}
-		} 
+		}
+
 		else if (Input.GetKeyUp (KeyCode.Q)) 
 		{
 			DisableChargeAttack ();
@@ -130,14 +128,17 @@ public class Player : MonoBehaviour
 	{
 		transform.Translate (Vector3.forward * 4 * Time.deltaTime);
 	}
+
 	void ActionMovementmentDisable()
 	{
 		m_actionMovement = false;
 	}
+
 	void Jump()
 	{
 		GetComponent<Rigidbody>().AddForce (jumpVelocity, ForceMode.VelocityChange);
 	}
+
 	void DisableChargeAttack()
 	{
 		m_animator.ResetTrigger ("Charged");
@@ -147,31 +148,45 @@ public class Player : MonoBehaviour
 
 	void OnCollisionEnter(Collision collision)
 	{
-			if (collision.gameObject.tag == "gem") 
-			{
-				m_weapon.SetActive (true);
-				collision.gameObject.SetActive (false);
-				collected = 1;
-				collision.gameObject.tag = "Weapon";
-				m_inventory.AddItem (0);
-			}
-
-		if (collision.gameObject.tag == "Item") 
+		if (collision.gameObject.tag == "gem") 
 		{
-			m_inventory.AddItem (1);
-			//Debug.Log ("idrop");
+			m_weapon.SetActive (true);
+			collision.gameObject.SetActive (false);
+			collected = 1;
+			collision.gameObject.tag = "Weapon";
+			m_inventory.AddItem (0);
 		}
 
+		if (collision.gameObject.tag == "sword") 
+		{
+			m_inventory.AddItem (0);
+			Debug.Log ("sword");
 
+			Destroy (collision.gameObject);
+		}
 
+		if (collision.gameObject.tag == "armour") 
+		{
+			m_inventory.AddItem (1);
+			Debug.Log ("armour");
+			Destroy (collision.gameObject);
+		}
+
+		if (collision.gameObject.tag == "food") 
+		{
+			m_inventory.AddItem (2);
+			Debug.Log ("food");
+			Destroy (collision.gameObject);
+		}
 
 
 		if (collision.gameObject.tag == "Enemy") 
 		{
 			if (invu == false) 
 			{
-				//m_health = m_health - 20;
-				Debug.Log ("hurt");
+				m_health = m_health - 10;
+				m_healthSlider.value = m_health;
+				ChangeImage (m_healthSlider.value);
 			} 
 
 			else 
@@ -188,12 +203,25 @@ public class Player : MonoBehaviour
 				ApplyDamage (collision);
 			}
 
+			else if ((c.thisCollider.tag == "Weapon") && (collision.gameObject.tag == "Boss"))
+			{
+				Debug.Log ("bossDMG");
+				ApplyDamage (collision);
+			}
+
+			else if ((c.thisCollider.tag == "Weapon") && (collision.gameObject.tag == "mBoss"))
+			{
+				Debug.Log ("minibosshit");
+				ApplyDamage (collision);
+			}
 		}
 	}
 
 	public void RestoreHealth(float a_health)
 	{
 		m_health = m_health + a_health;
+		m_healthSlider.value = m_health;
+		ChangeImage (m_healthSlider.value);
 	}
 
 	public float damageCalc()
@@ -215,8 +243,45 @@ public class Player : MonoBehaviour
 
 	public void ApplyDamage(Collision a_collision)
 	{
-		a_collision.gameObject.GetComponent<EnemiesLife> ().g_currentHealth = a_collision.gameObject.GetComponent<EnemiesLife> ().g_currentHealth - damageCalc();
+		if (a_collision.gameObject.tag == "Enemy")
+		{
+			a_collision.gameObject.GetComponent<EnemiesLife> ().g_currentHealth = 
+								a_collision.gameObject.GetComponent<EnemiesLife> ().g_currentHealth - damageCalc ();
+		}
+			
+		else if (a_collision.gameObject.tag == "Boss")
+		{
+			a_collision.gameObject.GetComponent<Boss> ().g_currentHealth = 
+								a_collision.gameObject.GetComponent<Boss> ().g_currentHealth - damageCalc ();
+		}
 
+		else if (a_collision.gameObject.tag == "mBoss")
+		{
+			a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth = 
+								a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth - damageCalc ();
+		}
+
+	}
+
+	void ChangeImage(float a_health)
+	{
+		if (a_health < 20) 
+		{
+			m_edenPortrait.sprite = m_edenFaces [2];
+		}
+
+		else if (a_health <= 59) 
+		{
+			m_edenPortrait.sprite = m_edenFaces [1];
+		}
+
+		else if (a_health > 60) 
+		{
+			m_edenPortrait.sprite = m_edenFaces [0];
+		} 
+
+
+			
 	}
 
 	void Death()
@@ -226,6 +291,4 @@ public class Player : MonoBehaviour
 			SceneManager.LoadScene (0);
 		}
 	}
-
-
 }

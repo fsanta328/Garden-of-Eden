@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 37e97ba8d8f3c41d5b55f63de3c95a5c
+timeCreated: 1459785107
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bars
+    100002: Left Railing
+    100004: Left Support
+    100006: Left Wires
+    100008: Right Railing
+    100010: Right Support
+    100012: Right Wires
+    100014: Side Lights
+    100016: Side Lights Cover
+    100018: Support
+    100020: Top Lights
+    100022: Top Wire +Tower
+    100024: Top Wire +Tower_MeshPart0
+    100026: Top Wire +Tower_MeshPart1
+    100028: Top Wire +Tower_MeshPart2
+    100030: Tracks
+    100032: Tunnel
+    100034: //RootNode
+    100036: Window
+    400000: Bars
+    400002: Left Railing
+    400004: Left Support
+    400006: Left Wires
+    400008: Right Railing
+    400010: Right Support
+    400012: Right Wires
+    400014: Side Lights
+    400016: Side Lights Cover
+    400018: Support
+    400020: Top Lights
+    400022: Top Wire +Tower
+    400024: Top Wire +Tower_MeshPart0
+    400026: Top Wire +Tower_MeshPart1
+    400028: Top Wire +Tower_MeshPart2
+    400030: Tracks
+    400032: Tunnel
+    400034: //RootNode
+    400036: Window
+    2300000: Bars
+    2300002: Left Railing
+    2300004: Left Support
+    2300006: Left Wires
+    2300008: Right Railing
+    2300010: Right Support
+    2300012: Right Wires
+    2300014: Side Lights
+    2300016: Side Lights Cover
+    2300018: Support
+    2300020: Top Lights
+    2300022: Top Wire +Tower_MeshPart0
+    2300024: Top Wire +Tower_MeshPart1
+    2300026: Top Wire +Tower_MeshPart2
+    2300028: Tracks
+    2300030: Tunnel
+    2300032: Window
+    3300000: Bars
+    3300002: Left Railing
+    3300004: Left Support
+    3300006: Left Wires
+    3300008: Right Railing
+    3300010: Right Support
+    3300012: Right Wires
+    3300014: Side Lights
+    3300016: Side Lights Cover
+    3300018: Support
+    3300020: Top Lights
+    3300022: Top Wire +Tower_MeshPart0
+    3300024: Top Wire +Tower_MeshPart1
+    3300026: Top Wire +Tower_MeshPart2
+    3300028: Tracks
+    3300030: Tunnel
+    3300032: Window
+    4300000: Support
+    4300002: Left Support
+    4300004: Tunnel
+    4300006: Bars
+    4300008: Window
+    4300010: Top Lights
+    4300012: Right Railing
+    4300014: Left Railing
+    4300016: Right Support
+    4300018: Left Wires
+    4300020: Right Wires
+    4300022: Side Lights
+    4300024: Tracks
+    4300026: Side Lights Cover
+    4300028: Top Wire +Tower_MeshPart0
+    4300030: Top Wire +Tower_MeshPart1
+    4300032: Top Wire +Tower_MeshPart2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,6 +13,10 @@ TagManager:
   - Boss
   - wall
   - Crystal
+  - mBoss
+  - sword
+  - armour
+  - food
   layers:
   - Default
   - TransparentFX

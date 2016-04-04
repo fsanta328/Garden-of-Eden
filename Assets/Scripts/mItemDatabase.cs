@@ -12,8 +12,13 @@ public class mItemDatabase : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		m_itemData = JsonMapper.ToObject (File.ReadAllText(Application.dataPath + "/Assets/StreamingAssets/Item.json"));
+		var m_resourceFile = Resources.Load ("ItemInfo") as TextAsset;
+		m_itemData = JsonMapper.ToObject (m_resourceFile.text);
 
+		if (m_itemData == null) 
+		{
+			//m_itemData = JsonMapper.ToObject (File.ReadAllText(Application.dataPath + "/Assets/StreamingAssets/Item.json"));
+		}
 		ConstructItemDatabase();
 	}
 
@@ -25,7 +30,6 @@ public class mItemDatabase : MonoBehaviour
 				return m_database [i];
 		}
 		return null;
-
 	}
 
 	void ConstructItemDatabase()

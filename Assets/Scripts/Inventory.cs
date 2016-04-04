@@ -23,7 +23,6 @@ public class Inventory : MonoBehaviour
 	{
 		m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha = 0;
 		m_inventoryCanvas.GetComponent<CanvasGroup> ().interactable = false;
-
 		m_database = GetComponent<mItemDatabase> ();
 
 		m_slotCount = 20;
@@ -39,11 +38,7 @@ public class Inventory : MonoBehaviour
 			m_slots[i].GetComponent<SlotHelper>().m_slotID = i;
 			m_slots[i].transform.SetParent (m_slotsPanel.transform);
 		}
-		//AddItem (0);
-		//AddItem (1);
-		//RemoveItemAtPos(m_inventoryItem.transform.GetInstanceID(),
 		m_toggleButton = GameObject.Find("Toggle");
-
 	}
 
 	public void AddItem(int a_id)

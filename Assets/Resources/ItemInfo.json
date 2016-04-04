@@ -1,0 +1,53 @@
+[
+  {
+    "id": 0,
+    "title": "Chainsaw blade",
+    "value": 10,
+	"stats": {
+		"attack": 10,
+		"defence": 0,
+		"health": 0
+		},
+	"description": "A sharp silver blade",
+	"stackable": true,
+	"maxStack": 5,
+	"rarity": 2,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "Chainsaw"
+  },
+  {
+    "id": 1,
+    "title": "Shoulder pads",
+    "value": 5,
+	"stats": {
+		"attack": 0,
+		"defence": 5,
+		"health": 2
+		},
+	"description": "Pads, for your shoulders.",
+	"stackable": false,
+	"maxStack": 0,
+	"rarity": 1,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "KneeArmourB"
+  },
+	{
+    "id": 2,
+    "title": "Knee armour",
+    "value": 1,
+	"stats": {
+		"attack": 0,
+		"defence": 0,
+		"health": 10
+		},
+	"description": "Berries, I hope they are safe to eat",
+	"stackable": true,
+	"maxStack": 10,
+	"rarity": 1,
+	"consumable" : true,
+	"equipped": false,
+	"slug": "KneeArmourB"
+  }
+]
