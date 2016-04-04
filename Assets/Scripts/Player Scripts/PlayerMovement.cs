@@ -47,7 +47,7 @@ public class PlayerMovement : Protagonist
 			Move (Direction.Right);
 		}
 
-		else if(m_hit == 0 && m_timer == 0)
+		else if(m_hit == 0)
 		{
 			Animation (AnimationClip.Idle);
 		}
@@ -80,7 +80,7 @@ public class PlayerMovement : Protagonist
 			Walk(Vector3.left, AnimationClip.WalkLeft);
 		}
 
-		else if(m_hit == 0 && m_timer == 0)
+		else if(m_hit == 0)
 		{
 			//Idle
 			Animation (AnimationClip.Idle);
@@ -97,7 +97,7 @@ public class PlayerMovement : Protagonist
 			{
 				m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
 
-				LockXZ ();
+				LockCertainRotations ();
 			}
 		}
 	}

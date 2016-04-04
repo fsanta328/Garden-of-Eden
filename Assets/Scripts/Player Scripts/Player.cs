@@ -6,11 +6,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour 
 {
 	public GameObject m_cam,m_weapon, m_aura;
-	public float m_speed;
 	private Animator m_animator;
-	private float timer;
-	private Vector3 jumpVelocity = new  Vector3(0, 3.50f, 0);
-	bool m_actionMovement;
 	public Inventory m_inventory;
 	public GameObject m_inventoryCanvas;
 	public bool m_inventoryNotOpen;
@@ -18,6 +14,7 @@ public class Player : MonoBehaviour
 	public float m_health, m_attack, m_defence;
 	public int collected = 0;
 	public bool invu;
+	public static float m_weaponEquipped = 1;
 	public Slider m_healthSlider;
 	public Image m_edenPortrait;
 	PlayerBehaviour m_playerBehaviour;
@@ -26,10 +23,8 @@ public class Player : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		timer = 0;
-		m_actionMovement = false;
 		m_animator = GetComponent<Animator> ();
-		m_playerBehaviour = new PlayerBehaviour (m_animator,transform,m_speed,m_cam);
+		m_playerBehaviour = new PlayerBehaviour (m_animator,transform,m_cam, m_aura);
 
 		m_inventoryNotOpen = false;
 		m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
@@ -42,109 +37,64 @@ public class Player : MonoBehaviour
 
 	// Update is called once per frame
 	void Update ()
-	{
-		if (Input.GetKeyUp (KeyCode.M))
+	{ 
+		if (m_health > 0) 
 		{
-			invu = true;
-		}
-		if (Input.GetKeyUp (KeyCode.N))
-		{
-			invu = false;
-		}
-
-		Death ();
-		//key to open or close inv
-		if (Input.GetKeyUp (KeyCode.I)) 
-		{
-			//hiding inv
-			if (m_inventoryNotOpen == true) 
+			if (Input.GetKeyUp (KeyCode.M)) 
 			{
-				m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha = 0;
-				m_inventoryCanvas.GetComponent<CanvasGroup> ().interactable = false;
-				m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
-				m_inventoryNotOpen = false;
+				invu = true;
 			}
+		
+			if (Input.GetKeyUp (KeyCode.N)) 
+			{
+				invu = false;
+			}
+
+			//key to open or close inv
+			if (Input.GetKeyUp (KeyCode.I)) 
+			{
+				//hiding inv
+				if (m_inventoryNotOpen == true)
+				{
+					m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha = 0;
+					m_inventoryCanvas.GetComponent<CanvasGroup> ().interactable = false;
+					m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
+					m_inventoryNotOpen = false;
+				}
 
 			//opening inv
 			else if (m_inventoryNotOpen == false) 
-			{
-				m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha = 1;
-				m_inventoryCanvas.GetComponent<CanvasGroup> ().interactable = true;
-				m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
-				m_inventoryNotOpen = true;
-			}		
-		}
-
-		if ((Input.GetKeyUp (KeyCode.L)) && (m_visible == 1)) 
-		{
-			m_inventory.AddItem (0);
-		}
-
-		if ((Input.GetKeyUp (KeyCode.K)) && (m_visible == 1)) 
-		{
-			m_inventory.AddItem (1);
-		}
-
-		if (Input.GetKeyUp (KeyCode.Comma)) 
-		{
-			m_inventory.AddItem (2);
-		}
-
-		m_playerBehaviour.Behaviour ();
-
-		if (Input.GetKey (KeyCode.Q) && m_playerBehaviour.m_hit == 0) 
-		{
-			m_aura.SetActive (true);
-			timer += Time.deltaTime;
-
-			if (timer >= 1.5f) 
-			{
-				m_animator.SetTrigger ("Charged");
-				Invoke ("ActionMovement", 0.75f);
-				Invoke ("DisableChargeAttack", 1.5f);
+				{
+					m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha = 1;
+					m_inventoryCanvas.GetComponent<CanvasGroup> ().interactable = true;
+					m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
+					m_inventoryNotOpen = true;
+				}		
 			}
+
+			if ((Input.GetKeyUp (KeyCode.L)) && (m_visible == 1)) 
+			{
+				m_inventory.AddItem (0);
+			}
+
+			if ((Input.GetKeyUp (KeyCode.K)) && (m_visible == 1))
+			{
+				m_inventory.AddItem (1);
+			}
+
+			if (Input.GetKeyUp (KeyCode.Comma))
+			{
+				m_inventory.AddItem (2);
+			}
+
+			m_playerBehaviour.Behaviour ();
 		}
 
-		else if (Input.GetKeyUp (KeyCode.Q)) 
-		{
-			DisableChargeAttack ();
-		}			
+		Death ();
 
-		if (Input.GetKeyDown (KeyCode.Space) && m_animator.GetCurrentAnimatorStateInfo(0).IsTag("Jump").Equals(false) && m_actionMovement == false) 
-		{
-			m_actionMovement = true;
-			m_animator.SetTrigger ("Jump");
-			Invoke ("Jump", 0.5f);
-		}
-
-		if (m_actionMovement == true) 
-		{
-			ActionMovement ();
-			Invoke ("ActionMovementmentDisable", 1f);
-		}
 	}
 
-	void ActionMovement()
-	{
-		transform.Translate (Vector3.forward * 4 * Time.deltaTime);
-	}
 
-	void ActionMovementmentDisable()
-	{
-		m_actionMovement = false;
-	}
-
-	void Jump()
-	{
-		GetComponent<Rigidbody>().AddForce (jumpVelocity, ForceMode.VelocityChange);
-	}
-
-	void DisableChargeAttack()
-	{
-		m_animator.ResetTrigger ("Charged");
-		timer = 0;
-		m_aura.SetActive (false);
-	}
 
 	void OnCollisionEnter(Collision collision)
 	{
@@ -279,16 +229,78 @@ public class Player : MonoBehaviour
 		{
 			m_edenPortrait.sprite = m_edenFaces [0];
 		} 
-
-
-			
 	}
+
+
 
 	void Death()
 	{
 		if (m_health <= 0) 
 		{
-			SceneManager.LoadScene (0);
+		m_playerBehaviour.Animation(AnimationClip.Die);
+//			a_collision.gameObject.GetComponent<Boss> ().g_currentHealth = 
+//								a_collision.gameObject.GetComponent<Boss> ().g_currentHealth - damageCalc ();
 		}
+//	else if (a_collision.gameObject.tag == "mBoss")
+//		{
+//			a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth = 
+//								a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth - damageCalc ();
+//		}
+
+	}
+
+	//Following are the events that shall be called inside certain animation clips.
+
+	//while in the jump state
+	void EventOfJump()
+	{
+		//Jump
+		transform.gameObject.GetComponent<Rigidbody>().AddForce (m_playerBehaviour.jumpVelocity, ForceMode.VelocityChange);
+
+		//if the player was in the state of attack before going into the Jump state, reset that certain trigger.
+		m_playerBehaviour.ResetCombatTriggers ();
+	}
+
+	//This is being called inside certain animation clips, to make player move. 
+	void ActionMove(float a_speed)
+	{
+		m_playerBehaviour.m_speed = a_speed;
+	}
+
+	//To make sure the movement get disabled after that certain animation clip is ended.
+	void ActionMoveDisable()
+	{
+		m_playerBehaviour.m_speed = 0;
+	}
+
+	void AttackMove(float a_speed)
+	{
+		m_playerBehaviour.m_attackMovement = true;	
+	}
+	void AttackMoveDisable()
+	{
+		m_playerBehaviour.m_attackMovement = false;	
+	}
+
+	//if this method is being called inside the charge attack of the player, it will disable and reset certain values.
+	void DisableAura()
+	{
+		m_playerBehaviour.DisableChargeAttack ();
+	}
+
+	//When player is in the state of first attack
+	void Attack1()
+	{
+		m_playerBehaviour.CombatAnimation (2, "Punch1");
+	}
+	//When player is in the state of second attack
+	void Attack2()
+	{
+		m_playerBehaviour.CombatAnimation (3, "Punch2");
+	}
+
+	void Dead()
+	{
+		SceneManager.LoadScene (0);
 	}
 }

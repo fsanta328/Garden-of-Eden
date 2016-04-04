@@ -1,0 +1,2729 @@
+fileFormatVersion: 2
+guid: 5291d2ea4043748e592fa7516851ac84
+timeCreated: 1459595612
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anim_Canister01
+    100002: Anim_Chest01
+    100004: Anim_Eyes01
+    100006: Anim_Head01
+    100008: Anim_L_Arm01
+    100010: Anim_L_Brow01
+    100012: Anim_L_Brow02
+    100014: Anim_L_Elbow01
+    100016: Anim_L_Eye01
+    100018: Anim_L_Hose01
+    100020: Anim_L_Leg01
+    100022: Anim_L_Palm01
+    100024: Anim_Neck01
+    100026: Anim_Pelvis01
+    100028: Anim_R_Arm01
+    100030: Anim_R_Brow01
+    100032: Anim_R_Brow02
+    100034: Anim_R_Elbow01
+    100036: Anim_R_Eye01
+    100038: Anim_R_Hose01
+    100040: Anim_R_Leg01
+    100042: Anim_R_Palm01
+    100044: Armour2_Pauldron
+    100046: Armour_Forearms
+    100048: Armour_Knees
+    100050: Be_Head01
+    100052: Be_L_Brow01
+    100054: Be_L_Brow02
+    100056: Be_L_Eye01
+    100058: Be_L_Lowerlid01
+    100060: Be_L_Upperlid01
+    100062: Be_R_Brow01
+    100064: Be_R_Brow02
+    100066: Be_R_Eye01
+    100068: Be_R_Lowerlid01
+    100070: Be_R_Upperlid01
+    100072: Belt
+    100074: Belt Straps
+    100076: Bn_Canister01
+    100078: Bn_Head01
+    100080: Bn_L_Brow01
+    100082: Bn_L_Brow02
+    100084: Bn_L_Eye01
+    100086: Bn_L_Lowerlid01
+    100088: Bn_L_Upperlid01
+    100090: Bn_Neck01
+    100092: Bn_R_Brow01
+    100094: Bn_R_Brow02
+    100096: Bn_R_Eye01
+    100098: Bn_R_Lowerlid01
+    100100: Bn_R_Upperlid01
+    100102: Body+Tshirt+Pants
+    100104: Canister and Straps
+    100106: CATRigChest002
+    100108: CATRigHub001
+    100110: CATRigLArm1
+    100112: CATRigLArm1IKPt
+    100114: CATRigLArm2
+    100116: CATRigLArm2IKPt
+    100118: CATRigLArm2Nub
+    100120: CATRigLArmCollarbone
+    100122: CATRigLArmDigit11
+    100124: CATRigLArmDigit12
+    100126: CATRigLArmDigit21
+    100128: CATRigLArmDigit22
+    100130: CATRigLArmDigit23
+    100132: CATRigLArmDigit31
+    100134: CATRigLArmDigit32
+    100136: CATRigLArmDigit33
+    100138: CATRigLArmDigit41
+    100140: CATRigLArmDigit42
+    100142: CATRigLArmDigit43
+    100144: CATRigLArmDigit51
+    100146: CATRigLArmDigit52
+    100148: CATRigLArmDigit53
+    100150: CATRigLArmPalm
+    100152: CATRigLLeg1
+    100154: CATRigLLeg2
+    100156: CATRigLLegAnkle
+    100158: CATRigLLegDigit11
+    100160: CATRigLLegDigit12
+    100162: CATRigRArm1
+    100164: CATRigRArm1IKPt
+    100166: CATRigRArm2
+    100168: CATRigRArm2IKPt
+    100170: CATRigRArm2Nub
+    100172: CATRigRArmCollarbone
+    100174: CATRigRArmDigit11
+    100176: CATRigRArmDigit12
+    100178: CATRigRArmDigit21
+    100180: CATRigRArmDigit22
+    100182: CATRigRArmDigit23
+    100184: CATRigRArmDigit31
+    100186: CATRigRArmDigit32
+    100188: CATRigRArmDigit33
+    100190: CATRigRArmDigit41
+    100192: CATRigRArmDigit42
+    100194: CATRigRArmDigit43
+    100196: CATRigRArmDigit51
+    100198: CATRigRArmDigit52
+    100200: CATRigRArmDigit53
+    100202: CATRigRArmPalm
+    100204: CATRigRLeg1
+    100206: CATRigRLeg2
+    100208: CATRigRLegAnkle
+    100210: CATRigRLegDigit11
+    100212: CATRigRLegDigit12
+    100214: CATRigSpine1
+    100216: CATRigSpine2
+    100218: CATRigSpine3
+    100220: Character001
+    100222: Circle001
+    100224: //RootNode
+    100226: Expose_L_Eye01
+    100228: Expose_R_Eye01
+    100230: Eyebrow001
+    100232: Eyelids
+    100234: Gas Mask
+    100236: Hose_L_Spline01
+    100238: Hose_R_Spline01
+    100240: IK Chain001
+    100242: IK Chain002
+    100244: InnerEye
+    100246: Jacket
+    100248: Left Hose
+    100250: left shoe
+    100252: NSIK_lookatnode_001
+    100254: NSIK_lookatnode_002
+    100256: NSIK_lookatnode_003
+    100258: NSIK_lookatnode_004
+    100260: NSIK_lookatnode_005
+    100262: NSIK_lookatnode_006
+    100264: NSIK_lookatnode_007
+    100266: NSIK_lookatnode_008
+    100268: NSIK_lookatnode_009
+    100270: NSIK_lookatnode_010
+    100272: NSIK_lookatnode_011
+    100274: NSIK_lookatnode_012
+    100276: NSIK_lookatnode_013
+    100278: NSIK_lookatnode_014
+    100280: NSIK_lookatnode_015
+    100282: NSIK_lookatnode_016
+    100284: NSIK_lookatnode_017
+    100286: NSIK_lookatnode_018
+    100288: NSIK_lookatnode_019
+    100290: NSIK_lookatnode_020
+    100292: NSIK_lookatnode_021
+    100294: NSIK_lookatnode_022
+    100296: NSIK_lookatnode_023
+    100298: NSIK_lookatnode_024
+    100300: NSIK_lookatnode_025
+    100302: NSIK_lookatnode_026
+    100304: NSIK_lookatnode_027
+    100306: NSIK_lookatnode_028
+    100308: NSIK_lookatnode_029
+    100310: NSIK_lookatnode_030
+    100312: NSIK_lookatnode_031
+    100314: NSIK_lookatnode_032
+    100316: NSIK_lookatnode_033
+    100318: NSIK_lookatnode_034
+    100320: NSIK_lookatnode_035
+    100322: NSIK_lookatnode_036
+    100324: NSIK_lookatnode_037
+    100326: NSIK_lookatnode_038
+    100328: NSIK_lookatnode_039
+    100330: NSIK_lookatnode_040
+    100332: NSIK_lookatnode_041
+    100334: NSIK_lookatnode_042
+    100336: NSIK_lookatnode_043
+    100338: NSIK_lookatnode_044
+    100340: NSIK_lookatnode_045
+    100342: NSIK_lookatnode_046
+    100344: NSIK_lookatnode_047
+    100346: NSIK_lookatnode_048
+    100348: NSIK_lookatnode_049
+    100350: NSIK_lookatnode_050
+    100352: NSIK_lookatnode_051
+    100354: NSIK_lookatnode_052
+    100356: NSIK_lookatnode_053
+    100358: NSIK_lookatnode_054
+    100360: NSIK_lookatnode_055
+    100362: NSIK_lookatnode_056
+    100364: NSIK_lookatnode_057
+    100366: NSIK_lookatnode_058
+    100368: NSIK_lookatnode_059
+    100370: NSIK_lookatnode_060
+    100372: NSIK_lookatnode_061
+    100374: NSIK_lookatnode_062
+    100376: NSIK_lookatnode_063
+    100378: NSIK_lookatnode_064
+    100380: NSIK_lookatnode_065
+    100382: NStrechIK_upNode_001
+    100384: NStrechIK_upNode_002
+    100386: NStrechIK_upNode_003
+    100388: NStrechIK_upNode_004
+    100390: OuterEye
+    100392: Point001
+    100394: Point002
+    100396: Point003
+    100398: Point010
+    100400: Point012
+    100402: Point013
+    100404: Point015
+    100406: PtDrv_Head01
+    100408: PtDrv_L_Brow01
+    100410: PtDrv_L_Brow02
+    100412: PtDrv_L_Eye01
+    100414: PtDrv_R_Brow01
+    100416: PtDrv_R_Brow02
+    100418: PtDrv_R_Eye01
+    100420: Right Hose
+    100422: S2B_NStretchIK_001
+    100424: S2B_NStretchIK_002
+    100426: S2B_NStretchIK_003
+    100428: S2B_NStretchIK_004
+    100430: S2B_NStretchIK_005
+    100432: S2B_NStretchIK_006
+    100434: S2B_NStretchIK_007
+    100436: S2B_NStretchIK_008
+    100438: S2B_NStretchIK_009
+    100440: S2B_NStretchIK_010
+    100442: S2B_NStretchIK_011
+    100444: S2B_NStretchIK_012
+    100446: S2B_NStretchIK_013
+    100448: S2B_NStretchIK_014
+    100450: S2B_NStretchIK_015
+    100452: S2B_NStretchIK_016
+    100454: S2B_NStretchIK_017
+    100456: S2B_NStretchIK_018
+    100458: S2B_NStretchIK_019
+    100460: S2B_NStretchIK_020
+    100462: S2B_NStretchIK_021
+    100464: S2B_NStretchIK_022
+    100466: S2B_NStretchIK_023
+    100468: S2B_NStretchIK_024
+    100470: S2B_NStretchIK_025
+    100472: S2B_NStretchIK_026
+    100474: Shoes
+    100476: StrapBuckle
+    400000: Anim_Canister01
+    400002: Anim_Chest01
+    400004: Anim_Eyes01
+    400006: Anim_Head01
+    400008: Anim_L_Arm01
+    400010: Anim_L_Brow01
+    400012: Anim_L_Brow02
+    400014: Anim_L_Elbow01
+    400016: Anim_L_Eye01
+    400018: Anim_L_Hose01
+    400020: Anim_L_Leg01
+    400022: Anim_L_Palm01
+    400024: Anim_Neck01
+    400026: Anim_Pelvis01
+    400028: Anim_R_Arm01
+    400030: Anim_R_Brow01
+    400032: Anim_R_Brow02
+    400034: Anim_R_Elbow01
+    400036: Anim_R_Eye01
+    400038: Anim_R_Hose01
+    400040: Anim_R_Leg01
+    400042: Anim_R_Palm01
+    400044: Armour2_Pauldron
+    400046: Armour_Forearms
+    400048: Armour_Knees
+    400050: Be_Head01
+    400052: Be_L_Brow01
+    400054: Be_L_Brow02
+    400056: Be_L_Eye01
+    400058: Be_L_Lowerlid01
+    400060: Be_L_Upperlid01
+    400062: Be_R_Brow01
+    400064: Be_R_Brow02
+    400066: Be_R_Eye01
+    400068: Be_R_Lowerlid01
+    400070: Be_R_Upperlid01
+    400072: Belt
+    400074: Belt Straps
+    400076: Bn_Canister01
+    400078: Bn_Head01
+    400080: Bn_L_Brow01
+    400082: Bn_L_Brow02
+    400084: Bn_L_Eye01
+    400086: Bn_L_Lowerlid01
+    400088: Bn_L_Upperlid01
+    400090: Bn_Neck01
+    400092: Bn_R_Brow01
+    400094: Bn_R_Brow02
+    400096: Bn_R_Eye01
+    400098: Bn_R_Lowerlid01
+    400100: Bn_R_Upperlid01
+    400102: Body+Tshirt+Pants
+    400104: Canister and Straps
+    400106: CATRigChest002
+    400108: CATRigHub001
+    400110: CATRigLArm1
+    400112: CATRigLArm1IKPt
+    400114: CATRigLArm2
+    400116: CATRigLArm2IKPt
+    400118: CATRigLArm2Nub
+    400120: CATRigLArmCollarbone
+    400122: CATRigLArmDigit11
+    400124: CATRigLArmDigit12
+    400126: CATRigLArmDigit21
+    400128: CATRigLArmDigit22
+    400130: CATRigLArmDigit23
+    400132: CATRigLArmDigit31
+    400134: CATRigLArmDigit32
+    400136: CATRigLArmDigit33
+    400138: CATRigLArmDigit41
+    400140: CATRigLArmDigit42
+    400142: CATRigLArmDigit43
+    400144: CATRigLArmDigit51
+    400146: CATRigLArmDigit52
+    400148: CATRigLArmDigit53
+    400150: CATRigLArmPalm
+    400152: CATRigLLeg1
+    400154: CATRigLLeg2
+    400156: CATRigLLegAnkle
+    400158: CATRigLLegDigit11
+    400160: CATRigLLegDigit12
+    400162: CATRigRArm1
+    400164: CATRigRArm1IKPt
+    400166: CATRigRArm2
+    400168: CATRigRArm2IKPt
+    400170: CATRigRArm2Nub
+    400172: CATRigRArmCollarbone
+    400174: CATRigRArmDigit11
+    400176: CATRigRArmDigit12
+    400178: CATRigRArmDigit21
+    400180: CATRigRArmDigit22
+    400182: CATRigRArmDigit23
+    400184: CATRigRArmDigit31
+    400186: CATRigRArmDigit32
+    400188: CATRigRArmDigit33
+    400190: CATRigRArmDigit41
+    400192: CATRigRArmDigit42
+    400194: CATRigRArmDigit43
+    400196: CATRigRArmDigit51
+    400198: CATRigRArmDigit52
+    400200: CATRigRArmDigit53
+    400202: CATRigRArmPalm
+    400204: CATRigRLeg1
+    400206: CATRigRLeg2
+    400208: CATRigRLegAnkle
+    400210: CATRigRLegDigit11
+    400212: CATRigRLegDigit12
+    400214: CATRigSpine1
+    400216: CATRigSpine2
+    400218: CATRigSpine3
+    400220: Character001
+    400222: Circle001
+    400224: //RootNode
+    400226: Expose_L_Eye01
+    400228: Expose_R_Eye01
+    400230: Eyebrow001
+    400232: Eyelids
+    400234: Gas Mask
+    400236: Hose_L_Spline01
+    400238: Hose_R_Spline01
+    400240: IK Chain001
+    400242: IK Chain002
+    400244: InnerEye
+    400246: Jacket
+    400248: Left Hose
+    400250: left shoe
+    400252: NSIK_lookatnode_001
+    400254: NSIK_lookatnode_002
+    400256: NSIK_lookatnode_003
+    400258: NSIK_lookatnode_004
+    400260: NSIK_lookatnode_005
+    400262: NSIK_lookatnode_006
+    400264: NSIK_lookatnode_007
+    400266: NSIK_lookatnode_008
+    400268: NSIK_lookatnode_009
+    400270: NSIK_lookatnode_010
+    400272: NSIK_lookatnode_011
+    400274: NSIK_lookatnode_012
+    400276: NSIK_lookatnode_013
+    400278: NSIK_lookatnode_014
+    400280: NSIK_lookatnode_015
+    400282: NSIK_lookatnode_016
+    400284: NSIK_lookatnode_017
+    400286: NSIK_lookatnode_018
+    400288: NSIK_lookatnode_019
+    400290: NSIK_lookatnode_020
+    400292: NSIK_lookatnode_021
+    400294: NSIK_lookatnode_022
+    400296: NSIK_lookatnode_023
+    400298: NSIK_lookatnode_024
+    400300: NSIK_lookatnode_025
+    400302: NSIK_lookatnode_026
+    400304: NSIK_lookatnode_027
+    400306: NSIK_lookatnode_028
+    400308: NSIK_lookatnode_029
+    400310: NSIK_lookatnode_030
+    400312: NSIK_lookatnode_031
+    400314: NSIK_lookatnode_032
+    400316: NSIK_lookatnode_033
+    400318: NSIK_lookatnode_034
+    400320: NSIK_lookatnode_035
+    400322: NSIK_lookatnode_036
+    400324: NSIK_lookatnode_037
+    400326: NSIK_lookatnode_038
+    400328: NSIK_lookatnode_039
+    400330: NSIK_lookatnode_040
+    400332: NSIK_lookatnode_041
+    400334: NSIK_lookatnode_042
+    400336: NSIK_lookatnode_043
+    400338: NSIK_lookatnode_044
+    400340: NSIK_lookatnode_045
+    400342: NSIK_lookatnode_046
+    400344: NSIK_lookatnode_047
+    400346: NSIK_lookatnode_048
+    400348: NSIK_lookatnode_049
+    400350: NSIK_lookatnode_050
+    400352: NSIK_lookatnode_051
+    400354: NSIK_lookatnode_052
+    400356: NSIK_lookatnode_053
+    400358: NSIK_lookatnode_054
+    400360: NSIK_lookatnode_055
+    400362: NSIK_lookatnode_056
+    400364: NSIK_lookatnode_057
+    400366: NSIK_lookatnode_058
+    400368: NSIK_lookatnode_059
+    400370: NSIK_lookatnode_060
+    400372: NSIK_lookatnode_061
+    400374: NSIK_lookatnode_062
+    400376: NSIK_lookatnode_063
+    400378: NSIK_lookatnode_064
+    400380: NSIK_lookatnode_065
+    400382: NStrechIK_upNode_001
+    400384: NStrechIK_upNode_002
+    400386: NStrechIK_upNode_003
+    400388: NStrechIK_upNode_004
+    400390: OuterEye
+    400392: Point001
+    400394: Point002
+    400396: Point003
+    400398: Point010
+    400400: Point012
+    400402: Point013
+    400404: Point015
+    400406: PtDrv_Head01
+    400408: PtDrv_L_Brow01
+    400410: PtDrv_L_Brow02
+    400412: PtDrv_L_Eye01
+    400414: PtDrv_R_Brow01
+    400416: PtDrv_R_Brow02
+    400418: PtDrv_R_Eye01
+    400420: Right Hose
+    400422: S2B_NStretchIK_001
+    400424: S2B_NStretchIK_002
+    400426: S2B_NStretchIK_003
+    400428: S2B_NStretchIK_004
+    400430: S2B_NStretchIK_005
+    400432: S2B_NStretchIK_006
+    400434: S2B_NStretchIK_007
+    400436: S2B_NStretchIK_008
+    400438: S2B_NStretchIK_009
+    400440: S2B_NStretchIK_010
+    400442: S2B_NStretchIK_011
+    400444: S2B_NStretchIK_012
+    400446: S2B_NStretchIK_013
+    400448: S2B_NStretchIK_014
+    400450: S2B_NStretchIK_015
+    400452: S2B_NStretchIK_016
+    400454: S2B_NStretchIK_017
+    400456: S2B_NStretchIK_018
+    400458: S2B_NStretchIK_019
+    400460: S2B_NStretchIK_020
+    400462: S2B_NStretchIK_021
+    400464: S2B_NStretchIK_022
+    400466: S2B_NStretchIK_023
+    400468: S2B_NStretchIK_024
+    400470: S2B_NStretchIK_025
+    400472: S2B_NStretchIK_026
+    400474: Shoes
+    400476: StrapBuckle
+    2300000: Anim_Eyes01
+    2300002: Anim_L_Arm01
+    2300004: Anim_R_Arm01
+    2300006: StrapBuckle
+    3300000: Anim_Eyes01
+    3300002: Anim_L_Arm01
+    3300004: Anim_R_Arm01
+    3300006: StrapBuckle
+    4300000: Eyelids
+    4300002: Anim_L_Arm01
+    4300004: Anim_R_Arm01
+    4300006: Shoes
+    4300008: Belt Straps
+    4300010: Belt
+    4300012: Gas Mask
+    4300014: Body+Tshirt+Pants
+    4300016: Jacket
+    4300018: left shoe
+    4300020: StrapBuckle
+    4300022: Eyebrow001
+    4300024: Anim_Eyes01
+    4300026: Armour_Knees
+    4300028: Armour2_Pauldron
+    4300030: Armour_Forearms
+    4300032: Canister and Straps
+    4300034: Left Hose
+    4300036: Right Hose
+    4300038: OuterEye
+    4300040: InnerEye
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Armour2_Pauldron
+    13700002: Armour_Forearms
+    13700004: Armour_Knees
+    13700006: Belt
+    13700008: Belt Straps
+    13700010: Body+Tshirt+Pants
+    13700012: Canister and Straps
+    13700014: Eyebrow001
+    13700016: Eyelids
+    13700018: Gas Mask
+    13700020: InnerEye
+    13700022: Jacket
+    13700024: Left Hose
+    13700026: left shoe
+    13700028: OuterEye
+    13700030: Right Hose
+    13700032: Shoes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'CATRigLLeg1' has translation animation that
+      will be discarded.\n\t'CATRigLLeg2' has translation animation that will be discarded.\n\t'CATRigLLegAnkle'
+      has translation animation that will be discarded.\n\t'CATRigLLegDigit11' has
+      translation animation that will be discarded.\n\t'CATRigRLeg1' has translation
+      animation that will be discarded.\n\t'CATRigRLeg2' has translation animation
+      that will be discarded.\n\t'CATRigRLegAnkle' has translation animation that
+      will be discarded.\n\t'CATRigRLegDigit11' has translation animation that will
+      be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim_Chest01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_Eyes01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_Eyes01/Anim_L_Eye01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_Eyes01/Anim_R_Eye01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_L_Brow01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_L_Brow01/PtDrv_L_Brow01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_L_Brow02
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_L_Brow02/PtDrv_L_Brow02
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_R_Brow01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_R_Brow01/PtDrv_R_Brow01
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_R_Brow02
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/Anim_R_Brow02/PtDrv_R_Brow02
+        weight: 0
+      - path: Anim_Chest01/Anim_Neck01/Anim_Head01/PtDrv_Head01
+        weight: 0
+      - path: Anim_Pelvis01
+        weight: 0
+      - path: Armour2_Pauldron
+        weight: 0
+      - path: Armour_Forearms
+        weight: 0
+      - path: Armour_Knees
+        weight: 0
+      - path: Belt
+        weight: 0
+      - path: Belt Straps
+        weight: 0
+      - path: Body+Tshirt+Pants
+        weight: 0
+      - path: Canister and Straps
+        weight: 0
+      - path: Character001
+        weight: 1
+      - path: Character001/Anim_L_Arm01
+        weight: 0
+      - path: Character001/Anim_L_Arm01/IK Chain001
+        weight: 0
+      - path: Character001/Anim_L_Elbow01
+        weight: 0
+      - path: Character001/Anim_L_Leg01
+        weight: 0
+      - path: Character001/Anim_L_Palm01
+        weight: 0
+      - path: Character001/Anim_R_Arm01
+        weight: 0
+      - path: Character001/Anim_R_Arm01/IK Chain002
+        weight: 0
+      - path: Character001/Anim_R_Elbow01
+        weight: 0
+      - path: Character001/Anim_R_Leg01
+        weight: 0
+      - path: Character001/Anim_R_Palm01
+        weight: 0
+      - path: Character001/CATRigHub001
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigLLegDigit11
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigLLegDigit11/CATRigLLegDigit12
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigRLegDigit11
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigRLegDigit11/CATRigRLegDigit12
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Canister01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Canister01/Anim_Canister01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Be_Head01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Brow01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Brow01/Be_L_Brow01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Brow02
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Brow02/Be_L_Brow02
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Lowerlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Lowerlid01/Be_L_Lowerlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Upperlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_L_Upperlid01/Be_L_Upperlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Brow01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Brow01/Be_R_Brow01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Brow02
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Brow02/Be_R_Brow02
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Lowerlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Lowerlid01/Be_R_Lowerlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Upperlid01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Bn_R_Upperlid01/Be_R_Upperlid01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Expose_L_Eye01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Expose_R_Eye01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Point001
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Point001/Point010
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Point001/Point010/Anim_L_Hose01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Point002
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Point002/Point013
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/Point002/Point013/Anim_R_Hose01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/PtDrv_L_Eye01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/PtDrv_L_Eye01/Bn_L_Eye01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/PtDrv_L_Eye01/Bn_L_Eye01/Be_L_Eye01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/PtDrv_R_Eye01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/PtDrv_R_Eye01/Bn_R_Eye01
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/Bn_Neck01/Bn_Head01/PtDrv_R_Eye01/Bn_R_Eye01/Be_R_Eye01
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArm1IKPt
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArm1IKPt/CATRigLArm2IKPt
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArm1IKPt/CATRigLArm2IKPt/CATRigLArm2Nub
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22/CATRigLArmDigit23
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32/CATRigLArmDigit33
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42/CATRigLArmDigit43
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit51
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit51/CATRigLArmDigit52
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit51/CATRigLArmDigit52/CATRigLArmDigit53
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArm1IKPt
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArm1IKPt/CATRigRArm2IKPt
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArm1IKPt/CATRigRArm2IKPt/CATRigRArm2Nub
+        weight: 0
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22/CATRigRArmDigit23
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32/CATRigRArmDigit33
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42/CATRigRArmDigit43
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit51
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit51/CATRigRArmDigit52
+        weight: 1
+      - path: Character001/CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigChest002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit51/CATRigRArmDigit52/CATRigRArmDigit53
+        weight: 1
+      - path: Circle001
+        weight: 0
+      - path: Eyebrow001
+        weight: 0
+      - path: Eyelids
+        weight: 0
+      - path: Gas Mask
+        weight: 0
+      - path: Hose_L_Spline01
+        weight: 0
+      - path: Hose_R_Spline01
+        weight: 0
+      - path: InnerEye
+        weight: 0
+      - path: Jacket
+        weight: 0
+      - path: Left Hose
+        weight: 0
+      - path: left shoe
+        weight: 0
+      - path: NSIK_lookatnode_001
+        weight: 0
+      - path: NSIK_lookatnode_002
+        weight: 0
+      - path: NSIK_lookatnode_003
+        weight: 0
+      - path: NSIK_lookatnode_004
+        weight: 0
+      - path: NSIK_lookatnode_005
+        weight: 0
+      - path: NSIK_lookatnode_006
+        weight: 0
+      - path: NSIK_lookatnode_007
+        weight: 0
+      - path: NSIK_lookatnode_008
+        weight: 0
+      - path: NSIK_lookatnode_009
+        weight: 0
+      - path: NSIK_lookatnode_010
+        weight: 0
+      - path: NSIK_lookatnode_011
+        weight: 0
+      - path: NSIK_lookatnode_012
+        weight: 0
+      - path: NSIK_lookatnode_013
+        weight: 0
+      - path: NSIK_lookatnode_014
+        weight: 0
+      - path: NSIK_lookatnode_015
+        weight: 0
+      - path: NSIK_lookatnode_016
+        weight: 0
+      - path: NSIK_lookatnode_017
+        weight: 0
+      - path: NSIK_lookatnode_018
+        weight: 0
+      - path: NSIK_lookatnode_019
+        weight: 0
+      - path: NSIK_lookatnode_020
+        weight: 0
+      - path: NSIK_lookatnode_021
+        weight: 0
+      - path: NSIK_lookatnode_022
+        weight: 0
+      - path: NSIK_lookatnode_023
+        weight: 0
+      - path: NSIK_lookatnode_024
+        weight: 0
+      - path: NSIK_lookatnode_025
+        weight: 0
+      - path: NSIK_lookatnode_026
+        weight: 0
+      - path: NSIK_lookatnode_027
+        weight: 0
+      - path: NSIK_lookatnode_028
+        weight: 0
+      - path: NSIK_lookatnode_029
+        weight: 0
+      - path: NSIK_lookatnode_030
+        weight: 0
+      - path: NSIK_lookatnode_031
+        weight: 0
+      - path: NSIK_lookatnode_032
+        weight: 0
+      - path: NSIK_lookatnode_033
+        weight: 0
+      - path: NSIK_lookatnode_034
+        weight: 0
+      - path: NSIK_lookatnode_035
+        weight: 0
+      - path: NSIK_lookatnode_036
+        weight: 0
+      - path: NSIK_lookatnode_037
+        weight: 0
+      - path: NSIK_lookatnode_038
+        weight: 0
+      - path: NSIK_lookatnode_039
+        weight: 0
+      - path: NSIK_lookatnode_040
+        weight: 0
+      - path: NSIK_lookatnode_041
+        weight: 0
+      - path: NSIK_lookatnode_042
+        weight: 0
+      - path: NSIK_lookatnode_043
+        weight: 0
+      - path: NSIK_lookatnode_044
+        weight: 0
+      - path: NSIK_lookatnode_045
+        weight: 0
+      - path: NSIK_lookatnode_046
+        weight: 0
+      - path: NSIK_lookatnode_047
+        weight: 0
+      - path: NSIK_lookatnode_048
+        weight: 0
+      - path: NSIK_lookatnode_049
+        weight: 0
+      - path: NSIK_lookatnode_050
+        weight: 0
+      - path: NSIK_lookatnode_051
+        weight: 0
+      - path: NSIK_lookatnode_052
+        weight: 0
+      - path: NSIK_lookatnode_053
+        weight: 0
+      - path: NSIK_lookatnode_054
+        weight: 0
+      - path: NSIK_lookatnode_055
+        weight: 0
+      - path: NSIK_lookatnode_056
+        weight: 0
+      - path: NSIK_lookatnode_057
+        weight: 0
+      - path: NSIK_lookatnode_058
+        weight: 0
+      - path: NSIK_lookatnode_059
+        weight: 0
+      - path: NSIK_lookatnode_060
+        weight: 0
+      - path: NSIK_lookatnode_061
+        weight: 0
+      - path: NSIK_lookatnode_062
+        weight: 0
+      - path: NSIK_lookatnode_063
+        weight: 0
+      - path: NSIK_lookatnode_064
+        weight: 0
+      - path: NSIK_lookatnode_065
+        weight: 0
+      - path: NStrechIK_upNode_001
+        weight: 0
+      - path: NStrechIK_upNode_002
+        weight: 0
+      - path: NStrechIK_upNode_003
+        weight: 0
+      - path: NStrechIK_upNode_004
+        weight: 0
+      - path: OuterEye
+        weight: 0
+      - path: Point003
+        weight: 0
+      - path: Point003/Point012
+        weight: 0
+      - path: Point003/Point015
+        weight: 0
+      - path: Right Hose
+        weight: 0
+      - path: S2B_NStretchIK_001
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007/S2B_NStretchIK_008
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007/S2B_NStretchIK_008/S2B_NStretchIK_009
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007/S2B_NStretchIK_008/S2B_NStretchIK_009/S2B_NStretchIK_010
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007/S2B_NStretchIK_008/S2B_NStretchIK_009/S2B_NStretchIK_010/S2B_NStretchIK_011
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007/S2B_NStretchIK_008/S2B_NStretchIK_009/S2B_NStretchIK_010/S2B_NStretchIK_011/S2B_NStretchIK_012
+        weight: 0
+      - path: S2B_NStretchIK_001/S2B_NStretchIK_002/S2B_NStretchIK_003/S2B_NStretchIK_004/S2B_NStretchIK_005/S2B_NStretchIK_006/S2B_NStretchIK_007/S2B_NStretchIK_008/S2B_NStretchIK_009/S2B_NStretchIK_010/S2B_NStretchIK_011/S2B_NStretchIK_012/S2B_NStretchIK_013
+        weight: 0
+      - path: S2B_NStretchIK_014
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020/S2B_NStretchIK_021
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020/S2B_NStretchIK_021/S2B_NStretchIK_022
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020/S2B_NStretchIK_021/S2B_NStretchIK_022/S2B_NStretchIK_023
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020/S2B_NStretchIK_021/S2B_NStretchIK_022/S2B_NStretchIK_023/S2B_NStretchIK_024
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020/S2B_NStretchIK_021/S2B_NStretchIK_022/S2B_NStretchIK_023/S2B_NStretchIK_024/S2B_NStretchIK_025
+        weight: 0
+      - path: S2B_NStretchIK_014/S2B_NStretchIK_015/S2B_NStretchIK_016/S2B_NStretchIK_017/S2B_NStretchIK_018/S2B_NStretchIK_019/S2B_NStretchIK_020/S2B_NStretchIK_021/S2B_NStretchIK_022/S2B_NStretchIK_023/S2B_NStretchIK_024/S2B_NStretchIK_025/S2B_NStretchIK_026
+        weight: 0
+      - path: Shoes
+        weight: 0
+      - path: StrapBuckle
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: CATRigHub001
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigSpine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigSpine3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bn_Neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bn_Head01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArm1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArm2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLLegDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRLegDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bn_L_Eye01
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bn_R_Eye01
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bn_R_Upperlid01
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit11
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit21
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit22
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit23
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit12
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit31
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit32
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit33
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit41
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit42
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit43
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit51
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit52
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigLArmDigit53
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit11
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit12
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit21
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit22
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit23
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit31
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit32
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit33
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit41
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit42
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit43
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit51
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit52
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CATRigRArmDigit53
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Eden_Model(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_Chest01
+      position: {x: -0.04517406, y: 0.8918964, z: -0.02955701}
+      rotation: {x: 0.5000001, y: -0.49999973, z: -0.49999988, w: 0.50000024}
+      scale: {x: 1.3676502, y: 1.3676502, z: 1.3676502}
+      transformModified: 1
+    - name: Anim_Neck01
+      position: {x: -0.04573461, y: -0.009625288, z: 0}
+      rotation: {x: 0.97773254, y: -0.20985498, z: 0.00000026019896, w: -0.00000008034304}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Anim_Head01
+      position: {x: -0.06145298, y: -0.000000048446655, z: 0}
+      rotation: {x: -0.14838995, y: -0.69136125, z: -0.14838994, w: 0.6913613}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Anim_Eyes01
+      position: {x: 0.000000072669984, y: -0.11914241, z: 0.005443854}
+      rotation: {x: 0.000000033092352, y: -0.00000023841856, z: -0.00000004894053,
+        w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: Anim_L_Eye01
+      position: {x: -0.021999968, y: -0.000000012111664, z: 0}
+      rotation: {x: -6.541012e-29, y: 7.1054274e-15, z: 9.205656e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_R_Eye01
+      position: {x: 0.021999976, y: -0.000000012111664, z: 0}
+      rotation: {x: -6.541012e-29, y: 7.1054274e-15, z: 9.205656e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_L_Brow01
+      position: {x: -0.008767436, y: -0.026758831, z: 0.026283182}
+      rotation: {x: 0.49999973, y: 0.5000006, z: 0.49999958, w: 0.5000002}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: PtDrv_L_Brow01
+      position: {x: -0.000000003027916, y: 0.00000009689331, z: 0}
+      rotation: {x: -5.684342e-14, y: -1.2987672e-14, z: 0.00000023841858, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: Anim_L_Brow02
+      position: {x: -0.03547554, y: -0.026758822, z: 0.028822804}
+      rotation: {x: 0.50000006, y: 0.5000002, z: 0.49999997, w: 0.49999982}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: PtDrv_L_Brow02
+      position: {x: -0.00000000756979, y: 0, z: 0}
+      rotation: {x: -0.00000023841852, y: 2.1769602e-13, z: -0.0000007152556, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Anim_R_Brow01
+      position: {x: 0.009000033, y: -0.026758825, z: 0.026283327}
+      rotation: {x: -0.49999988, y: -0.49999997, z: 0.5000001, w: 0.49999997}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: PtDrv_R_Brow01
+      position: {x: -0, y: 0, z: -0.000000003027916}
+      rotation: {x: -5.008526e-10, y: 0.0000000072166326, z: 0.00000072463286, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_R_Brow02
+      position: {x: 0.034999996, y: -0.026758816, z: 0.028822755}
+      rotation: {x: 0.49999997, y: 0.5000002, z: -0.49999997, w: -0.4999999}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999999}
+      transformModified: 1
+    - name: PtDrv_R_Brow02
+      position: {x: -0.000000009083748, y: 0, z: 0}
+      rotation: {x: 0.0000000027821199, y: -0.000000022745963, z: 0.0000014269832,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: PtDrv_Head01
+      position: {x: -0.000000003027916, y: 0, z: 0}
+      rotation: {x: 0.03462571, y: 0.70625854, z: 0.03462579, w: 0.70625854}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Anim_Pelvis01
+      position: {x: -0.045174055, y: 0.58918506, z: -0.026076272}
+      rotation: {x: 0.5000001, y: -0.49999973, z: -0.49999988, w: 0.50000024}
+      scale: {x: 1.3676502, y: 1.3676502, z: 1.3676502}
+      transformModified: 1
+    - name: Armour2_Pauldron
+      position: {x: 0.5187069, y: 1.0309098, z: 0.0028322581}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Armour_Forearms
+      position: {x: -0.04517405, y: 0.68907666, z: 0.19401999}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Armour_Knees
+      position: {x: 0.05929535, y: 0.29825035, z: -0.04294884}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Belt
+      position: {x: -0.045174055, y: 0.6539859, z: 0.055889606}
+      rotation: {x: 0.00000014417974, y: -0.000000024007774, z: -0.24218643, w: 0.97022974}
+      scale: {x: 0.4782747, y: 0.8983214, z: 0.52285695}
+      transformModified: 1
+    - name: Belt Straps
+      position: {x: -0.04517406, y: 0.6654191, z: -0.016658813}
+      rotation: {x: -0.80721205, y: 0, z: -0, w: 0.59026164}
+      scale: {x: 6.699315, y: 6.6993165, z: 6.6993165}
+      transformModified: 1
+    - name: Body+Tshirt+Pants
+      position: {x: -0.045127645, y: 0.5890206, z: -0.018297289}
+      rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Canister and Straps
+      position: {x: -0.04435087, y: 0.9168324, z: -0.19737326}
+      rotation: {x: -0.71704704, y: -0.00000016530849, z: -0.00000023276839, w: 0.6970249}
+      scale: {x: 0.8297714, y: 0.8297714, z: 0.82977134}
+      transformModified: 1
+    - name: Character001
+      position: {x: -0.045174055, y: 0.032362364, z: 0.002832214}
+      rotation: {x: 0.5000001, y: -0.5, z: -0.49999988, w: 0.5}
+      scale: {x: 1.9233947, y: 1.9233947, z: 1.9233947}
+      transformModified: 1
+    - name: Anim_L_Arm01
+      position: {x: -0.3456956, y: -0.008752874, z: 0.16575946}
+      rotation: {x: 0.7071069, y: 0.00000009415695, z: -0.7071067, w: 0.000000094156974}
+      scale: {x: 0.7110605, y: 0.7110605, z: 0.7110605}
+      transformModified: 1
+    - name: IK Chain001
+      position: {x: -0, y: -7.56979e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 1.2193557e-20, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Anim_L_Elbow01
+      position: {x: -0.40770724, y: -0.0928517, z: 0.111532204}
+      rotation: {x: -0.49999997, y: 0.50000006, z: 0.49999982, w: 0.5000002}
+      scale: {x: 0.71106046, y: 0.71106046, z: 0.7110604}
+      transformModified: 1
+    - name: Anim_L_Leg01
+      position: {x: -0, y: -0.020758867, z: 0.07783849}
+      rotation: {x: -0.00000023841858, y: -1.2054768e-13, z: 0.00000047683716, w: 1}
+      scale: {x: 0.7110606, y: 0.7110606, z: 0.7110606}
+      transformModified: 1
+    - name: Anim_L_Palm01
+      position: {x: -0.34569547, y: -0.008749854, z: 0.16575938}
+      rotation: {x: -0.30920863, y: 0.59579927, z: 0.7286597, w: 0.1358982}
+      scale: {x: 0.71105886, y: 0.71106327, z: 0.7110603}
+      transformModified: 1
+    - name: Anim_R_Arm01
+      position: {x: -0.34569532, y: -0.008752876, z: -0.1657592}
+      rotation: {x: 0.7071069, y: 0.00000009415695, z: -0.7071067, w: 0.000000094156974}
+      scale: {x: 0.7110605, y: 0.7110605, z: 0.7110605}
+      transformModified: 1
+    - name: IK Chain002
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -1.9106853e-15, y: -0.000000043711392, z: -0.00000004371138, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Anim_R_Elbow01
+      position: {x: -0.40770724, y: -0.092851736, z: -0.11163645}
+      rotation: {x: -0.49999997, y: 0.50000006, z: 0.49999982, w: 0.5000002}
+      scale: {x: 0.71106046, y: 0.71106046, z: 0.7110604}
+      transformModified: 1
+    - name: Anim_R_Leg01
+      position: {x: -0, y: -0.020758865, z: -0.0778385}
+      rotation: {x: -0.00000023841858, y: -1.2054768e-13, z: 0.00000047683716, w: 1}
+      scale: {x: 0.7110606, y: 0.7110606, z: 0.7110606}
+      transformModified: 1
+    - name: Anim_R_Palm01
+      position: {x: -0.34569556, y: -0.00875015, z: -0.16575928}
+      rotation: {x: 0.30908665, y: -0.5961606, z: 0.72838646, w: 0.13605574}
+      scale: {x: 0.71106064, y: 0.71105987, z: 0.7110618}
+      transformModified: 1
+    - name: CATRigHub001
+      position: {x: -0.26890722, y: -0.015030026, z: -0.02334765}
+      rotation: {x: -0.00019460917, y: -0.0000059604645, z: -0.0192222, w: 0.9998152}
+      scale: {x: 0.71106076, y: 0.7110609, z: 0.7110607}
+      transformModified: 1
+    - name: CATRigLLeg1
+      position: {x: 0.000000048446655, y: -0.000000003027916, z: 0.032133427}
+      rotation: {x: 0.00073188543, y: 0.9999597, z: 0.00055095553, w: 0.008934364}
+      scale: {x: 0.99999946, y: 0.9999995, z: 0.9999992}
+      transformModified: 1
+    - name: CATRigLLeg2
+      position: {x: -0.18679276, y: -0.00008487854, z: 0.005779444}
+      rotation: {x: -0.0042847395, y: 0.03256303, z: 0.07827379, w: 0.99639076}
+      scale: {x: 1.0000048, y: 0.9999957, z: 1.000001}
+      transformModified: 1
+    - name: CATRigLLegAnkle
+      position: {x: -0.1692053, y: 0.000067904046, z: 0.00035307923}
+      rotation: {x: -0.005258739, y: -0.06081775, z: -0.1423285, w: 0.9879353}
+      scale: {x: 1.0000015, y: 0.99999815, z: 0.9999994}
+      transformModified: 1
+    - name: CATRigLLegDigit11
+      position: {x: -0.032634217, y: 0.0022279164, z: 0.002451958}
+      rotation: {x: -0.045125782, y: 0.009242605, z: -0.58734435, w: 0.80802536}
+      scale: {x: 1.0000126, y: 0.99998754, z: 1.0000004}
+      transformModified: 1
+    - name: CATRigLLegDigit12
+      position: {x: -0.080244705, y: 0.0014623229, z: 0.00025405426}
+      rotation: {x: 0.00085858244, y: 0.009313065, z: -0.091796525, w: 0.9957339}
+      scale: {x: 1.0000018, y: 0.999999, z: 0.9999999}
+      transformModified: 1
+    - name: CATRigRLeg1
+      position: {x: -0.0013076721, y: -0.00000023617744, z: -0.032135617}
+      rotation: {x: 0.0099360645, y: 0.99570477, z: -0.00003527105, w: -0.09205046}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.9999997}
+      transformModified: 1
+    - name: CATRigRLeg2
+      position: {x: -0.18855843, y: -0.00005490217, z: -0.0057887575}
+      rotation: {x: 0.0043419604, y: -0.03197262, z: 0.07828494, w: 0.99640876}
+      scale: {x: 0.9999954, y: 1.0000051, z: 0.9999995}
+      transformModified: 1
+    - name: CATRigRLegAnkle
+      position: {x: -0.16968603, y: -0.0000070005417, z: -0.00038400636}
+      rotation: {x: 0.0045841336, y: -0.023005188, z: -0.15041506, w: 0.98834467}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigRLegDigit11
+      position: {x: -0.03308964, y: 0.0021785279, z: -0.0024561363}
+      rotation: {x: 0.04520872, y: -0.009339937, z: -0.587104, w: 0.80819416}
+      scale: {x: 0.99998975, y: 1.0000101, z: 0.9999999}
+      transformModified: 1
+    - name: CATRigRLegDigit12
+      position: {x: -0.0803232, y: 0.0010127289, z: -0.00021788277}
+      rotation: {x: -0.0008585789, y: -0.009313019, z: -0.0917965, w: 0.9957339}
+      scale: {x: 0.9999993, y: 1.0000006, z: 0.99999994}
+      transformModified: 1
+    - name: CATRigSpine1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000029802322, y: 0.00000017881393, z: 0.055947423, w: -0.9984337}
+      scale: {x: 0.9999991, y: 0.9999993, z: 0.9999996}
+      transformModified: 1
+    - name: CATRigSpine2
+      position: {x: -0.07529773, y: 0, z: 0.000000003027916}
+      rotation: {x: 0, y: -0.000000029802322, z: -0.06385173, w: -0.99795943}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigSpine3
+      position: {x: -0.07236516, y: 7.56979e-10, z: 0}
+      rotation: {x: 0, y: -0.00000001490116, z: 0.05774763, w: 0.99833125}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigChest002
+      position: {x: -0.07479931, y: 0, z: 0}
+      rotation: {x: 0.00000004470348, y: 0.000000104308114, z: -0.06565104, w: 0.99784267}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Bn_Canister01
+      position: {x: -0.024659056, y: -0.1227127, z: -0.00017397497}
+      rotation: {x: 0.000000119209275, y: -0.0000001490116, z: -0.99991703, w: 0.012881754}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000001}
+      transformModified: 1
+    - name: Anim_Canister01
+      position: {x: -0.23906922, y: -0.00000010900497, z: 0}
+      rotation: {x: 0.00000016292083, y: 4.239607e-14, z: 0.00000023841858, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bn_Neck01
+      position: {x: -0.04573466, y: -0.009625284, z: 0.00000001513958}
+      rotation: {x: -0.980688, y: 0.19528319, z: 0.010515735, w: 0.0022568703}
+      scale: {x: 0.9999998, y: 0.99999946, z: 1}
+      transformModified: 1
+    - name: Bn_Head01
+      position: {x: -0.06145298, y: -0.000000048446655, z: 0}
+      rotation: {x: -0.0000014305115, y: 0.0000004172325, z: -0.16172555, w: 0.9868358}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+      transformModified: 1
+    - name: Be_Head01
+      position: {x: -0.09411853, y: -0.000000024223327, z: 0}
+      rotation: {x: -1.4962938e-10, y: -0.000000010426476, z: 0.000000026077032, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Bn_L_Brow01
+      position: {x: -0.028774697, y: -0.024059512, z: -0.008767446}
+      rotation: {x: 0.0000016093254, y: -0.0000016667102, z: 0.6716327, w: 0.74088436}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Be_L_Brow01
+      position: {x: -0.030716268, y: 0, z: -0.000000063586235}
+      rotation: {x: 1.1368684e-13, y: 6.4500346e-14, z: -4.2632564e-14, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Bn_L_Brow02
+      position: {x: -0.03130206, y: -0.023811094, z: -0.035475545}
+      rotation: {x: 0.000001549721, y: -0.000001926033, z: 0.67163265, w: 0.7408843}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+      transformModified: 1
+    - name: Be_L_Brow02
+      position: {x: -0.023135342, y: -0.000000048446655, z: -0.000000048446655}
+      rotation: {x: -2.842171e-14, y: 6.1178276e-15, z: 2.842171e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bn_L_Lowerlid01
+      position: {x: -0.019575791, y: -0.036129333, z: -0.021999968}
+      rotation: {x: 0.4416016, y: 0.8899834, z: 0.07999077, w: -0.080740325}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+      transformModified: 1
+    - name: Be_L_Lowerlid01
+      position: {x: -0.011886775, y: 0.000000048446655, z: 0.000000048446655}
+      rotation: {x: 0.000000081956394, y: 0.000000040978193, z: -0.00000002980233,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Bn_L_Upperlid01
+      position: {x: -0.019575791, y: -0.036129333, z: -0.021999968}
+      rotation: {x: 0.024978159, y: -0.0328871, z: 0.50249076, w: 0.8635958}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+      transformModified: 1
+    - name: Be_L_Upperlid01
+      position: {x: -0.01188675, y: 0.000000048446655, z: 0.000000003027916}
+      rotation: {x: 0.00000003259629, y: 4.656622e-10, z: 0.000000029802319, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Bn_R_Brow01
+      position: {x: -0.028774746, y: -0.024059504, z: 0.00900003}
+      rotation: {x: 0.7408843, y: 0.67163265, z: 0.0000017881393, w: -0.0000018179417}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: Be_R_Brow01
+      position: {x: -0.030716276, y: 0, z: -0.000000063586235}
+      rotation: {x: 0.00000008742291, y: -8.019415e-15, z: -5.684342e-14, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Bn_R_Brow02
+      position: {x: -0.03130206, y: -0.023811094, z: 0.034999996}
+      rotation: {x: -0.7408852, y: -0.6716318, z: -0.0000014901161, w: 0.0000011324883}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999999}
+      transformModified: 1
+    - name: Be_R_Brow02
+      position: {x: -0.023135344, y: 0.000000048446655, z: -0.000000048446655}
+      rotation: {x: 0.000000087422706, y: -2.1413479e-14, z: 1.8720242e-21, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Bn_R_Lowerlid01
+      position: {x: -0.019575791, y: -0.03612934, z: 0.022000011}
+      rotation: {x: -0.08030792, y: 0.07977319, z: 0.8900229, w: 0.44164038}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000002}
+      transformModified: 1
+    - name: Be_R_Lowerlid01
+      position: {x: -0.011886775, y: -0.000000048446655, z: 0}
+      rotation: {x: -0.000000230968, y: 0.000000009313212, z: 0.000000059604645, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Bn_R_Upperlid01
+      position: {x: -0.019575791, y: -0.03612934, z: 0.022000011}
+      rotation: {x: -0.8636112, y: -0.5025037, z: 0.032466736, w: -0.024732169}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000005}
+      transformModified: 1
+    - name: Be_R_Upperlid01
+      position: {x: -0.011886726, y: 0.000000048446655, z: 0.000000045418737}
+      rotation: {x: -0.0000000018623744, y: 0.00000023329633, z: -0.0000011622907,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999976}
+      transformModified: 1
+    - name: Expose_L_Eye01
+      position: {x: -0.019575888, y: -0.0361293, z: -0.021999968}
+      rotation: {x: 0.000000048973927, y: 0.00000006800333, z: 0.7178247, w: 0.696224}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Expose_R_Eye01
+      position: {x: -0.019575791, y: -0.036129337, z: 0.022396885}
+      rotation: {x: 0.696224, y: 0.7178247, z: -0.00000009558414, w: -0.00000009270783}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Point001
+      position: {x: 0.03381591, y: -0.066189155, z: -0.0764202}
+      rotation: {x: 0.33379227, y: 0.7708138, z: -0.5136108, w: -0.17502236}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+      transformModified: 1
+    - name: Point010
+      position: {x: -0, y: -0.000000048446655, z: 0.00000014533997}
+      rotation: {x: -0.15974905, y: 0.45012447, z: -0.5778558, w: 0.66177857}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: Anim_L_Hose01
+      position: {x: -0.026579833, y: 0.06139461, z: 0.03187785}
+      rotation: {x: -3.0292273e-28, y: -1.4210865e-14, z: -2.1316277e-14, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Point002
+      position: {x: 0.033238087, y: -0.06648377, z: 0.077668466}
+      rotation: {x: -0.26574096, y: -0.2390511, z: 0.9180409, w: 0.17157282}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999995}
+      transformModified: 1
+    - name: Point013
+      position: {x: -0, y: 0.000000012111664, z: -0.000000048446655}
+      rotation: {x: 0.4749109, y: -0.08864639, z: 0.8337193, w: -0.2674201}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+      transformModified: 1
+    - name: Anim_R_Hose01
+      position: {x: 0.02492376, y: 0.061744273, z: 0.031449}
+      rotation: {x: 0, y: -0, z: -8.1067745e-15, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: PtDrv_L_Eye01
+      position: {x: -0.019575791, y: -0.036129333, z: -0.021999968}
+      rotation: {x: -0.000000014173699, y: -0.000000022533563, z: 0.7178247, w: 0.696224}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Bn_L_Eye01
+      position: {x: -0, y: 0.000000048446655, z: 0}
+      rotation: {x: -0.7071072, y: -0.0000041946764, z: 0.0000019967554, w: 0.7071065}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: Be_L_Eye01
+      position: {x: -0.01188672, y: 0.000000042390823, z: 0}
+      rotation: {x: 0.00000007407892, y: -0.000000022351744, z: 0.000000015066476,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: PtDrv_R_Eye01
+      position: {x: -0.019575791, y: -0.036129236, z: 0.022397079}
+      rotation: {x: 0.69622386, y: 0.7178247, z: -0.00000009558414, w: -0.000000092707815}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Bn_R_Eye01
+      position: {x: -0.00000010900497, y: -0.000000048446655, z: 0.00000019378662}
+      rotation: {x: -0.7068829, y: -0.0017108617, z: 0.0017161553, w: -0.7073265}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.9999997}
+      transformModified: 1
+    - name: Be_R_Eye01
+      position: {x: -0.01188672, y: -0.0000000068128108, z: -0.000000048446655}
+      rotation: {x: 0.00000029692302, y: -0.000000052154068, z: 2.8991606e-10, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: CATRigLArm1IKPt
+      position: {x: -0.020024698, y: -0.006725195, z: 0.082296245}
+      rotation: {x: 0.051860526, y: 0.9279327, z: -0.056523643, w: 0.36476916}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: CATRigLArm2IKPt
+      position: {x: -0.1059773, y: -0.000000048446655, z: -0.000000048446655}
+      rotation: {x: -0.08866504, y: -0.00281604, z: -0.12912251, w: 0.9876528}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigLArm2Nub
+      position: {x: -0.11821329, y: 0, z: 0}
+      rotation: {x: -0.000000007450581, y: 0.000000014901161, z: -0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CATRigLArmCollarbone
+      position: {x: -0.030921998, y: -0.014131699, z: 0.04948606}
+      rotation: {x: -0.07519058, y: 0.7945303, z: -0.052148484, w: 0.6002905}
+      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999996}
+      transformModified: 1
+    - name: CATRigLArm1
+      position: {x: -0.03535701, y: 0.000000003027916, z: 0}
+      rotation: {x: 0.19188835, y: -0.09428138, z: 0.11203748, w: 0.9704316}
+      scale: {x: 0.9999988, y: 1, z: 1.0000008}
+      transformModified: 1
+    - name: CATRigLArm2
+      position: {x: -0.10597723, y: 0, z: 0}
+      rotation: {x: -0.11049561, y: -0.05923956, z: -0.008100364, w: 0.9920765}
+      scale: {x: 1.0000017, y: 0.99999964, z: 0.9999996}
+      transformModified: 1
+    - name: CATRigLArmPalm
+      position: {x: -0.11821335, y: -0.000000018167496, z: 0}
+      rotation: {x: -0.78721523, y: -0.11768017, z: 0.017175695, w: 0.6051021}
+      scale: {x: 0.999997, y: 1.0000042, z: 1}
+      transformModified: 1
+    - name: CATRigLArmDigit11
+      position: {x: -0.017215325, y: 0, z: 0.02262936}
+      rotation: {x: 0.48336753, y: 0.346548, z: -0.14184135, w: 0.79129094}
+      scale: {x: 0.99999857, y: 1.0000031, z: 0.9999978}
+      transformModified: 1
+    - name: CATRigLArmDigit12
+      position: {x: -0.039977137, y: 0, z: -0.000000048446655}
+      rotation: {x: -0.001920037, y: -0.017751582, z: 0.082834214, w: 0.9964034}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: CATRigLArmDigit21
+      position: {x: -0.057384312, y: -0.000000048446655, z: 0.022629336}
+      rotation: {x: -0.045657963, y: 0.1285945, z: 0.015516547, w: 0.9905242}
+      scale: {x: 1.0000006, y: 0.9999994, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigLArmDigit22
+      position: {x: -0.022565918, y: 0.000000048446655, z: -0.000000012111664}
+      rotation: {x: 0.0012818124, y: 0.0054638893, z: 0.018466404, w: 0.9998138}
+      scale: {x: 0.9999993, y: 1.0000011, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigLArmDigit23
+      position: {x: -0.016190508, y: 0.000000048446655, z: -0.000000012111664}
+      rotation: {x: -0.00000014901158, y: -0.000000089406946, z: 0.016114919, w: 0.99987024}
+      scale: {x: 1.000001, y: 0.9999993, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigLArmDigit31
+      position: {x: -0.057384312, y: -0.000000048446655, z: 0.007543108}
+      rotation: {x: 0.00001541053, y: 0.01935207, z: -0.034022395, w: 0.9992337}
+      scale: {x: 1.0000008, y: 0.9999994, z: 1}
+      transformModified: 1
+    - name: CATRigLArmDigit32
+      position: {x: -0.026950244, y: 0.00000008478165, z: -0.000000024223327}
+      rotation: {x: 0.00000015646212, y: 0.00000026496116, z: 0.04086826, w: 0.9991646}
+      scale: {x: 0.9999993, y: 1.0000007, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigLArmDigit33
+      position: {x: -0.017625159, y: 0, z: -0.000000036334992}
+      rotation: {x: 0.0000000372529, y: -0.00000006891786, z: 0.03188356, w: 0.99949163}
+      scale: {x: 1.000001, y: 0.99999934, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigLArmDigit41
+      position: {x: -0.0573843, y: -0.000000048446655, z: -0.0075431443}
+      rotation: {x: 0.0006403119, y: -0.0141131915, z: -0.0006306071, w: 0.99990004}
+      scale: {x: 1.000001, y: 0.9999994, z: 0.9999998}
+      transformModified: 1
+    - name: CATRigLArmDigit42
+      position: {x: -0.025563022, y: 0.00000006055832, z: -0.000000024223327}
+      rotation: {x: 0.00015871508, y: 0.00039928968, z: 0.015858207, w: 0.9998742}
+      scale: {x: 0.9999991, y: 1.0000007, z: 1.0000004}
+      transformModified: 1
+    - name: CATRigLArmDigit43
+      position: {x: -0.014380227, y: 0.000000048446655, z: -0.000000024223327}
+      rotation: {x: 0.00000009592622, y: -0.000000037252903, z: 0.033949688, w: 0.99942356}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigLArmDigit51
+      position: {x: -0.057384312, y: -0.000000048446655, z: -0.022629373}
+      rotation: {x: 0.0030485764, y: -0.0072941044, z: 0.0065699164, w: 0.99994725}
+      scale: {x: 1.0000007, y: 0.9999992, z: 1}
+      transformModified: 1
+    - name: CATRigLArmDigit52
+      position: {x: -0.018411133, y: 0.000000048446655, z: -0.000000012111664}
+      rotation: {x: -0.0027073843, y: -0.023098895, z: 0.016405607, w: 0.9995949}
+      scale: {x: 0.9999993, y: 1.000001, z: 1.0000004}
+      transformModified: 1
+    - name: CATRigLArmDigit53
+      position: {x: -0.012569872, y: 0, z: -0.000000012111664}
+      rotation: {x: 0.000000052154057, y: 0.000000020489095, z: 0.041203897, w: 0.9991508}
+      scale: {x: 1.0000007, y: 0.9999995, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigRArm1IKPt
+      position: {x: -0.020024698, y: -0.006725192, z: -0.08229626}
+      rotation: {x: 0.052042518, y: 0.9278802, z: 0.056979112, w: -0.36480576}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: CATRigRArm2IKPt
+      position: {x: -0.105977274, y: 0.000000024223327, z: 0}
+      rotation: {x: 0.08866506, y: 0.0028161264, z: -0.12912259, w: 0.9876528}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: CATRigRArm2Nub
+      position: {x: -0.11821337, y: 0, z: -0.00000009689331}
+      rotation: {x: 1.110223e-16, y: -0.000000029802322, z: 0.0000000037252903, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: CATRigRArmCollarbone
+      position: {x: -0.030921998, y: -0.014131702, z: -0.049486067}
+      rotation: {x: -0.075304136, y: 0.7946119, z: 0.052250687, w: -0.60015935}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.99999964}
+      transformModified: 1
+    - name: CATRigRArm1
+      position: {x: -0.035357, y: 0, z: 0}
+      rotation: {x: -0.20499589, y: 0.13370784, z: 0.15238628, w: 0.9575372}
+      scale: {x: 0.9999996, y: 0.99999934, z: 0.9999997}
+      transformModified: 1
+    - name: CATRigRArm2
+      position: {x: -0.105977274, y: 0, z: 0}
+      rotation: {x: 0.10176223, y: 0.021481222, z: -0.026362674, w: 0.99422735}
+      scale: {x: 0.99999845, y: 1.0000006, z: 1.0000018}
+      transformModified: 1
+    - name: CATRigRArmPalm
+      position: {x: -0.11821337, y: 0.000000018167496, z: -0.000000048446655}
+      rotation: {x: 0.78619045, y: 0.012637041, z: 0.039197344, w: 0.6166105}
+      scale: {x: 1.0000011, y: 0.9999978, z: 1.0000011}
+      transformModified: 1
+    - name: CATRigRArmDigit11
+      position: {x: -0.017215373, y: 0, z: -0.022629263}
+      rotation: {x: -0.47864705, y: -0.34774715, z: -0.15390672, w: 0.7913797}
+      scale: {x: 1, y: 0.9999969, z: 1.0000033}
+      transformModified: 1
+    - name: CATRigRArmDigit12
+      position: {x: -0.03997709, y: -0.000000048446655, z: -0.000000024223327}
+      rotation: {x: 0.001920119, y: 0.017751368, z: 0.082834296, w: 0.9964034}
+      scale: {x: 0.9999994, y: 0.9999996, z: 0.99999964}
+      transformModified: 1
+    - name: CATRigRArmDigit21
+      position: {x: -0.057384506, y: 0, z: -0.022629274}
+      rotation: {x: 0.045658045, y: -0.12859438, z: 0.0155165475, w: 0.9905242}
+      scale: {x: 1.0000006, y: 0.99999905, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigRArmDigit22
+      position: {x: -0.022565966, y: 0, z: -0.000000024223327}
+      rotation: {x: -0.0012815444, y: -0.005463868, z: 0.018466113, w: 0.99981374}
+      scale: {x: 0.9999991, y: 1.000001, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigRArmDigit23
+      position: {x: -0.016190654, y: 0, z: -0.000000024223327}
+      rotation: {x: 0.000000119209275, y: -0.000000052154057, z: 0.016115366, w: 0.9998702}
+      scale: {x: 1.0000008, y: 0.99999905, z: 1.0000004}
+      transformModified: 1
+    - name: CATRigRArmDigit31
+      position: {x: -0.057384506, y: 0, z: -0.007543096}
+      rotation: {x: 0.00031785664, y: -0.00939023, z: -0.033811178, w: 0.9993841}
+      scale: {x: 1.0000008, y: 0.9999989, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigRArmDigit32
+      position: {x: -0.026950244, y: -0.000000012111664, z: 0}
+      rotation: {x: 0.00000024307508, y: 0.000000013824313, z: 0.04087606, w: 0.9991643}
+      scale: {x: 0.9999989, y: 1.000001, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigRArmDigit33
+      position: {x: -0.01762522, y: 0.000000048446655, z: -0.000000012111664}
+      rotation: {x: 0.00000006332992, y: 0.000000026077027, z: 0.03188332, w: 0.9994917}
+      scale: {x: 1.000001, y: 0.9999991, z: 1.0000007}
+      transformModified: 1
+    - name: CATRigRArmDigit41
+      position: {x: -0.05738453, y: -0.000000048446655, z: 0.0075430837}
+      rotation: {x: -0.00064004975, y: 0.014115015, z: -0.0006317866, w: 0.9999}
+      scale: {x: 1.0000005, y: 0.9999989, z: 1.0000004}
+      transformModified: 1
+    - name: CATRigRArmDigit42
+      position: {x: -0.025562974, y: 0, z: -0.000000012111664}
+      rotation: {x: -0.00015873369, y: -0.0003992659, z: 0.015858233, w: 0.9998742}
+      scale: {x: 0.99999917, y: 1.0000011, z: 1.0000001}
+      transformModified: 1
+    - name: CATRigRArmDigit43
+      position: {x: -0.014380287, y: 0.000000048446655, z: -0.000000012111664}
+      rotation: {x: -0.000000031664957, y: -0.000000023748717, z: 0.033949662, w: 0.99942356}
+      scale: {x: 1.0000014, y: 0.99999887, z: 1.0000007}
+      transformModified: 1
+    - name: CATRigRArmDigit51
+      position: {x: -0.057384506, y: 0, z: 0.02262925}
+      rotation: {x: -0.0030482935, y: 0.007298632, z: 0.006568585, w: 0.9999472}
+      scale: {x: 1.0000001, y: 0.999999, z: 1.0000005}
+      transformModified: 1
+    - name: CATRigRArmDigit52
+      position: {x: -0.018411085, y: -0.000000012111664, z: -0.000000024223327}
+      rotation: {x: 0.0027076597, y: 0.023098798, z: 0.01640561, w: 0.9995949}
+      scale: {x: 0.99999905, y: 1.000001, z: 1.0000002}
+      transformModified: 1
+    - name: CATRigRArmDigit53
+      position: {x: -0.012569944, y: 0, z: 0}
+      rotation: {x: -0.000000085681656, y: 0.00000005029141, z: 0.041203845, w: 0.9991508}
+      scale: {x: 1.0000006, y: 0.99999917, z: 1.0000002}
+      transformModified: 1
+    - name: Circle001
+      position: {x: -0.04517406, y: 0.8944783, z: -0.046171702}
+      rotation: {x: 0.000000057601163, y: 0.7071067, z: -0.000000057601152, w: 0.7071068}
+      scale: {x: 1.398744, y: 1.398744, z: 0.6686235}
+      transformModified: 1
+    - name: Eyebrow001
+      position: {x: -0.079247065, y: 1.0691288, z: 0.068242796}
+      rotation: {x: 0.9946725, y: -0.037860315, z: -0.063127086, w: -0.07216813}
+      scale: {x: -0.6562553, y: -0.639435, z: -0.5701226}
+      transformModified: 1
+    - name: Eyelids
+      position: {x: -0.07580063, y: 1.0531439, z: 0.043524154}
+      rotation: {x: -0.6834481, y: 0, z: -0, w: 0.7299991}
+      scale: {x: 1.36765, y: 1.36765, z: 1.3676502}
+      transformModified: 1
+    - name: Gas Mask
+      position: {x: -0.04456551, y: 1.0197148, z: -0.022280006}
+      rotation: {x: -0.71704704, y: -0.00000010678057, z: -0.000000106781165, w: 0.6970249}
+      scale: {x: 0.8297714, y: 0.8297714, z: 0.82977134}
+      transformModified: 1
+    - name: Hose_L_Spline01
+      position: {x: -0.045174055, y: 0.97947365, z: -0.09726537}
+      rotation: {x: 0.000000015454312, y: -0.7071068, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Hose_R_Spline01
+      position: {x: -0.04517405, y: 0.97947365, z: -0.09726537}
+      rotation: {x: 0.000000015454312, y: -0.7071068, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: InnerEye
+      position: {x: -0.014718842, y: 1.0530705, z: 0.043460578}
+      rotation: {x: 0.07530375, y: -0, z: 0, w: 0.9971607}
+      scale: {x: 1.2770982, y: 1.2770982, z: 1.1386658}
+      transformModified: 1
+    - name: Jacket
+      position: {x: -0.13025795, y: 0.5328159, z: 0.06738089}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Left Hose
+      position: {x: -0.045174055, y: 0.97947365, z: -0.09726537}
+      rotation: {x: 0.000000015454312, y: -0.7071068, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: left shoe
+      position: {x: -0.030908968, y: 0.014896329, z: 0.0058771376}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 36.25482, y: 26.336231, z: 26.336231}
+      transformModified: 1
+    - name: NSIK_lookatnode_001
+      position: {x: 0.061049245, y: 0.9769545, z: 0.077812396}
+      rotation: {x: -0.14365822, y: 0.8129305, z: 0.44012758, w: 0.35326192}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_002
+      position: {x: 0.093707524, y: 0.97553134, z: 0.10509023}
+      rotation: {x: -0.1388642, y: 0.86163616, z: 0.4215782, w: 0.24611317}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_003
+      position: {x: 0.13277075, y: 0.9825717, z: 0.11699546}
+      rotation: {x: -0.16064587, y: 0.95349205, z: 0.20659126, w: -0.14955214}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: NSIK_lookatnode_004
+      position: {x: 0.1477549, y: 1.0001441, z: 0.085143745}
+      rotation: {x: 0.39548072, y: -0.64751315, z: 0.13698874, w: 0.6368326}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_005
+      position: {x: 0.134221, y: 1.0113692, z: 0.046534777}
+      rotation: {x: 0.43191582, y: -0.4965566, z: 0.15517181, w: 0.736751}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000006}
+      transformModified: 1
+    - name: NSIK_lookatnode_006
+      position: {x: 0.11084047, y: 1.0178372, z: 0.011519488}
+      rotation: {x: 0.43695304, y: -0.40780514, z: 0.15659264, w: 0.78628606}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_007
+      position: {x: 0.08260452, y: 1.0208615, z: -0.02030128}
+      rotation: {x: 0.42553973, y: -0.36682752, z: 0.17578323, w: 0.80836487}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.99999976}
+      transformModified: 1
+    - name: NSIK_lookatnode_008
+      position: {x: 0.05470053, y: 1.0199856, z: -0.05254532}
+      rotation: {x: 0.40209347, y: -0.36218438, z: 0.22434977, w: 0.81043845}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+      transformModified: 1
+    - name: NSIK_lookatnode_009
+      position: {x: 0.02832112, y: 1.0146353, z: -0.08562376}
+      rotation: {x: 0.37728164, y: -0.35260573, z: 0.27841783, w: 0.8098218}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_010
+      position: {x: 0.0038792023, y: 1.0041957, z: -0.11896318}
+      rotation: {x: 0.35114262, y: -0.33471265, z: 0.3394445, w: 0.8058807}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_011
+      position: {x: -0.017999228, y: 0.98763925, z: -0.15156874}
+      rotation: {x: 0.32146147, y: -0.29800108, z: 0.41664305, w: 0.7964085}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000004}
+      transformModified: 1
+    - name: NSIK_lookatnode_012
+      position: {x: -0.035956006, y: 0.96281934, z: -0.18105032}
+      rotation: {x: 0.28453055, y: -0.19735982, z: 0.5348702, w: 0.77071744}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_013
+      position: {x: -0.044936225, y: 0.92562157, z: -0.19738497}
+      rotation: {x: 0.22719128, y: 0.21268389, z: 0.67088354, w: 0.673101}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_014
+      position: {x: 0.061049245, y: 0.9769545, z: 0.077812396}
+      rotation: {x: -0.14365822, y: 0.8129305, z: 0.44012758, w: 0.35326192}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_015
+      position: {x: 0.093707524, y: 0.97553134, z: 0.10509023}
+      rotation: {x: -0.1388642, y: 0.86163616, z: 0.4215782, w: 0.24611317}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_016
+      position: {x: 0.13277075, y: 0.9825717, z: 0.11699546}
+      rotation: {x: -0.16064587, y: 0.95349205, z: 0.20659126, w: -0.14955214}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: NSIK_lookatnode_017
+      position: {x: 0.1477549, y: 1.0001441, z: 0.085143745}
+      rotation: {x: 0.39548072, y: -0.64751315, z: 0.13698874, w: 0.6368326}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_018
+      position: {x: 0.134221, y: 1.0113692, z: 0.046534777}
+      rotation: {x: 0.43191582, y: -0.4965566, z: 0.15517181, w: 0.736751}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000006}
+      transformModified: 1
+    - name: NSIK_lookatnode_019
+      position: {x: 0.11084047, y: 1.0178372, z: 0.011519488}
+      rotation: {x: 0.43695304, y: -0.40780514, z: 0.15659264, w: 0.78628606}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_020
+      position: {x: 0.08260452, y: 1.0208615, z: -0.02030128}
+      rotation: {x: 0.42553973, y: -0.36682752, z: 0.17578323, w: 0.80836487}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.99999976}
+      transformModified: 1
+    - name: NSIK_lookatnode_021
+      position: {x: 0.05470053, y: 1.0199856, z: -0.05254532}
+      rotation: {x: 0.40209347, y: -0.36218438, z: 0.22434977, w: 0.81043845}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+      transformModified: 1
+    - name: NSIK_lookatnode_022
+      position: {x: 0.02832112, y: 1.0146353, z: -0.08562376}
+      rotation: {x: 0.37728164, y: -0.35260573, z: 0.27841783, w: 0.8098218}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_023
+      position: {x: 0.0038792023, y: 1.0041957, z: -0.11896318}
+      rotation: {x: 0.35114262, y: -0.33471265, z: 0.3394445, w: 0.8058807}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_024
+      position: {x: -0.017999228, y: 0.98763925, z: -0.15156874}
+      rotation: {x: 0.32146147, y: -0.29800108, z: 0.41664305, w: 0.7964085}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000004}
+      transformModified: 1
+    - name: NSIK_lookatnode_025
+      position: {x: -0.035956006, y: 0.96281934, z: -0.18105032}
+      rotation: {x: 0.28453055, y: -0.19735982, z: 0.5348702, w: 0.77071744}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_026
+      position: {x: -0.044936225, y: 0.92562157, z: -0.19738497}
+      rotation: {x: 0.22719128, y: 0.21268389, z: 0.67088354, w: 0.673101}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_027
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_028
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_029
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_030
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_031
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_032
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_033
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_034
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_035
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_036
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_037
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_038
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_039
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_040
+      position: {x: -0.14969015, y: 0.97620773, z: 0.077334255}
+      rotation: {x: 0.81529135, y: -0.1417295, z: -0.35398936, w: -0.43578014}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_041
+      position: {x: -0.18244785, y: 0.9748124, z: 0.104628965}
+      rotation: {x: 0.8643728, y: -0.13762693, z: -0.24565202, w: -0.41662169}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_042
+      position: {x: -0.22163053, y: 0.9818186, z: 0.11675536}
+      rotation: {x: 0.95417756, y: -0.15858628, z: 0.13665144, w: -0.2138272}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999976}
+      transformModified: 1
+    - name: NSIK_lookatnode_043
+      position: {x: -0.23803943, y: 0.9995572, z: 0.085664324}
+      rotation: {x: 0.66205376, y: -0.3876323, z: 0.6279773, w: 0.13065462}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_044
+      position: {x: -0.22510077, y: 1.0110635, z: 0.0468631}
+      rotation: {x: 0.5000818, y: -0.42781293, z: 0.73731774, w: 0.15250207}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_045
+      position: {x: -0.20185192, y: 1.0176462, z: 0.0116802575}
+      rotation: {x: 0.409372, y: -0.4328081, z: 0.7881924, w: 0.15441649}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_046
+      position: {x: -0.17357706, y: 1.020699, z: -0.020220488}
+      rotation: {x: 0.3675875, y: -0.4213098, z: 0.8106866, w: 0.17368007}
+      scale: {x: 1, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: NSIK_lookatnode_047
+      position: {x: -0.1455782, y: 1.0198395, z: -0.052500222}
+      rotation: {x: 0.36276785, y: -0.39802286, z: 0.81284446, w: 0.22194871}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_048
+      position: {x: -0.11906491, y: 1.014512, z: -0.085589975}
+      rotation: {x: 0.35315263, y: -0.37345093, z: 0.8123322, w: 0.27556127}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000004}
+      transformModified: 1
+    - name: NSIK_lookatnode_049
+      position: {x: -0.09444388, y: 1.0041088, z: -0.11892285}
+      rotation: {x: 0.33534992, y: -0.34753457, z: 0.8085446, w: 0.33617827}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_050
+      position: {x: -0.07233715, y: 0.9876046, z: -0.15151766}
+      rotation: {x: 0.2990212, y: -0.31807542, z: 0.7992611, w: 0.4130327}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000007}
+      transformModified: 1
+    - name: NSIK_lookatnode_051
+      position: {x: -0.054110806, y: 0.9628406, z: -0.18100952}
+      rotation: {x: 0.1999482, y: -0.28153905, z: 0.7737537, w: 0.53109485}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_052
+      position: {x: -0.04493614, y: 0.9256217, z: -0.19738494}
+      rotation: {x: -0.21249925, y: -0.22705819, z: 0.67322785, w: 0.6708598}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999998}
+      transformModified: 1
+    - name: NSIK_lookatnode_053
+      position: {x: 0.061049245, y: 0.9769545, z: 0.077812396}
+      rotation: {x: -0.14365828, y: 0.8129305, z: 0.44012752, w: 0.353262}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+      transformModified: 1
+    - name: NSIK_lookatnode_054
+      position: {x: 0.093707524, y: 0.97553134, z: 0.10509023}
+      rotation: {x: -0.13886428, y: 0.86163616, z: 0.4215782, w: 0.2461133}
+      scale: {x: 0.9999995, y: 0.99999964, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_055
+      position: {x: 0.13277075, y: 0.9825717, z: 0.11699546}
+      rotation: {x: -0.16064577, y: 0.9534921, z: 0.20659116, w: -0.14955209}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_056
+      position: {x: 0.1477549, y: 1.0001441, z: 0.085143745}
+      rotation: {x: 0.3954807, y: -0.64751315, z: 0.1369888, w: 0.63683265}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: NSIK_lookatnode_057
+      position: {x: 0.134221, y: 1.0113692, z: 0.046534777}
+      rotation: {x: 0.43191576, y: -0.4965566, z: 0.1551718, w: 0.73675096}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+      transformModified: 1
+    - name: NSIK_lookatnode_058
+      position: {x: 0.11084047, y: 1.0178372, z: 0.011519488}
+      rotation: {x: 0.43695307, y: -0.40780503, z: 0.15659255, w: 0.7862861}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NSIK_lookatnode_059
+      position: {x: 0.08260452, y: 1.0208615, z: -0.02030128}
+      rotation: {x: 0.42553964, y: -0.36682743, z: 0.17578317, w: 0.808365}
+      scale: {x: 0.99999976, y: 0.9999994, z: 0.9999992}
+      transformModified: 1
+    - name: NSIK_lookatnode_060
+      position: {x: 0.05470053, y: 1.0199856, z: -0.05254532}
+      rotation: {x: 0.40209353, y: -0.36218438, z: 0.22434974, w: 0.8104385}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: NSIK_lookatnode_061
+      position: {x: 0.02832112, y: 1.0146353, z: -0.08562376}
+      rotation: {x: 0.3772816, y: -0.3526058, z: 0.2784179, w: 0.8098217}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+      transformModified: 1
+    - name: NSIK_lookatnode_062
+      position: {x: 0.0038792023, y: 1.0041957, z: -0.11896318}
+      rotation: {x: 0.3511427, y: -0.33471268, z: 0.3394444, w: 0.8058807}
+      scale: {x: 0.9999999, y: 0.9999996, z: 0.99999964}
+      transformModified: 1
+    - name: NSIK_lookatnode_063
+      position: {x: -0.017999228, y: 0.98763925, z: -0.15156874}
+      rotation: {x: 0.3214615, y: -0.29800114, z: 0.41664302, w: 0.7964085}
+      scale: {x: 1, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: NSIK_lookatnode_064
+      position: {x: -0.035956006, y: 0.96281934, z: -0.18105032}
+      rotation: {x: 0.28453058, y: -0.19735985, z: 0.53487015, w: 0.77071744}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+      transformModified: 1
+    - name: NSIK_lookatnode_065
+      position: {x: -0.044936225, y: 0.92562157, z: -0.19738497}
+      rotation: {x: 0.22718807, y: 0.21268085, z: 0.67088455, w: 0.673102}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+      transformModified: 1
+    - name: NStrechIK_upNode_001
+      position: {x: -0.045174055, y: 0.032362364, z: 0.002832214}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: NStrechIK_upNode_002
+      position: {x: -0.045174055, y: 0.032362364, z: 0.002832214}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: NStrechIK_upNode_003
+      position: {x: -0.045174055, y: 0.032362364, z: 0.002832214}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: NStrechIK_upNode_004
+      position: {x: -0.045174055, y: 0.032362364, z: 0.002832214}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: OuterEye
+      position: {x: -0.0146736335, y: 1.0529013, z: 0.043434843}
+      rotation: {x: 0.07530375, y: -0, z: 0, w: 0.9971607}
+      scale: {x: 1.2770982, y: 1.2770982, z: 1.1386658}
+      transformModified: 1
+    - name: Point003
+      position: {x: -0.04493621, y: 0.92562157, z: -0.197385}
+      rotation: {x: 1, y: 0, z: 0, w: 6.123234e-17}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: Point012
+      position: {x: 0.000000048446655, y: -0.00000009689331, z: -0.000000036334992}
+      rotation: {x: 0.7071068, y: -0.000000020223641, z: -0.000000021186677, w: 0.70710677}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Point015
+      position: {x: -0.000000012111664, y: 0, z: -0.000000012111664}
+      rotation: {x: 0.7071068, y: -0.000000023789873, z: 0.000000008381375, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Right Hose
+      position: {x: -0.04517405, y: 0.97947365, z: -0.09726537}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.36765, y: 1.36765, z: 1.36765}
+      transformModified: 1
+    - name: S2B_NStretchIK_001
+      position: {x: -0.14969015, y: 0.97620773, z: 0.077334255}
+      rotation: {x: 0.66534775, y: 0.25270823, z: -0.22850353, w: 0.6642568}
+      scale: {x: 1.3676503, y: 1.3676509, z: 1.3676504}
+      transformModified: 1
+    - name: S2B_NStretchIK_002
+      position: {x: -0.031193396, y: 0.00000000756979, z: 0}
+      rotation: {x: 0.04893113, y: -0.09365217, z: 0.19806698, w: 0.9744766}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: S2B_NStretchIK_003
+      position: {x: -0.03042467, y: 0.000000003027916, z: 0}
+      rotation: {x: 0.26629022, y: -0.021596564, z: 0.6168141, w: 0.74038064}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+      transformModified: 1
+    - name: S2B_NStretchIK_004
+      position: {x: -0.028791822, y: -0.000000012111664, z: -0.000000048446655}
+      rotation: {x: -0.10593408, y: -0.15964122, z: -0.341246, w: -0.92024124}
+      scale: {x: 0.99999994, y: 0.99999934, z: 0.9999993}
+      transformModified: 1
+    - name: S2B_NStretchIK_005
+      position: {x: -0.031067349, y: -0.000000012111664, z: 0}
+      rotation: {x: -0.011129557, y: -0.07679739, z: -0.1178889, w: -0.98999023}
+      scale: {x: 1.0000006, y: 1, z: 1.0000007}
+      transformModified: 1
+    - name: S2B_NStretchIK_006
+      position: {x: -0.031207602, y: -0.000000006055832, z: 0}
+      rotation: {x: 0.0006310641, y: 0.049614824, z: 0.06468607, w: 0.9966714}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999997}
+      transformModified: 1
+    - name: S2B_NStretchIK_007
+      position: {x: -0.031248443, y: -0.000000012111664, z: -0.000000048446655}
+      rotation: {x: 0.00044029485, y: 0.044895206, z: -0.010464961, w: 0.99893683}
+      scale: {x: 0.9999997, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: S2B_NStretchIK_008
+      position: {x: -0.031250242, y: 0.000000012111664, z: 0}
+      rotation: {x: 0.0023838275, y: 0.049850017, z: -0.025283463, w: 0.9984338}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999996}
+      transformModified: 1
+    - name: S2B_NStretchIK_009
+      position: {x: -0.031246942, y: -0.000000012111664, z: 0}
+      rotation: {x: 0.0041943183, y: 0.057804655, z: -0.02616278, w: 0.99797624}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000002}
+      transformModified: 1
+    - name: S2B_NStretchIK_010
+      position: {x: -0.031240389, y: 0, z: 0}
+      rotation: {x: 0.006992398, y: 0.07260591, z: -0.027735941, w: 0.99695045}
+      scale: {x: 1, y: 1.0000005, z: 0.9999998}
+      transformModified: 1
+    - name: S2B_NStretchIK_011
+      position: {x: -0.03122336, y: 0, z: 0}
+      rotation: {x: 0.012915786, y: 0.10843587, z: -0.03173831, w: 0.99351275}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.99999964}
+      transformModified: 1
+    - name: S2B_NStretchIK_012
+      position: {x: -0.031152265, y: -0.000000012111664, z: 0}
+      rotation: {x: 0.040750597, y: 0.23464973, z: -0.049072605, w: 0.96998495}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.99999976}
+      transformModified: 1
+    - name: S2B_NStretchIK_013
+      position: {x: -0.030478759, y: -0.000000012111664, z: 0}
+      rotation: {x: 0.00002807564, y: -0.104532, z: -0.9945215, w: -0.000030845393}
+      scale: {x: 0.9999994, y: 0.9999993, z: 1}
+      transformModified: 1
+    - name: S2B_NStretchIK_014
+      position: {x: 0.061049245, y: 0.9769545, z: 0.077812396}
+      rotation: {x: 0.2534453, y: 0.6649898, z: -0.66432136, w: 0.22854163}
+      scale: {x: 1.36765, y: 1.3676505, z: 1.3676504}
+      transformModified: 1
+    - name: S2B_NStretchIK_015
+      position: {x: -0.031130366, y: -0.000000004541874, z: 0}
+      rotation: {x: -0.04997867, y: -0.09464588, z: -0.20076872, w: 0.97377425}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999997}
+      transformModified: 1
+    - name: S2B_NStretchIK_016
+      position: {x: -0.030299822, y: 0, z: 0}
+      rotation: {x: -0.26848936, y: -0.015343292, z: -0.63135314, w: 0.7273729}
+      scale: {x: 1, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: S2B_NStretchIK_017
+      position: {x: -0.02876663, y: -0.000000012111664, z: 0.000000048446655}
+      rotation: {x: 0.09827745, y: -0.15812203, z: 0.3290346, w: -0.9257836}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1.0000001}
+      transformModified: 1
+    - name: S2B_NStretchIK_018
+      position: {x: -0.031019848, y: 0.000000006055832, z: 0.000000048446655}
+      rotation: {x: -0.010098883, y: 0.07397311, z: -0.11337465, w: 0.9907433}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: S2B_NStretchIK_019
+      position: {x: -0.031146536, y: 0.000000012111664, z: 0.000000048446655}
+      rotation: {x: -0.0005344599, y: 0.048387907, z: -0.06275692, w: 0.9968551}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1.0000001}
+      transformModified: 1
+    - name: S2B_NStretchIK_020
+      position: {x: -0.031184463, y: -0.000000006055832, z: 0}
+      rotation: {x: -0.00047421549, y: 0.044756424, z: 0.011282519, w: 0.9989341}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: S2B_NStretchIK_021
+      position: {x: -0.031185333, y: 0, z: 0}
+      rotation: {x: -0.0024397895, y: 0.049977794, z: 0.025866076, w: 0.9984124}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999976}
+      transformModified: 1
+    - name: S2B_NStretchIK_022
+      position: {x: -0.031181945, y: -0.000000006055832, z: 0}
+      rotation: {x: -0.004309356, y: 0.058042064, z: 0.026793867, w: 0.99794525}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000002}
+      transformModified: 1
+    - name: S2B_NStretchIK_023
+      position: {x: -0.031175314, y: -0.000000006055832, z: 0.000000048446655}
+      rotation: {x: -0.0071929004, y: 0.072941184, z: 0.028390266, w: 0.99690616}
+      scale: {x: 1, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: S2B_NStretchIK_024
+      position: {x: -0.031158078, y: -0.000000006055832, z: 0}
+      rotation: {x: -0.01324373, y: 0.10882514, z: 0.03235693, w: 0.9934459}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+      transformModified: 1
+    - name: S2B_NStretchIK_025
+      position: {x: -0.031087153, y: -0.000000003027916, z: -0.000000048446655}
+      rotation: {x: -0.0410828, y: 0.2343608, z: 0.04924596, w: 0.97003204}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.9999997}
+      transformModified: 1
+    - name: S2B_NStretchIK_026
+      position: {x: -0.030422222, y: -0.000000003027916, z: 0}
+      rotation: {x: 0.00002151727, y: 0.38729218, z: -0.9219571, w: -0.00002127885}
+      scale: {x: 0.9999996, y: 1.0000004, z: 0.99999976}
+      transformModified: 1
+    - name: Shoes
+      position: {x: -0.030908968, y: 0.014896329, z: 0.0058771376}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 36.25482, y: 26.336231, z: 26.336231}
+      transformModified: 1
+    - name: StrapBuckle
+      position: {x: 0.06341724, y: 0.84684306, z: 0.042143192}
+      rotation: {x: -0.055728808, y: 0.4813916, z: 0.065248206, w: 0.8722953}
+      scale: {x: 0.8083883, y: 0.8297714, z: 0.82977104}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

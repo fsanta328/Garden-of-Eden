@@ -8,6 +8,7 @@ public enum AnimationClip
 	WalkBackward = 1,
 	WalkRight = 3,
 	WalkLeft = 4,
+	Die = 8,
 };
 
 public enum Direction
@@ -26,23 +27,32 @@ public class Protagonist
 {
 	internal Animator m_animator;
 	internal Transform m_transform;
-	internal float m_speed, m_timer = 0;
-	internal GameObject m_cam;
+	internal float m_speed,m_timer = 0,m_timeKeeper = 0, m_maxDistance = 5, m_rotationSpeed = 10;
+	internal GameObject m_cam,m_aura;
 	internal int m_hit = 0;
+	internal bool m_attackMovement = false, m_comboTimer = false;
+	internal Vector3 m_distance, jumpVelocity = new  Vector3(0, 3.0f, 0);
 
-	internal float m_maxDistance = 5, m_rotationSpeed = 10;
-	internal Vector3 m_distance;
-	public Player m_player;
-	public GameObject m_weaponBox;
+	internal MonoBehaviour m_monoBehaviour = new MonoBehaviour();
+
+	internal bool Is_animation(string a_nameTag, bool a_isActive)
+	{
+		return m_animator.GetCurrentAnimatorStateInfo (0).IsTag (a_nameTag).Equals (a_isActive);
+	}
 
 	internal void Animation(AnimationClip a_animationClip)
 	{
 		m_animator.SetFloat ("Anim", (int)a_animationClip);
 	}
 
+	internal void TriggerAnimation(string a_animationClip)
+	{
+		m_animator.SetTrigger (a_animationClip);
+	}
+
 	internal bool Is_keyPressed(KeyCode a_key)
 	{
-		return Input.GetKey (a_key) && (m_hit == 0) && m_timer == 0;
+		return Input.GetKey (a_key) && (m_hit == 0);
 	}
 
 	internal bool Is_lockedOn()
@@ -52,7 +62,7 @@ public class Protagonist
 
 	internal void Move(Direction a_direction)
 	{
-		m_transform.Translate (Vector3.forward * m_speed * Time.deltaTime);
+		//m_transform.Translate (Vector3.forward * m_speed * Time.deltaTime);
 
 		Animation (AnimationClip.WalkForward);
 
@@ -63,46 +73,71 @@ public class Protagonist
 
 	internal void CombatState()
 	{
-		if (Input.GetKeyDown (KeyCode.E)) 
+		if (Input.GetKeyDown (KeyCode.E) && Player.m_weaponEquipped == 1) 
 		{
 			m_hit++;
 		}
 
-		if (m_hit == 1) 
+
+		if(m_hit == 1)
 		{
-			Punch (1, 0.55f);
-		} 
-		else if (m_hit == 2) 
+			//Trigger punch animation
+			TriggerAnimation ("Punch" + 1);
+			m_animator.SetFloat ("Anim", 1 + 4);
+
+			m_comboTimer = true;
+		}
+
+		if(m_comboTimer == true)
 		{
-			Punch (2, 0.85f);
-		} 
-		else if (m_hit >= 3) 
+			m_timer += Time.deltaTime;
+		}
+
+		BreakCombo ("Punch1");
+
+		BreakCombo ("Punch2");
+
+		BreakCombo ("Punch3");
+	}
+
+	//Method to break combo if not done correctly by the user
+	void BreakCombo(string a_animationClipTag)
+	{
+		float a_animationClipAverageLimit = 0.95f;
+
+		//if animation clip reach its limit
+		if(m_timer >= a_animationClipAverageLimit && Is_animation(a_animationClipTag,true))
 		{
-			Punch (3, 1f);
+			ResetCombatTriggers ();
+			m_timer = 0;
+			m_comboTimer = false;
 		}
 	}
 
-	internal void Punch(int a_punch, float a_timerLimit)
+	//To check if player is doing the combo in a right mannar
+	internal void CombatAnimation(int a_hit,string a_animationClipTag)
 	{
-		m_timer += Time.deltaTime;
+		int a_CombatStartingParameter = 4;
 
-		//Trigger punch animation
-		m_animator.SetTrigger ("Punch" + a_punch);
-		m_animator.SetFloat ("Anim", a_punch + 4);
-
-		//if timer goes beyond the requird limit, go back to default animation
-		if (m_timer >= a_timerLimit) 
+		//if player pressed Attack key at the right time
+		if(m_hit == a_hit && Is_animation(a_animationClipTag,true))
 		{
-			m_hit = 0;
+			//Trigger Next Attack animation
+			TriggerAnimation ("Punch" + a_hit);
+			m_animator.SetFloat ("Anim", a_hit + a_CombatStartingParameter);
 			m_timer = 0;
+		}
+	}
 
-			//Reset each Punching Trigger
-			for (int i = 1; i <= a_punch; i++) 
-			{
-				m_animator.ResetTrigger ("Punch" + i);
-			}
-			//Go back to Idle
-			Animation (AnimationClip.Idle);
+	internal void ResetCombatTriggers()
+	{
+		//Reset whole combo
+		m_hit = 0;
+
+		//Reset each Punching Trigger/parameter in the Animator panel
+		for (int i = 0; i < m_hit; i++) 
+		{
+			m_animator.ResetTrigger ("Punch" + i);
 		}
 	}
 
@@ -113,7 +148,7 @@ public class Protagonist
 		CombatState ();
 	}
 
-	internal void LockXZ()
+	internal void LockCertainRotations()
 	{
 		m_transform.eulerAngles = new Vector3 (0, m_transform.eulerAngles.y, 0);
 	}
