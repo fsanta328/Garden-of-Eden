@@ -30596,8 +30596,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: AttackMoveDisable
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.33333334
-    functionName: ActionMove
+    functionName: AttackMove
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 3
@@ -30611,7 +30618,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.7
-    functionName: ActionMoveDisable
+    functionName: AttackMoveDisable
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -20,12 +20,18 @@ public class GameManger : MonoBehaviour
 	private AudioSource bk_source;
 	int m_area = 0;
 
+	public Image myPanel;
+	float fadingTime = 3f;
+	Color colorToFade;
+	FadingScript fade;
+
 	public Text c_text;
 
 	void Start()
 	{
 		boss.SetActive(false);
 		bk_source =GetComponent<AudioSource>();
+		fade = GetComponent<FadingScript> ();
 	}
 
 	// Update is called once per frame
@@ -55,8 +61,10 @@ public class GameManger : MonoBehaviour
 
 		else if (obj.gameObject.CompareTag ("TunnelEnd")) 
 		{
+			//fade.PanelFading ();
 			//add fade in and out
 			transform.position = m_mapPos.position;
+
 		}
 	}
 

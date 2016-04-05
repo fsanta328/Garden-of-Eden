@@ -49,6 +49,7 @@ public class PlayerMovement : Protagonist
 
 		else if(m_hit == 0)
 		{
+			m_speed = 0;
 			Animation (AnimationClip.Idle);
 		}
 	}
@@ -83,6 +84,7 @@ public class PlayerMovement : Protagonist
 		else if(m_hit == 0)
 		{
 			//Idle
+			m_speed = 0;
 			Animation (AnimationClip.Idle);
 		}
 	}

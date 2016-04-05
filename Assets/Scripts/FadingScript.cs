@@ -20,7 +20,7 @@ public class FadingScript : MonoBehaviour {
 	
 	}
 
-	void PanelFading ()
+	public void PanelFading ()
 	{
 		// Create a timer and called function in update instead of start because the panel was 
 		// above the UI buttons therefore pressing them wasn't possible.. This need to be optimized

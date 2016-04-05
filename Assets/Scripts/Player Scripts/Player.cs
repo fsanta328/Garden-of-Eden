@@ -241,15 +241,8 @@ public class Player : MonoBehaviour
 		if (m_health <= 0) 
 		{
 		m_playerBehaviour.Animation(AnimationClip.Die);
-//			a_collision.gameObject.GetComponent<Boss> ().g_currentHealth = 
-//								a_collision.gameObject.GetComponent<Boss> ().g_currentHealth - damageCalc ();
-		}
-//	else if (a_collision.gameObject.tag == "mBoss")
-//		{
-//			a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth = 
-//								a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth - damageCalc ();
-//		}
 
+		}
 	}
 
 	//Following are the events that shall be called inside certain animation clips.
@@ -276,7 +269,7 @@ public class Player : MonoBehaviour
 		m_playerBehaviour.m_speed = 0;
 	}
 
-	void AttackMove(float a_speed)
+	void AttackMove()
 	{
 		m_playerBehaviour.m_attackMovement = true;	
 	}
