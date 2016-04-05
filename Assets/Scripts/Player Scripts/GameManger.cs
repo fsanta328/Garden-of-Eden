@@ -29,6 +29,7 @@ public class GameManger : MonoBehaviour
 
 	void Start()
 	{
+		myPanel.enabled = false;
 		boss.SetActive(false);
 		bk_source =GetComponent<AudioSource>();
 		fade = GetComponent<FadingScript> ();
@@ -61,7 +62,7 @@ public class GameManger : MonoBehaviour
 
 		else if (obj.gameObject.CompareTag ("TunnelEnd")) 
 		{
-			//fade.PanelFading ();
+			PanelFading();
 			//add fade in and out
 			transform.position = m_mapPos.position;
 
@@ -101,5 +102,12 @@ public class GameManger : MonoBehaviour
 				m_area = 1;
 			}
 		}
+	}
+
+	public void PanelFading ()
+	{
+		myPanel.enabled = true;
+		colorToFade = new Color (2f, 2f, 2f, 0f);
+		myPanel.CrossFadeColor (colorToFade, fadingTime, true, true);
 	}
 }
