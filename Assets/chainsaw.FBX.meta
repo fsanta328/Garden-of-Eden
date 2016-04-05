@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: f4db96290a26846fbad9a7e2be713014
+timeCreated: 1459844905
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blades
+    100002: buckle
+    100004: //RootNode
+    100006: cloth
+    100008: cloth 1
+    100010: cloth 2
+    100012: cloth001
+    100014: cloth002
+    100016: cloth003
+    100018: Plane001
+    100020: screw 038
+    100022: screw 039
+    100024: screw 040
+    100026: screw 041
+    100028: screw 042
+    100030: screw 043
+    100032: screw 044
+    100034: screw 045
+    100036: screw 046
+    100038: screw 047
+    100040: sword
+    400000: blades
+    400002: buckle
+    400004: //RootNode
+    400006: cloth
+    400008: cloth 1
+    400010: cloth 2
+    400012: cloth001
+    400014: cloth002
+    400016: cloth003
+    400018: Plane001
+    400020: screw 038
+    400022: screw 039
+    400024: screw 040
+    400026: screw 041
+    400028: screw 042
+    400030: screw 043
+    400032: screw 044
+    400034: screw 045
+    400036: screw 046
+    400038: screw 047
+    400040: sword
+    2300000: blades
+    2300002: buckle
+    2300004: cloth
+    2300006: cloth 1
+    2300008: cloth 2
+    2300010: cloth001
+    2300012: cloth002
+    2300014: cloth003
+    2300016: Plane001
+    2300018: screw 038
+    2300020: screw 039
+    2300022: screw 040
+    2300024: screw 041
+    2300026: screw 042
+    2300028: screw 043
+    2300030: screw 044
+    2300032: screw 045
+    2300034: screw 046
+    2300036: screw 047
+    2300038: sword
+    3300000: blades
+    3300002: buckle
+    3300004: cloth
+    3300006: cloth 1
+    3300008: cloth 2
+    3300010: cloth001
+    3300012: cloth002
+    3300014: cloth003
+    3300016: Plane001
+    3300018: screw 038
+    3300020: screw 039
+    3300022: screw 040
+    3300024: screw 041
+    3300026: screw 042
+    3300028: screw 043
+    3300030: screw 044
+    3300032: screw 045
+    3300034: screw 046
+    3300036: screw 047
+    3300038: sword
+    4300000: Plane001
+    4300002: sword
+    4300004: cloth002
+    4300006: cloth003
+    4300008: cloth001
+    4300010: cloth
+    4300012: cloth
+    4300014: cloth
+    4300016: buckle
+    4300018: screw 047
+    4300020: screw 046
+    4300022: screw 045
+    4300024: screw 044
+    4300026: screw 043
+    4300028: screw 040
+    4300030: screw 038
+    4300032: screw 039
+    4300034: screw 042
+    4300036: screw 041
+    4300038: blades
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

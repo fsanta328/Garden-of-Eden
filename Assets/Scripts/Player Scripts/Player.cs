@@ -14,7 +14,11 @@ public class Player : MonoBehaviour
 	public float m_health, m_attack, m_defence;
 	public int collected = 0;
 	public bool invu;
-	public static float m_weaponEquipped = 1;
+	public static float m_weaponEquipped = 0;
+	public int m_weaponOn = 0;
+	public int m_pauldronOn = 0;
+	public int m_armGuardOn = 0;
+	public int m_kneeGuardOn = 0;
 	public Slider m_healthSlider;
 	public Image m_edenPortrait;
 	PlayerBehaviour m_playerBehaviour;
@@ -62,8 +66,8 @@ public class Player : MonoBehaviour
 					m_inventoryNotOpen = false;
 				}
 
-			//opening inv
-			else if (m_inventoryNotOpen == false) 
+				//opening inv
+				else if (m_inventoryNotOpen == false) 
 				{
 					m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha = 1;
 					m_inventoryCanvas.GetComponent<CanvasGroup> ().interactable = true;
@@ -75,16 +79,14 @@ public class Player : MonoBehaviour
 			if ((Input.GetKeyUp (KeyCode.L)) && (m_visible == 1)) 
 			{
 				m_inventory.AddItem (0);
-			}
-
-			if ((Input.GetKeyUp (KeyCode.K)) && (m_visible == 1))
-			{
 				m_inventory.AddItem (1);
-			}
-
-			if (Input.GetKeyUp (KeyCode.Comma))
-			{
 				m_inventory.AddItem (2);
+				m_inventory.AddItem (3);
+				m_inventory.AddItem (4);
+				m_inventory.AddItem (5);
+				m_inventory.AddItem (6);
+				m_inventory.AddItem (7);
+				m_inventory.AddItem (8);
 			}
 
 			m_playerBehaviour.Behaviour ();
@@ -109,6 +111,7 @@ public class Player : MonoBehaviour
 
 		if (collision.gameObject.tag == "sword") 
 		{
+			//collision.gameObject.
 			m_inventory.AddItem (0);
 			Debug.Log ("sword");
 

@@ -9,19 +9,21 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 	public Item m_item;
 	public int m_amount;
 	public int m_slotNumber;
-	public GameObject m_player;
+	public GameObject m_playerObj;
+	public Player m_player;
 
 	private Inventory m_inventory;
 	private Vector2 m_offset;
 	private ToolTip m_toolTip;
 
 	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
-		m_inventory = GameObject.Find ("Inventory").GetComponent<Inventory>();
+		m_inventory = GameObject.Find ("Inventory").GetComponent<Inventory> ();
 		//m_amount = 1;
-		m_toolTip = m_inventory.GetComponent<ToolTip>();
-		m_player = GameObject.Find ("Berserker");
+		m_toolTip = m_inventory.GetComponent<ToolTip> ();
+		m_playerObj = GameObject.Find ("Berserker");
+		m_player = m_playerObj.GetComponent<Player> ();
 	}
 
 	public void OnBeginDrag (PointerEventData eventData)
@@ -30,7 +32,7 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 		{
 			m_offset = eventData.position - new Vector2 (this.transform.position.x, this.transform.position.y);
 			this.transform.SetParent (this.transform.parent.parent);
-			GetComponent<CanvasGroup>().blocksRaycasts = false;
+			GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -44,20 +46,19 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 
 	public void OnEndDrag (PointerEventData eventData)
 	{
-		this.transform.SetParent (m_inventory.m_slots[m_slotNumber].transform);
-		this.transform.position = m_inventory.m_slots[m_slotNumber].transform.position;
-		GetComponent<CanvasGroup>().blocksRaycasts = true;
+		this.transform.SetParent (m_inventory.m_slots [m_slotNumber].transform);
+		this.transform.position = m_inventory.m_slots [m_slotNumber].transform.position;
+		GetComponent<CanvasGroup> ().blocksRaycasts = true;
 	}
-		
-	public void OnPointerDown(PointerEventData eventData)
+
+	public void OnPointerDown (PointerEventData eventData)
 	{
-		if (m_item != null)
+		if (m_item != null) 
 		{
 			// If the item should be deleted
 			if (m_inventory.deleteItem == true) 
 			{
 				this.gameObject.transform.parent.GetComponent<Image> ().color = Color.white;
-
 				m_inventory.RemoveUniqueItem (m_slotNumber);
 			} 
 
@@ -66,9 +67,9 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 				//consume item
 				if (m_item.m_consumable == true) 
 				{
-					Debug.Log (m_player.GetComponent<Player> ().m_health);
-					m_player.GetComponent<Player> ().RestoreHealth (10);
-					Debug.Log (m_player.GetComponent<Player> ().m_health);
+					Debug.Log (m_playerObj.GetComponent<Player> ().m_health);
+					m_playerObj.GetComponent<Player> ().RestoreHealth (m_item.m_health);
+					Debug.Log (m_playerObj.GetComponent<Player> ().m_health);
 					m_inventory.RemoveUniqueItem (m_slotNumber);
 				}
 
@@ -81,45 +82,76 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 				//equips/uneqips item
 				else 
 				{
-					if (m_item.m_equipped == false)
+					if (m_item.m_equipped == false) 
 					{
-						if(m_item.m_ID == 0)
+						if ((m_item.m_ID == 0 || m_item.m_ID == 1) && (m_player.m_weaponOn == 0)) 
 						{
-							m_player.GetComponent<Player> ().m_attack = m_player.GetComponent<Player> ().m_attack + m_item.m_attack;
+							m_playerObj.GetComponent<Player> ().m_attack = m_playerObj.GetComponent<Player> ().m_attack + m_item.m_attack;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
 							m_item.m_equipped = true;
+							Player.m_weaponEquipped = 1;
+							m_player.m_weaponOn = 1;
+							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
+						} 
+
+						else if ((m_item.m_ID == 2 || m_item.m_ID == 5) && (m_player.m_pauldronOn == 0))
+						{
+							m_playerObj.GetComponent<Player> ().m_defence = m_playerObj.GetComponent<Player> ().m_defence + m_item.m_defence;
+							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
+							m_item.m_equipped = true;
+							m_player.m_pauldronOn = 1;
 							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
 						}
 
-						if (m_item.m_ID == 1)
+						else if ((m_item.m_ID == 3 || m_item.m_ID == 6) && (m_player.m_armGuardOn == 0))
 						{
-							m_player.GetComponent<Player> ().m_defence = m_player.GetComponent<Player> ().m_defence + m_item.m_defence;
+							m_playerObj.GetComponent<Player> ().m_defence = m_playerObj.GetComponent<Player> ().m_defence + m_item.m_defence;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
 							m_item.m_equipped = true;
+							m_player.m_armGuardOn = 1;
 							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
 						}
-					}
 
-					else
-					{
-						if(m_item.m_ID == 0)
+						else if ((m_item.m_ID == 4 || m_item.m_ID == 7) && (m_player.m_kneeGuardOn == 0))
 						{
-							m_player.GetComponent<Player> ().m_attack = m_player.GetComponent<Player> ().m_attack - m_item.m_attack;
+							m_playerObj.GetComponent<Player> ().m_defence = m_playerObj.GetComponent<Player> ().m_defence + m_item.m_defence;
+							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
+							m_item.m_equipped = true;
+							m_player.m_kneeGuardOn = 1;
+							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
+						}
+//
+//						if (m_item.m_ID == 2)
+//						{
+//							m_player.GetComponent<Player> ().m_defence = m_player.GetComponent<Player> ().m_defence + m_item.m_defence;
+//							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.green;
+//							m_item.m_equipped = true;
+//							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "E";
+//						}
+					} 
+
+					else 
+					{
+						if ((m_item.m_ID == 0 || m_item.m_ID == 1) && (m_player.m_weaponOn == 1)) 
+						{
+							m_playerObj.GetComponent<Player> ().m_attack = m_playerObj.GetComponent<Player> ().m_attack - m_item.m_attack;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.white;
 							m_item.m_equipped = false;
+							Player.m_weaponEquipped = 1;
+							m_player.m_weaponOn = 0;
 							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "";
-						}
+						} 
 
-						if (m_item.m_ID == 1)
+						else if (m_item.m_ID == 1) 
 						{
-							m_player.GetComponent<Player> ().m_defence = m_player.GetComponent<Player> ().m_defence - m_item.m_defence;
+							m_playerObj.GetComponent<Player> ().m_defence = m_playerObj.GetComponent<Player> ().m_defence - m_item.m_defence;
 							this.gameObject.transform.parent.GetComponent<Image> ().color = Color.white;
 							m_item.m_equipped = false;
 							this.gameObject.transform.FindChild ("Equipped").GetComponent<Text> ().text = "";
 						}
 					}
 				}	
-			}
+			} 
 
 			else 
 			{
@@ -131,15 +163,11 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 
 	public void OnPointerEnter (PointerEventData eventData)
 	{
-		if (m_item != null)
-		{
-			if (m_inventory.deleteItem == true) 
-			{
+		if (m_item != null) {
+			if (m_inventory.deleteItem == true) {
 				this.gameObject.transform.parent.GetComponent<Image> ().color = Color.red;
 				//this.gameObject.transform.GetComponentInChildren<Text> ().text = (Int32.Parse (this.gameObject.transform.GetComponentInChildren<Text> ().text) - 1).ToString();
-			}
-			else 
-			{
+			} else {
 				m_toolTip.Activate (m_item);
 			}
 		}

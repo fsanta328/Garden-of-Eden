@@ -1,14 +1,14 @@
 [
   {
     "id": 0,
-    "title": "Chainsaw blade",
+    "title": "Chainsaw Blade",
     "value": 10,
 	"stats": {
-		"attack": 10,
+		"attack": 5,
 		"defence": 0,
 		"health": 0
 		},
-	"description": "A sharp silver blade",
+	"description": "A sharp and dangerous blade",
 	"stackable": true,
 	"maxStack": 5,
 	"rarity": 2,
@@ -17,37 +17,140 @@
 	"slug": "Chainsaw"
   },
   {
-    "id": 1,
-    "title": "Shoulder pads",
+	"id": 1,
+	"title": "Wrench Blade",
+	"value": 10,
+	"stats": {
+		"attack": 10,
+		"defence": 0,
+		"health": 0
+		},
+	"description": "A menacing tool",
+	"stackable": true,
+	"maxStack": 5,
+	"rarity": 2,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "WrenchSword"
+  },
+  {
+    "id": 2,
+    "title": "Bronze Pauldron",
     "value": 5,
 	"stats": {
 		"attack": 0,
 		"defence": 5,
-		"health": 2
+		"health": 0
 		},
-	"description": "Pads, for your shoulders.",
+	"description": "Provides some protection",
 	"stackable": false,
 	"maxStack": 0,
 	"rarity": 1,
 	"consumable" : false,
 	"equipped": false,
+	"slug": "ShoulderArmourB"
+  },
+  {
+    "id": 3,
+    "title": "Bronze Armguards",
+    "value": 5,
+	"stats": {
+		"attack": 0,
+		"defence": 5,
+		"health": 0
+		},
+	"description": "Provides some protection",
+	"stackable": true,
+	"maxStack": 10,
+	"rarity": 1,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "ElbowArmourB"
+  },
+  {
+	"id": 4,
+	"title": "Bronze Shingaurds",
+	"value": 1,
+	"stats": {
+		"attack": 0,
+		"defence": 5,
+		"health": 0
+		},
+	"description": "Provides some protection",
+	"stackable": true,
+	"maxStack": 10,
+	"rarity": 1,
+	"consumable" : false,
+	"equipped": false,
 	"slug": "KneeArmourB"
   },
-	{
-    "id": 2,
-    "title": "Knee armour",
-    "value": 1,
+
+  {
+    "id": 5,
+    "title": "Steel Pauldron",
+    "value": 5,
+	"stats": {
+		"attack": 0,
+		"defence": 10,
+		"health": 0
+		},
+	"description": "Provides better protection",
+	"stackable": false,
+	"maxStack": 0,
+	"rarity": 1,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "ShoulderArmourS"
+  },
+  {
+    "id": 6,
+    "title": "Steel Armguards",
+    "value": 5,
+	"stats": {
+		"attack": 0,
+		"defence": 10,
+		"health": 0
+		},
+	"description": "Provides better protection",
+	"stackable": true,
+	"maxStack": 10,
+	"rarity": 1,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "ElbowArmourS"
+  },
+  {
+	"id": 7,
+	"title": "Steel Shingaurds",
+	"value": 1,
+	"stats": {
+		"attack": 0,
+		"defence": 10,
+		"health": 0
+		},
+	"description": "Provides better protection",
+	"stackable": true,
+	"maxStack": 10,
+	"rarity": 1,
+	"consumable" : false,
+	"equipped": false,
+	"slug": "KneeArmourS"
+  },
+  {
+	"id": 8,
+	"title": "Health Potion",
+	"value": 1,
 	"stats": {
 		"attack": 0,
 		"defence": 0,
-		"health": 10
+		"health": 30
 		},
-	"description": "Berries, I hope they are safe to eat",
+	"description": "Restores health",
 	"stackable": true,
 	"maxStack": 10,
 	"rarity": 1,
 	"consumable" : true,
 	"equipped": false,
-	"slug": "KneeArmourB"
+	"slug": "HealthPotion"
   }
 ]

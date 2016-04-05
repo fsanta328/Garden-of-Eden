@@ -11,6 +11,7 @@ public class GameManger : MonoBehaviour
 	//private bool isLastBossDead = false;
 
 	public Transform m_arenaPos;
+	public Transform m_mapPos;
 	public ParticleSystem arena;
 	public ParticleSystem Thunder;
 	public ParticleSystem Smoke;
@@ -50,6 +51,12 @@ public class GameManger : MonoBehaviour
 			Destroy(obj.gameObject);
 			index ++;
 			c_text.text = + (int) index + "" ;
+		}
+
+		else if (obj.gameObject.CompareTag ("TunnelEnd")) 
+		{
+			//add fade in and out
+			transform.position = m_mapPos.position;
 		}
 	}
 

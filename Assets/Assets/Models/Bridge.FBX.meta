@@ -1,0 +1,115 @@
+fileFormatVersion: 2
+guid: 3e6d21bc3a28046749124a7c2398898c
+timeCreated: 1459830674
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bolt_69
+    100002: bolt_69_MeshPart0
+    100004: bolt_69_MeshPart1
+    100006: bottom_bridgem
+    100008: //RootNode
+    100010: bridge_base_004
+    100012: lift_support_06
+    100014: lift_support_10
+    100016: metal_sheet_bridge
+    100018: top_C_00
+    400000: bolt_69
+    400002: bolt_69_MeshPart0
+    400004: bolt_69_MeshPart1
+    400006: bottom_bridgem
+    400008: //RootNode
+    400010: bridge_base_004
+    400012: lift_support_06
+    400014: lift_support_10
+    400016: metal_sheet_bridge
+    400018: top_C_00
+    2300000: bolt_69_MeshPart0
+    2300002: bolt_69_MeshPart1
+    2300004: bottom_bridgem
+    2300006: bridge_base_004
+    2300008: lift_support_06
+    2300010: lift_support_10
+    2300012: metal_sheet_bridge
+    2300014: top_C_00
+    3300000: bolt_69_MeshPart0
+    3300002: bolt_69_MeshPart1
+    3300004: bottom_bridgem
+    3300006: bridge_base_004
+    3300008: lift_support_06
+    3300010: lift_support_10
+    3300012: metal_sheet_bridge
+    3300014: top_C_00
+    4300000: bottom_bridgem
+    4300002: bridge_base_004
+    4300004: lift_support_06
+    4300006: lift_support_10
+    4300008: bolt_69_MeshPart0
+    4300010: bolt_69_MeshPart1
+    4300012: metal_sheet_bridge
+    4300014: top_C_00
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
