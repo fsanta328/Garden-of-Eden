@@ -21,19 +21,6 @@ public class UIManger : MonoBehaviour {
 	bool IsPasued = false;
 	bool isHelpOpend = false;
 
-
-
-
-
-	void Awake()
-	{
-		// get component from engine
-		//bk_source =GetComponent<AudioSource>();
-
-
-
-	}
-
 	// Use this for initialization
 	void Start () 
 	{
@@ -42,17 +29,41 @@ public class UIManger : MonoBehaviour {
 		m_helpCanas.enabled = false;
 
 
-
-
-
 	}
 
 	void Update()
 	{
-		// call pause function
-	//	CheckForPause();
+		
+		CheckForPause();
+
+	}
+
+	void CheckForPause()
+	{
+
+		if (Input.GetKeyDown(KeyCode.Escape)) 
+		{
+			if(IsPasued == true)
+			{
+				Time.timeScale = 1.0f;
+				m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
+				m_pauseCanvas.enabled = false;
+				IsPasued = false;
+				DisableScript();
 
 
+			} 
+
+			else if (isHelpOpend == false)
+			{
+				Time.timeScale = 0.0f;
+				m_gameCanvas.GetComponent<GraphicRaycaster>().enabled = true;
+				m_pauseCanvas.enabled = true;	
+				IsPasued = true;
+				DisableScript();
+
+			}
+		}
 	}
 
 	public void Unpause()
@@ -102,10 +113,6 @@ public class UIManger : MonoBehaviour {
 			m_helpCanas.enabled = true;
 			isHelpOpend = true;
 		}
-
-
-	
-
 
 	}
 
