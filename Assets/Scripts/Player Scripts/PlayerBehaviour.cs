@@ -22,6 +22,7 @@ public class PlayerBehaviour : PlayerMovement
 		//is enemy near
 		if (Is_lockedOn() && Player.m_weaponEquipped == 1)
 		{	
+			m_runningClip = false;
 			LockOnMovement ();
 		}
 		else if(!Is_lockedOn()) 
@@ -34,10 +35,30 @@ public class PlayerBehaviour : PlayerMovement
 		{
 			AttackMovement ();
 		}
+
+		if(Input.GetKeyDown(KeyCode.RightShift) && !Is_lockedOn())
+		{
+			if(m_runningClip == true)
+			{
+				m_runningClip = false;
+			}
+			else
+			{
+				m_runningClip = true;
+			}
+		}
 			
 		JumpState ();
 
 		ChargeState ();
+
+		RunningClip ();
+
+	}
+
+	void RunningClip()
+	{
+		m_animator.SetBool ("Running", m_runningClip);
 	}
 
 	//this logic is being used to make player move while doing certain animations

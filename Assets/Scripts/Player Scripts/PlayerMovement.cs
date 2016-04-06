@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerMovement : Protagonist 
 {
@@ -49,6 +49,7 @@ public class PlayerMovement : Protagonist
 
 		else if(m_hit == 0)
 		{
+			m_runningClip = false;
 			m_speed = 0;
 			Animation (AnimationClip.Idle);
 		}
@@ -91,16 +92,23 @@ public class PlayerMovement : Protagonist
 
 	internal void LockOnTarget()
 	{
+		Queue<GameObject> a_enemies = new Queue<GameObject> ();
+		
 		foreach (GameObject a_target in GameObject.FindGameObjectsWithTag("Enemy")) 
 		{
-			m_distance = a_target.transform.position - m_transform.position;
+			a_enemies.Enqueue (a_target);
+		}
 
-			if(Is_lockedOn())
-			{
-				m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
+		foreach(GameObject a_enemy in a_enemies)
+		{
+			m_distance = a_enemy.transform.position - m_transform.position;
+		}
 
-				LockCertainRotations ();
-			}
+		if(Is_lockedOn())
+		{
+			m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
+
+			LockCertainRotations ();
 		}
 	}
 }

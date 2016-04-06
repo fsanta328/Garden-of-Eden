@@ -295,6 +295,22 @@ public class Player : MonoBehaviour
 		m_playerBehaviour.CombatAnimation (3, "Punch2");
 	}
 
+	void RunningAttackTriggerReset()
+	{
+		m_playerBehaviour.m_animator.ResetTrigger ("Punch1");
+		m_playerBehaviour.m_hit = 0;
+	}
+
+	void DisableRunning()
+	{
+		m_playerBehaviour.m_runningClip = false;
+	}
+
+	void DisableJumpTrigger()
+	{
+		m_playerBehaviour.m_animator.SetBool ("Running", false);
+	}
+
 	void Dead()
 	{
 		SceneManager.LoadScene (0);

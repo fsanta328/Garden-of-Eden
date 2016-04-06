@@ -30,7 +30,7 @@ public class Protagonist
 	internal float m_speed,m_timer = 0,m_timeKeeper = 0, m_maxDistance = 5, m_rotationSpeed = 10;
 	internal GameObject m_cam,m_aura;
 	internal int m_hit = 0;
-	internal bool m_attackMovement = false, m_comboTimer = false;
+	internal bool m_attackMovement = false, m_runningClip = false, m_comboTimer = false;
 	internal Vector3 m_distance, jumpVelocity = new  Vector3(0, 3.0f, 0);
 
 	internal MonoBehaviour m_monoBehaviour = new MonoBehaviour();
@@ -57,13 +57,12 @@ public class Protagonist
 
 	internal bool Is_lockedOn()
 	{
+		Debug.Log (m_distance.magnitude);
 		return Input.GetKey (KeyCode.Mouse1) && m_distance.magnitude <= m_maxDistance;
 	}
 
 	internal void Move(Direction a_direction)
 	{
-		//m_transform.Translate (Vector3.forward * m_speed * Time.deltaTime);
-
 		Animation (AnimationClip.WalkForward);
 
 		m_transform.eulerAngles = new Vector3 (0,  m_cam.transform.eulerAngles.y + (int)a_direction, 0);
@@ -79,13 +78,17 @@ public class Protagonist
 		}
 
 
-		if(m_hit == 1)
+		if(m_hit == 1 && Is_animation("Run",false))
 		{
 			//Trigger punch animation
 			TriggerAnimation ("Punch" + 1);
 			m_animator.SetFloat ("Anim", 1 + 4);
 
 			m_comboTimer = true;
+		}
+		else if (m_hit >= 1 && Is_animation("Run", true))
+		{
+			TriggerAnimation ("Punch" + 1);	
 		}
 
 		if(m_comboTimer == true)
@@ -98,6 +101,7 @@ public class Protagonist
 		BreakCombo ("Punch2");
 
 		BreakCombo ("Punch3");
+
 	}
 
 	//Method to break combo if not done correctly by the user
@@ -109,8 +113,8 @@ public class Protagonist
 		if(m_timer >= a_animationClipAverageLimit && Is_animation(a_animationClipTag,true))
 		{
 			ResetCombatTriggers ();
-			m_timer = 0;
 			m_comboTimer = false;
+			m_timer = 0;
 		}
 	}
 
