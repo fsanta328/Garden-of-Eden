@@ -18,6 +18,7 @@ TagManager:
   - armour
   - food
   - TunnelEnd
+  - Projectile
   layers:
   - Default
   - TransparentFX

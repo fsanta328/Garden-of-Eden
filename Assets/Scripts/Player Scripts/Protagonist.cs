@@ -57,8 +57,8 @@ public class Protagonist
 
 	internal bool Is_lockedOn()
 	{
-		Debug.Log (m_distance.magnitude);
-		return Input.GetKey (KeyCode.Mouse1) && m_distance.magnitude <= m_maxDistance;
+		//Debug.Log (m_distance.magnitude);
+		return Input.GetKey (KeyCode.LeftShift) && m_distance.magnitude <= m_maxDistance;
 	}
 
 	internal void Move(Direction a_direction)

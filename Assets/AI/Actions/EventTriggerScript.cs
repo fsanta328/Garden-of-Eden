@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class EventTriggerScript : MonoBehaviour 
 {
-	public GameObject m_snowBall;
+	public GameObject m_fireBall;
 	public Transform m_startingPosition;
 	public List<AudioSource> m_soundEffects;
 
@@ -19,7 +19,7 @@ public class EventTriggerScript : MonoBehaviour
 
 	public void ThrowBall()
 	{
-		Instantiate (m_snowBall, m_startingPosition.position, Quaternion.identity);
+		Instantiate (m_fireBall, m_startingPosition.position, Quaternion.identity);
 	}
 
 	public void Roar()

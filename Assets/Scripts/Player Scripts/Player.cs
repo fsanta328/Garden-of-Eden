@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
 	public bool m_inventoryNotOpen;
 	public float m_visible;
 	public float m_health, m_attack, m_defence;
-	public int collected = 0;
 	public bool invu;
 	public static float m_weaponEquipped = 0;
 	public int m_weaponOn = 0;
@@ -23,6 +22,7 @@ public class Player : MonoBehaviour
 	public Image m_edenPortrait;
 	PlayerBehaviour m_playerBehaviour;
 	public List<Sprite> m_edenFaces;
+	public List<GameObject> m_equipables;
 
 	// Use this for initialization
 	void Start () 
@@ -33,7 +33,6 @@ public class Player : MonoBehaviour
 		m_inventoryNotOpen = false;
 		m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
 		m_healthSlider = GameObject.FindObjectOfType<Slider> ();
-		//m_edenPortrait = GameObject.FindObjectOfType<Image> ();
 		m_health = 100;
 		m_attack = 10;
 		m_defence = 5;
@@ -96,26 +95,30 @@ public class Player : MonoBehaviour
 
 	}
 
-
-
 	void OnCollisionEnter(Collision collision)
 	{
+		//remove
 		if (collision.gameObject.tag == "gem") 
 		{
 			m_weapon.SetActive (true);
 			collision.gameObject.SetActive (false);
-			collected = 1;
 			collision.gameObject.tag = "Weapon";
 			m_inventory.AddItem (0);
 		}
 
 		if (collision.gameObject.tag == "sword") 
 		{
-			//collision.gameObject.
-			m_inventory.AddItem (0);
-			Debug.Log ("sword");
+			if (collision.gameObject.name == "WrenchSword") 
+			{
+				m_inventory.AddItem (1);
+				Destroy (collision.gameObject);
+			}
 
-			Destroy (collision.gameObject);
+			else if (collision.gameObject.name == "Chainsaw")
+			{
+				m_inventory.AddItem (0);
+				Destroy (collision.gameObject);
+			}
 		}
 
 		if (collision.gameObject.tag == "armour") 
@@ -132,12 +135,11 @@ public class Player : MonoBehaviour
 			Destroy (collision.gameObject);
 		}
 
-
 		if (collision.gameObject.tag == "Enemy") 
 		{
 			if (invu == false) 
 			{
-				m_health = m_health - 10;
+				m_health = m_health - 2;
 				m_healthSlider.value = m_health;
 				ChangeImage (m_healthSlider.value);
 			} 
@@ -146,6 +148,25 @@ public class Player : MonoBehaviour
 			{
 				ApplyDamage (collision); 					
 			}
+		}
+
+		if (collision.gameObject.tag == "mBoss") 
+		{
+			m_health = m_health - 5;
+			m_healthSlider.value = m_health;
+			ChangeImage (m_healthSlider.value);
+		}
+
+		if (collision.gameObject.tag == "Boss") 
+		{
+			m_health = m_health - 7;
+			m_healthSlider.value = m_health;
+			ChangeImage (m_healthSlider.value);
+		}
+
+		if (collision.gameObject.tag == "Projectile")
+		{
+			m_health = m_health - 3;
 		}
 
 		foreach (ContactPoint c in collision.contacts) 
@@ -172,26 +193,28 @@ public class Player : MonoBehaviour
 
 	public void RestoreHealth(float a_health)
 	{
-		m_health = m_health + a_health;
-		m_healthSlider.value = m_health;
-		ChangeImage (m_healthSlider.value);
-	}
-
-	public float damageCalc()
-	{
-		float wepAttack;
-		float dmg;
-		if (collected == 0) 
+		float a_healthSum = m_health + a_health;
+		if (a_healthSum >= 100) 
 		{
-			wepAttack = 0;
-			return dmg = m_attack + wepAttack;
+			m_health = 100;
+			m_healthSlider.value = m_health;
+			ChangeImage (m_healthSlider.value);
 		} 
 
 		else 
 		{
-			wepAttack = 10;
-			return dmg = m_attack + wepAttack;
+			m_health = m_health + a_health;
+			m_healthSlider.value = m_health;
+			ChangeImage (m_healthSlider.value);
 		}
+	}
+
+	public float damageCalc()
+	{
+		float wepAttack = 0;
+		float dmg;
+			
+		return dmg = m_attack + wepAttack;
 	}
 
 	public void ApplyDamage(Collision a_collision)
@@ -213,7 +236,6 @@ public class Player : MonoBehaviour
 			a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth = 
 								a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth - damageCalc ();
 		}
-
 	}
 
 	void ChangeImage(float a_health)
@@ -234,14 +256,11 @@ public class Player : MonoBehaviour
 		} 
 	}
 
-
-
 	void Death()
 	{
 		if (m_health <= 0) 
 		{
-		m_playerBehaviour.Animation(AnimationClip.Die);
-
+			m_playerBehaviour.Animation(AnimationClip.Die);
 		}
 	}
 
@@ -311,8 +330,8 @@ public class Player : MonoBehaviour
 		m_playerBehaviour.m_animator.SetBool ("Running", false);
 	}
 
-	void Dead()
-	{
-		SceneManager.LoadScene (0);
-	}
+//	void Dead()
+//	{
+//		SceneManager.LoadScene (0);
+//	}
 }
