@@ -2,9 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Spawn : MonoBehaviour {
-
-
+public class Spawn : MonoBehaviour 
+{
 	// The enemy prefab to be spawned.
 	public GameObject[] enemy; 
 
@@ -68,7 +67,7 @@ public class Spawn : MonoBehaviour {
 			int spawnPointIndex = Random.Range (0, availablePoints.Count);
 			Transform pos = spawnPoints[spawnPointIndex];
 
-			GameObject InstanceEnemies= Instantiate ( enemy[index] , availablePoints[spawnPointIndex].position , Quaternion.identity) as GameObject;
+			GameObject InstanceEnemies= Instantiate (enemy[index] , availablePoints[spawnPointIndex].position , Quaternion.identity) as GameObject;
 
 			// Create enemies and add them to our list.
 			EnemiesList.Add(InstanceEnemies);
@@ -76,9 +75,6 @@ public class Spawn : MonoBehaviour {
 		}
 
 		m_numberOfSpawn++;
-
-
-
 	}
 
 	public void Remove (GameObject anything)

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class MiniBossEventTrigger : MonoBehaviour 
 {
 	public GameObject m_minion;
+	public GameObject m_particles;
 
 	public List<AudioSource> m_soundEffects;
 
@@ -19,5 +20,18 @@ public class MiniBossEventTrigger : MonoBehaviour
 	public void PinkMonsterAudio(int a_audio)
 	{
 		m_soundEffects [a_audio].Play ();
+
+		Rigidbody a_rb = GetComponent<Rigidbody> ();
+		a_rb.constraints = RigidbodyConstraints.FreezeAll;
+	}
+
+	public void BlowUp ()
+	{
+		m_particles.SetActive (true);
+	}
+
+	public void Dead()
+	{
+		Destroy (gameObject);
 	}
 }

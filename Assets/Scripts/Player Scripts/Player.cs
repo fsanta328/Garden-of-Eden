@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour 
 {
-	public GameObject m_cam,m_weapon, m_aura;
+	public GameObject m_cam,m_weapon, m_aura, m_miniMonster, m_boss;
 	private Animator m_animator;
 	public Inventory m_inventory;
 	public GameObject m_inventoryCanvas;
@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 	public float m_visible;
 	public float m_health, m_attack, m_defence;
 	public bool invu;
-	public static float m_weaponEquipped = 0;
+	public static float m_weaponEquipped = 1;
 	public int m_weaponOn = 0;
 	public int m_pauldronOn = 0;
 	public int m_armGuardOn = 0;
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 	void Start () 
 	{
 		m_animator = GetComponent<Animator> ();
-		m_playerBehaviour = new PlayerBehaviour (m_animator,transform,m_cam, m_aura);
+		m_playerBehaviour = new PlayerBehaviour (m_animator,transform,m_cam, m_aura,m_miniMonster,m_boss);
 
 		m_inventoryNotOpen = false;
 		m_visible = m_inventoryCanvas.GetComponent<CanvasGroup> ().alpha;
@@ -95,6 +95,8 @@ public class Player : MonoBehaviour
 
 	}
 
+
+
 	void OnCollisionEnter(Collision collision)
 	{
 		//remove
@@ -134,6 +136,7 @@ public class Player : MonoBehaviour
 			Debug.Log ("food");
 			Destroy (collision.gameObject);
 		}
+
 
 		if (collision.gameObject.tag == "Enemy") 
 		{
@@ -258,13 +261,15 @@ public class Player : MonoBehaviour
 
 	void Death()
 	{
+		//Is player out of health
 		if (m_health <= 0) 
 		{
+			//Trigger dying animation.
 			m_playerBehaviour.Animation(AnimationClip.Die);
 		}
 	}
 
-	//Following are the events that shall be called inside certain animation clips.
+	//Following are the events that shall be Called inside certain animation clips.
 
 	//while in the jump state
 	void EventOfJump()
@@ -273,7 +278,7 @@ public class Player : MonoBehaviour
 		transform.gameObject.GetComponent<Rigidbody>().AddForce (m_playerBehaviour.jumpVelocity, ForceMode.VelocityChange);
 
 		//if the player was in the state of attack before going into the Jump state, reset that certain trigger.
-		m_playerBehaviour.ResetCombatTriggers ();
+		m_playerBehaviour.ResetCombatParameters();
 	}
 
 	//This is being called inside certain animation clips, to make player move. 
@@ -288,16 +293,19 @@ public class Player : MonoBehaviour
 		m_playerBehaviour.m_speed = 0;
 	}
 
+	//This event will aid certain animation states to move 
 	void AttackMove()
 	{
 		m_playerBehaviour.m_attackMovement = true;	
 	}
+
+	//Following event will stop certain animations from moving 
 	void AttackMoveDisable()
 	{
 		m_playerBehaviour.m_attackMovement = false;	
 	}
 
-	//if this method is being called inside the charge attack of the player, it will disable and reset certain values.
+	//if this method is being called inside the charge attack of the player, it will disable and reset certain values to reset charge attack.
 	void DisableAura()
 	{
 		m_playerBehaviour.DisableChargeAttack ();
@@ -308,23 +316,27 @@ public class Player : MonoBehaviour
 	{
 		m_playerBehaviour.CombatAnimation (2, "Punch1");
 	}
+
 	//When player is in the state of second attack
 	void Attack2()
 	{
 		m_playerBehaviour.CombatAnimation (3, "Punch2");
 	}
 
+	//Reset the parameter of the running attack
 	void RunningAttackTriggerReset()
 	{
 		m_playerBehaviour.m_animator.ResetTrigger ("Punch1");
 		m_playerBehaviour.m_hit = 0;
 	}
 
+	//Event that Resets running parameter
 	void DisableRunning()
 	{
-		m_playerBehaviour.m_runningClip = false;
+		m_playerBehaviour.RunningParameterReset ();
 	}
 
+	//Following logic will disable cartain parameter
 	void DisableJumpTrigger()
 	{
 		m_playerBehaviour.m_animator.SetBool ("Running", false);
