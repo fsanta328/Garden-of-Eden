@@ -60,7 +60,7 @@ public class Protagonist
 		
 	internal bool Is_lockedOn()
 	{
-		return Input.GetKey (KeyCode.Mouse1);
+		return Input.GetKey (KeyCode.LeftShift);
 	}
 
 	internal void Move(Direction a_direction)

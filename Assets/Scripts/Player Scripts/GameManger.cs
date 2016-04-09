@@ -109,5 +109,7 @@ public class GameManger : MonoBehaviour
 		myPanel.enabled = true;
 		colorToFade = new Color (2f, 2f, 2f, 0f);
 		myPanel.CrossFadeColor (colorToFade, fadingTime, true, true);
+
+		//myPanel.enabled = false;
 	}
 }
