@@ -103,9 +103,12 @@ public class PlayerMovement : Protagonist
 
 		m_enemies = GameObject.FindGameObjectsWithTag ("Enemy");
 
-		a_miniBossDistance = m_miniMonster.transform.position - m_transform.position;
+//		if (GameObject.FindGameObjectWithTag ("mBoss").activeInHierarchy = false) 
+//		{
+			a_miniBossDistance = m_miniMonster.transform.position - m_transform.position;
 
-		a_miniBossClose = a_miniBossDistance.sqrMagnitude;
+			a_miniBossClose = a_miniBossDistance.sqrMagnitude;
+		//}
 
 		a_bossDistance = m_boss.transform.position - m_transform.position;
 

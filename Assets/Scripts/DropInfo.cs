@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DropInfo : MonoBehaviour {
-
+public class DropInfo : MonoBehaviour 
+{
+	public int m_itemDropID;
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 	
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public int AssignDrop(int a_drop)
+	{
+		m_itemDropID = a_drop;
+		return m_itemDropID;
 	}
 }

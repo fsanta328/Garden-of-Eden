@@ -12,6 +12,7 @@ public class Boss : MonoBehaviour
 	void Start () 
 	{
 		m_AI = this.GetComponent<RAIN.Core.AIRig>();
+
 	}
 
 	void Update()

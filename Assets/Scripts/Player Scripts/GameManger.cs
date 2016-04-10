@@ -24,7 +24,6 @@ public class GameManger : MonoBehaviour
 	float fadingTime = 3f;
 	Color colorToFade;
 	FadingScript fade;
-
 	public Text c_text;
 
 	void Start()

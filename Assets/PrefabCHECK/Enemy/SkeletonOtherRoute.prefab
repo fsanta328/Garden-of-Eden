@@ -1424,7 +1424,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199488}
   m_LocalRotation: {x: 0, y: 0.5344565, z: 0, w: 0.845196}
-  m_LocalPosition: {x: 25.19, y: -0.71, z: 13.55}
+  m_LocalPosition: {x: 28.092148, y: -12.062225, z: 39.86959}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 455396}
@@ -1540,7 +1540,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151384}
   m_LocalRotation: {x: -0.51638454, y: -0.5194332, z: -0.47881514, w: 0.48401678}
-  m_LocalPosition: {x: 0.03654472, y: 0.021696845, z: -0.0012669624}
+  m_LocalPosition: {x: 0.036547016, y: 0.021696726, z: -0.0012680539}
   m_LocalScale: {x: 1, y: 1.0000002, z: 1.0000002}
   m_Children:
   - {fileID: 447472}
@@ -2046,11 +2046,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   g_currentHealth: 30
-  m_drop:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_weapon: {fileID: 136786}
+  m_itemDrop: {fileID: 180838, guid: 1015eac935ebf49ed9b05f544d21329b, type: 2}
+  m_dropInfo: {fileID: 0}
 --- !u!114 &11419842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2110,8 +2107,8 @@ MonoBehaviour:
       id="_ai" /></fields><references><reference type="RAIN.Core.AI" refcount="1"
       id="0"><field value="True" type="System.Boolean" id="_isActive" /><field type="UnityEngine.GameObject"
       id="_body" gameobject="0" /><field type="RAIN.Memory.BasicMemory" reference="1"
-      id="_workingMemory" childrenvisible="True" /><field type="RAIN.Minds.BasicMind"
-      reference="2" id="_mind" childrenvisible="False" /><field type="RAIN.Motion.MecanimMotor"
+      id="_workingMemory" childrenvisible="False" /><field type="RAIN.Minds.BasicMind"
+      reference="2" id="_mind" childrenvisible="True" /><field type="RAIN.Motion.MecanimMotor"
       reference="3" id="_motor" childrenvisible="False" /><field type="RAIN.Animation.MecanimAnimator"
       reference="4" id="_animator" childrenvisible="False" /><field type="RAIN.Navigation.BasicNavigator"
       reference="5" id="_navigator" childrenvisible="False" /><field type="RAIN.Perception.BasicSenses"
@@ -2366,8 +2363,8 @@ Prefab:
         type="RAIN.Core.AI" refcount="1" id="0"><field value="True" type="System.Boolean"
         id="_isActive" /><field type="UnityEngine.GameObject" id="_body" gameobject="0"
         /><field type="RAIN.Memory.BasicMemory" reference="1" id="_workingMemory"
-        childrenvisible="True" /><field type="RAIN.Minds.BasicMind" reference="2"
-        id="_mind" childrenvisible="False" /><field type="RAIN.Motion.MecanimMotor"
+        childrenvisible="False" /><field type="RAIN.Minds.BasicMind" reference="2"
+        id="_mind" childrenvisible="True" /><field type="RAIN.Motion.MecanimMotor"
         reference="3" id="_motor" childrenvisible="False" /><field type="RAIN.Animation.MecanimAnimator"
         reference="4" id="_animator" childrenvisible="False" /><field type="RAIN.Navigation.BasicNavigator"
         reference="5" id="_navigator" childrenvisible="False" /><field type="RAIN.Perception.BasicSenses"

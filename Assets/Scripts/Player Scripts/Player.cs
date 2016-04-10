@@ -23,6 +23,8 @@ public class Player : MonoBehaviour
 	PlayerBehaviour m_playerBehaviour;
 	public List<Sprite> m_edenFaces;
 	public List<GameObject> m_equipables;
+	public GameManger m_gameManager;
+	public Transform m_startPoisition;
 
 	// Use this for initialization
 	void Start () 
@@ -137,6 +139,12 @@ public class Player : MonoBehaviour
 			Destroy (collision.gameObject);
 		}
 
+		if (collision.gameObject.tag == "Item") 
+		{
+			m_inventory.AddItem(collision.gameObject.GetComponent<DropInfo> ().m_itemDropID);
+			Destroy (collision.gameObject);
+		}
+
 
 		if (collision.gameObject.tag == "Enemy") 
 		{
@@ -239,6 +247,13 @@ public class Player : MonoBehaviour
 			a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth = 
 								a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth - damageCalc ();
 		}
+
+		else if (a_collision.gameObject.tag == "FirstEnemy")
+		{
+			a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth = 
+				a_collision.gameObject.GetComponent<mBoss> ().g_currentHealth - damageCalc ();
+		}
+
 	}
 
 	void ChangeImage(float a_health)
@@ -259,6 +274,33 @@ public class Player : MonoBehaviour
 		} 
 	}
 
+	public void EnableCollider()
+	{
+		if (m_equipables [0].activeInHierarchy == true) 
+		{
+			m_equipables [0].GetComponentInChildren<BoxCollider> ().enabled = true;
+			Debug.Log ("wepaon on");
+		}
+
+		else if (m_equipables [1].activeInHierarchy == true)
+		{
+			m_equipables [1].GetComponentInChildren<BoxCollider> ().enabled = true;
+		}
+	}
+
+	public void DisableCollider()
+	{
+		if (m_equipables [0].activeInHierarchy == true) 
+		{
+			m_equipables [0].GetComponentInChildren<BoxCollider> ().enabled = false;
+		}
+
+		else if (m_equipables [1].activeInHierarchy == true)
+		{
+			m_equipables [1].GetComponentInChildren<BoxCollider> ().enabled = false;
+		}
+	}
+
 	void Death()
 	{
 		//Is player out of health
@@ -266,6 +308,11 @@ public class Player : MonoBehaviour
 		{
 			//Trigger dying animation.
 			m_playerBehaviour.Animation(AnimationClip.Die);
+			m_gameManager.PanelFading ();
+			transform.position = m_startPoisition.position;
+			m_health = 100;
+			m_healthSlider.value = m_health;
+			//m_playerBehaviour.Behaviour ();
 		}
 	}
 

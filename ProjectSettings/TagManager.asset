@@ -19,6 +19,7 @@ TagManager:
   - food
   - TunnelEnd
   - Projectile
+  - FirstEnemy
   layers:
   - Default
   - TransparentFX

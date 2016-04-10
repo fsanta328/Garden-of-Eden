@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: c588d10c6c42843c1851309f762fb678
+timeCreated: 1460243135
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cabinet
+    100002: Cabinet02
+    100004: Cardboard Boxes
+    100006: Cardboard Boxes_Base
+    100008: Coils of Wire
+    100010: Coils of Wire_MeshPart0
+    100012: Coils of Wire_MeshPart1
+    100014: Cupboard01
+    100016: Cupboard02
+    100018: Food Cans01
+    100020: Food Cans02
+    100022: Hammers
+    100024: Ladders
+    100026: Pipes
+    100028: Screwdrivers
+    100030: Tables
+    100032: //RootNode
+    400000: Cabinet
+    400002: Cabinet02
+    400004: Cardboard Boxes
+    400006: Cardboard Boxes_Base
+    400008: Coils of Wire
+    400010: Coils of Wire_MeshPart0
+    400012: Coils of Wire_MeshPart1
+    400014: Cupboard01
+    400016: Cupboard02
+    400018: Food Cans01
+    400020: Food Cans02
+    400022: Hammers
+    400024: Ladders
+    400026: Pipes
+    400028: Screwdrivers
+    400030: Tables
+    400032: //RootNode
+    2300000: Cabinet
+    2300002: Cabinet02
+    2300004: Cardboard Boxes
+    2300006: Cardboard Boxes_Base
+    2300008: Coils of Wire_MeshPart0
+    2300010: Coils of Wire_MeshPart1
+    2300012: Cupboard01
+    2300014: Cupboard02
+    2300016: Food Cans01
+    2300018: Food Cans02
+    2300020: Hammers
+    2300022: Ladders
+    2300024: Pipes
+    2300026: Screwdrivers
+    2300028: Tables
+    3300000: Cabinet
+    3300002: Cabinet02
+    3300004: Cardboard Boxes
+    3300006: Cardboard Boxes_Base
+    3300008: Coils of Wire_MeshPart0
+    3300010: Coils of Wire_MeshPart1
+    3300012: Cupboard01
+    3300014: Cupboard02
+    3300016: Food Cans01
+    3300018: Food Cans02
+    3300020: Hammers
+    3300022: Ladders
+    3300024: Pipes
+    3300026: Screwdrivers
+    3300028: Tables
+    4300000: Cupboard02
+    4300002: Ladders
+    4300004: Cardboard Boxes
+    4300006: Pipes
+    4300008: Hammers
+    4300010: Screwdrivers
+    4300012: Coils of Wire_MeshPart0
+    4300014: Coils of Wire_MeshPart1
+    4300016: Tables
+    4300018: Cardboard Boxes_Base
+    4300020: Food Cans01
+    4300022: Cabinet02
+    4300024: Cabinet
+    4300026: Food Cans02
+    4300028: Cupboard01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,6 +5,7 @@ public class MiniBossEventTrigger : MonoBehaviour
 {
 	public GameObject m_minion;
 	public GameObject m_particles;
+	public ParticleSystem m_particleDeath;
 
 	public List<AudioSource> m_soundEffects;
 
@@ -27,7 +28,8 @@ public class MiniBossEventTrigger : MonoBehaviour
 
 	public void BlowUp ()
 	{
-		m_particles.SetActive (true);
+		m_particleDeath.Play ();
+		//m_particles.SetActive (true);
 	}
 
 	public void Dead()

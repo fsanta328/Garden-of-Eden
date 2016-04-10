@@ -68807,6 +68807,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: EnableCollider
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.6333333
     functionName: DisableRunning
     data: 
@@ -68823,6 +68830,13 @@ AnimationClip:
     messageOptions: 0
   - time: 2.1333334
     functionName: RunningAttackTriggerReset
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.5
+    functionName: DisableCollider
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

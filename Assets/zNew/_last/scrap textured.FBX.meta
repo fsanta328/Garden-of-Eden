@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 024c46126932a4a80be599945d3bb373
+timeCreated: 1460265909
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: board
+    100002: Rock004
+    100004: Rock005
+    100006: Rock006
+    100008: Rock007
+    100010: Rock009
+    100012: Rock08
+    100014: Rock2
+    100016: //RootNode
+    100018: wood
+    100020: wood003
+    100022: wood1
+    100024: wood2
+    100026: wooden bucket
+    100028: wooden bucket001
+    400000: board
+    400002: Rock004
+    400004: Rock005
+    400006: Rock006
+    400008: Rock007
+    400010: Rock009
+    400012: Rock08
+    400014: Rock2
+    400016: //RootNode
+    400018: wood
+    400020: wood003
+    400022: wood1
+    400024: wood2
+    400026: wooden bucket
+    400028: wooden bucket001
+    2300000: board
+    2300002: Rock004
+    2300004: Rock005
+    2300006: Rock006
+    2300008: Rock007
+    2300010: Rock009
+    2300012: Rock08
+    2300014: Rock2
+    2300016: wood
+    2300018: wood003
+    2300020: wood1
+    2300022: wood2
+    2300024: wooden bucket
+    2300026: wooden bucket001
+    3300000: board
+    3300002: Rock004
+    3300004: Rock005
+    3300006: Rock006
+    3300008: Rock007
+    3300010: Rock009
+    3300012: Rock08
+    3300014: Rock2
+    3300016: wood
+    3300018: wood003
+    3300020: wood1
+    3300022: wood2
+    3300024: wooden bucket
+    3300026: wooden bucket001
+    4300000: board
+    4300002: wooden bucket001
+    4300004: wood
+    4300006: wood2
+    4300008: wood1
+    4300010: wood003
+    4300012: wooden bucket
+    4300014: Rock08
+    4300016: Rock005
+    4300018: Rock006
+    4300020: Rock009
+    4300022: Rock2
+    4300024: Rock004
+    4300026: Rock007
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.02
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 34cc185d304ae41998b8c0f821475b0d
+timeCreated: 1460265931
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: crystal
+    100002: crystal001
+    100004: crystal002
+    100006: crystal003
+    100008: crystal004
+    100010: //RootNode
+    100012: Cylinder002
+    100014: Cylinder003
+    100016: Cylinder004
+    100018: Cylinder005
+    100020: Cylinder006
+    100022: Cylinder007
+    100024: NGon001
+    100026: NGon002
+    100028: NGon003
+    100030: NGon004
+    100032: NGon005
+    100034: NGon006
+    100036: NGon007
+    100038: NGon008
+    100040: NGon009
+    100042: NGon010
+    100044: NGon011
+    100046: NGon012
+    100048: NGon013
+    100050: NGon014
+    100052: NGon015
+    100054: NGon016
+    100056: NGon017
+    400000: crystal
+    400002: crystal001
+    400004: crystal002
+    400006: crystal003
+    400008: crystal004
+    400010: //RootNode
+    400012: Cylinder002
+    400014: Cylinder003
+    400016: Cylinder004
+    400018: Cylinder005
+    400020: Cylinder006
+    400022: Cylinder007
+    400024: NGon001
+    400026: NGon002
+    400028: NGon003
+    400030: NGon004
+    400032: NGon005
+    400034: NGon006
+    400036: NGon007
+    400038: NGon008
+    400040: NGon009
+    400042: NGon010
+    400044: NGon011
+    400046: NGon012
+    400048: NGon013
+    400050: NGon014
+    400052: NGon015
+    400054: NGon016
+    400056: NGon017
+    2300000: crystal
+    2300002: crystal001
+    2300004: crystal002
+    2300006: crystal003
+    2300008: crystal004
+    2300010: Cylinder002
+    2300012: Cylinder003
+    2300014: Cylinder004
+    2300016: Cylinder005
+    2300018: Cylinder006
+    2300020: Cylinder007
+    2300022: NGon001
+    2300024: NGon002
+    2300026: NGon003
+    2300028: NGon004
+    2300030: NGon005
+    2300032: NGon006
+    2300034: NGon007
+    2300036: NGon008
+    2300038: NGon009
+    2300040: NGon010
+    2300042: NGon011
+    2300044: NGon012
+    2300046: NGon013
+    2300048: NGon014
+    2300050: NGon015
+    2300052: NGon016
+    2300054: NGon017
+    3300000: crystal
+    3300002: crystal001
+    3300004: crystal002
+    3300006: crystal003
+    3300008: crystal004
+    3300010: Cylinder002
+    3300012: Cylinder003
+    3300014: Cylinder004
+    3300016: Cylinder005
+    3300018: Cylinder006
+    3300020: Cylinder007
+    3300022: NGon001
+    3300024: NGon002
+    3300026: NGon003
+    3300028: NGon004
+    3300030: NGon005
+    3300032: NGon006
+    3300034: NGon007
+    3300036: NGon008
+    3300038: NGon009
+    3300040: NGon010
+    3300042: NGon011
+    3300044: NGon012
+    3300046: NGon013
+    3300048: NGon014
+    3300050: NGon015
+    3300052: NGon016
+    3300054: NGon017
+    4300000: Cylinder002
+    4300002: crystal
+    4300004: NGon001
+    4300006: crystal001
+    4300008: crystal002
+    4300010: NGon002
+    4300012: Cylinder003
+    4300014: Cylinder004
+    4300016: NGon003
+    4300018: NGon004
+    4300020: crystal003
+    4300022: NGon005
+    4300024: NGon006
+    4300026: Cylinder005
+    4300028: NGon007
+    4300030: NGon008
+    4300032: crystal004
+    4300034: Cylinder006
+    4300036: NGon009
+    4300038: NGon010
+    4300040: Cylinder007
+    4300042: NGon011
+    4300044: NGon012
+    4300046: NGon013
+    4300048: NGon014
+    4300050: NGon015
+    4300052: NGon016
+    4300054: NGon017
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

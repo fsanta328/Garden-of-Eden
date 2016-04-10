@@ -2058,11 +2058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   g_currentHealth: 30
-  m_drop:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_weapon: {fileID: 169782}
+  m_itemDrop: {fileID: 180838, guid: 1015eac935ebf49ed9b05f544d21329b, type: 2}
+  m_dropInfo: {fileID: 0}
 --- !u!114 &11457298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2470,6 +2467,10 @@ Prefab:
         /><field value="0,0,0" type="UnityEngine.Vector3" id="positionVector" /><field
         value="0,0,0" type="UnityEngine.Vector3" id="lastPositionVector" /></reference></references></component>
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_itemDrop
+      value: 
+      objectReference: {fileID: 180838, guid: 1015eac935ebf49ed9b05f544d21329b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 125460}

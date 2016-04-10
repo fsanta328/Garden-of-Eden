@@ -10,13 +10,14 @@ public class EventTriggerScript : MonoBehaviour
 	public Transform m_startingPosition;
 	public List<AudioSource> m_soundEffects;
 
-	void Start()
-	{
-		for (int i = 0; i < 2/*num of sound effects*/; i++)
-		{
-			m_soundEffects[i] = this.GetComponent<AudioSource> ();
-		}
-	}
+//	void Start()
+//	{
+//		for (int i = 0; i < 1/*num of sound effects*/; i++)
+//		{
+//			m_soundEffects[i] = this.GetComponent<AudioSource> ();
+//		}
+//		m_soundEffects [0].Play ();
+//	}
 
 	public void ThrowBall()
 	{
@@ -48,8 +49,6 @@ public class EventTriggerScript : MonoBehaviour
 		{
 			m_particles.SetActive (false);
 		}
-	
-
 
 		m_fireParticles.SetActive (false);
 
@@ -57,6 +56,7 @@ public class EventTriggerScript : MonoBehaviour
 
 	public void Dead()
 	{
+		m_soundEffects [0].Stop ();
 		Destroy (gameObject);
 	}
 }
