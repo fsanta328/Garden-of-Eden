@@ -20570,7 +20570,7 @@ Prefab:
     - target: {fileID: 2300030, guid: 37e97ba8d8f3c41d5b55f63de3c95a5c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 221e59a1b03e54b3982574d6d8b86f17, type: 2}
+      objectReference: {fileID: 2100000, guid: f031e82ee4d3d406898a702b8b9dbcf4, type: 2}
     - target: {fileID: 2300002, guid: 37e97ba8d8f3c41d5b55f63de3c95a5c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -21921,7 +21921,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 439714, guid: 98acd065481344c22b16dc1cd1f358c1, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11429658, guid: 98acd065481344c22b16dc1cd1f358c1, type: 2}
       propertyPath: _dataSerializer._serializedData
@@ -27207,7 +27207,7 @@ MonoBehaviour:
   m_inventoryCanvas: {fileID: 403987194}
   m_inventoryNotOpen: 0
   m_visible: 0
-  m_health: 0
+  m_health: 100
   m_attack: 0
   m_defence: 0
   invu: 0

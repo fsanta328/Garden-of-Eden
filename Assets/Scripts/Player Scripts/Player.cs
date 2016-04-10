@@ -303,17 +303,25 @@ public class Player : MonoBehaviour
 
 	void Death()
 	{
+		float dt = 0;
 		//Is player out of health
 		if (m_health <= 0) 
 		{
 			//Trigger dying animation.
 			m_playerBehaviour.Animation(AnimationClip.Die);
+			dt = Time.deltaTime + dt;
+			int spawned = 0;
 			m_gameManager.PanelFading ();
-			transform.position = m_startPoisition.position;
-			m_health = 100;
-			m_healthSlider.value = m_health;
-			//m_playerBehaviour.Behaviour ();
+			Respawn ();
 		}
+	}
+
+	void Respawn()
+	{
+		transform.position = m_startPoisition.position;
+		m_health = 100;
+		m_healthSlider.value = m_health;
+		m_playerBehaviour.Behaviour ();
 	}
 
 	//Following are the events that shall be Called inside certain animation clips.

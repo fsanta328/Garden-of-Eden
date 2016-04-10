@@ -355,6 +355,7 @@ GameObject:
   - 4: {fileID: 448466}
   - 33: {fileID: 3354312}
   - 23: {fileID: 2324916}
+  - 65: {fileID: 6549146}
   m_Layer: 0
   m_Name: icesword
   m_TagString: Untagged
@@ -1424,7 +1425,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199488}
   m_LocalRotation: {x: 0, y: 0.5344565, z: 0, w: 0.845196}
-  m_LocalPosition: {x: 28.092148, y: -12.062225, z: 39.86959}
+  m_LocalPosition: {x: 90.65401, y: -2.503662, z: -11.5013275}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 455396}
@@ -2017,6 +2018,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &6549146
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.466285, y: 0.39818883, z: 1.1071615}
+  m_Center: {x: -2.178085, y: -0.00000004056953, z: -0.00022875202}
 --- !u!95 &9538094
 Animator:
   serializedVersion: 3

@@ -103,16 +103,20 @@ public class PlayerMovement : Protagonist
 
 		m_enemies = GameObject.FindGameObjectsWithTag ("Enemy");
 
-//		if (GameObject.FindGameObjectWithTag ("mBoss").activeInHierarchy = false) 
-//		{
-			a_miniBossDistance = m_miniMonster.transform.position - m_transform.position;
+		if (m_miniMonster != null) 
+		{
+//			a_miniBossDistance = m_miniMonster.transform.position - m_transform.position;
+//			a_miniBossClose = a_miniBossDistance.sqrMagnitude;
+			//return a_miniBossClose;
+		}
 
-			a_miniBossClose = a_miniBossDistance.sqrMagnitude;
-		//}
+		if (m_boss != null)
 
-		a_bossDistance = m_boss.transform.position - m_transform.position;
-
-		a_bossClose = a_bossDistance.sqrMagnitude;
+		{
+//			a_bossDistance = m_boss.transform.position - m_transform.position;
+//			a_bossClose = a_bossDistance.sqrMagnitude;
+			//return a_bossClose;
+		}
 
 		foreach (GameObject a_enemy in m_enemies) 
 		{
@@ -133,30 +137,42 @@ public class PlayerMovement : Protagonist
 					LockCertainRotations ();
 				}
 			}
-			else if(a_miniBossClose < a_maxdistance && m_miniMonster.activeInHierarchy== true)
+
+			if (m_miniMonster != null)
 			{
-				a_maxdistance = a_miniBossClose;
-
-				m_distance = m_miniMonster.gameObject.transform.position - m_transform.position;
-
-				if(Is_lockedOn())
+				a_miniBossDistance = m_miniMonster.transform.position - m_transform.position;
+				a_miniBossClose = a_miniBossDistance.sqrMagnitude;
+				if(a_miniBossClose < a_maxdistance && m_miniMonster.activeInHierarchy== true)
 				{
-					m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
+					a_maxdistance = a_miniBossClose;
 
-					LockCertainRotations ();
+					m_distance = m_miniMonster.gameObject.transform.position - m_transform.position;
+
+					if(Is_lockedOn())
+					{
+						m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
+
+						LockCertainRotations ();
+					}
 				}
 			}
-			else if(a_bossClose < a_maxdistance && m_boss.activeInHierarchy == true)
+
+			if (m_boss != null)
 			{
-				a_maxdistance = a_bossClose;
-
-				m_distance = m_boss.gameObject.transform.position - m_transform.position;
-
-				if(Is_lockedOn())
+				a_bossDistance = m_boss.transform.position - m_transform.position;
+				a_bossClose = a_bossDistance.sqrMagnitude;
+				if(a_bossClose < a_maxdistance && m_boss.activeInHierarchy == true)
 				{
-					m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
+					a_maxdistance = a_bossClose;
 
-					LockCertainRotations ();
+					m_distance = m_boss.gameObject.transform.position - m_transform.position;
+
+					if(Is_lockedOn())
+					{
+						m_transform.rotation = Quaternion.Lerp(m_transform.rotation, Quaternion.LookRotation (m_distance), m_rotationSpeed *Time.deltaTime);
+
+						LockCertainRotations ();
+					}
 				}
 			}
 		}
