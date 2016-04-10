@@ -8,6 +8,7 @@ public class Boss : MonoBehaviour
 	RAIN.Core.AIRig m_AI;
 	GameManger m_gameM;
 	public bool m_defeated = false;
+	public static int dead = 0;
 
 	void Start () 
 	{
@@ -21,6 +22,7 @@ public class Boss : MonoBehaviour
 		{
 			OnDeath ();
 			m_defeated = true;
+			dead = 1;
 		}
 
 		if (this.gameObject.activeInHierarchy == true) 

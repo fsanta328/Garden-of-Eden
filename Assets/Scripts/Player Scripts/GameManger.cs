@@ -74,7 +74,7 @@ public class GameManger : MonoBehaviour
 		{
 			if (m_area == 1)
 			{
-				if (boss.GetComponent<Boss> ().m_defeated == true)
+				if (Boss.dead ==1)
 				{
 					if (index >= MaxGems) 
 					{
