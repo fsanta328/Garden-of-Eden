@@ -8,6 +8,7 @@ public class EnemiesLife : MonoBehaviour
 	int m_dropLimit = 2;
 
 	public GameObject m_itemDrop;
+	public List<AudioSource> m_audio;
 	RAIN.Core.AIRig m_AI;
 	public DropInfo m_dropInfo;
 	// this bool is for future refrence.. we use it if u want to check something after the death of the enemy
@@ -181,7 +182,12 @@ public class EnemiesLife : MonoBehaviour
 
 	void Die()
 	{
-		//GameObject.Find ("SpawnManager").GetComponent<Spawn>().Remove (gameObject);
+		
 		Destroy(gameObject);
+	}
+	
+	void AudioEffect(int a_audio)
+	{
+		m_audio [a_audio].Play();
 	}
 }

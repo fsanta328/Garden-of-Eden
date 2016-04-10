@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class PlayerMovement : Protagonist 
 {
+	//Free Movement: allow protagonist to rotate and move only with forward animation clip in certain directions
 	internal void FreeMovement()
 	{	
 		if (Is_keyPressed(KeyCode.W)) 
@@ -55,6 +56,7 @@ public class PlayerMovement : Protagonist
 		}
 	}
 
+	//Allow protagonist to only move with certain animation clips and in certain directions
 	internal void LockOnMovement()
 	{
 		//moving forward

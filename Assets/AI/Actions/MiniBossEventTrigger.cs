@@ -21,7 +21,10 @@ public class MiniBossEventTrigger : MonoBehaviour
 	public void PinkMonsterAudio(int a_audio)
 	{
 		m_soundEffects [a_audio].Play ();
+	}
 
+	public void Weak()
+	{
 		Rigidbody a_rb = GetComponent<Rigidbody> ();
 		a_rb.constraints = RigidbodyConstraints.FreezeAll;
 	}

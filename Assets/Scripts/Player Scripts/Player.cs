@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 	public List<GameObject> m_equipables;
 	public GameManger m_gameManager;
 	public Transform m_startPoisition;
-
+	public AudioSource[] m_audio;
 	// Use this for initialization
 	void Start () 
 	{
@@ -145,7 +145,6 @@ public class Player : MonoBehaviour
 			Destroy (collision.gameObject);
 		}
 
-
 		if (collision.gameObject.tag == "Enemy") 
 		{
 			if (invu == false) 
@@ -153,6 +152,11 @@ public class Player : MonoBehaviour
 				m_health = m_health - 2;
 				m_healthSlider.value = m_health;
 				ChangeImage (m_healthSlider.value);
+
+				if(!m_audio[4].isPlaying == true && m_health > 0)
+				{
+					Audios (4);
+				}
 			} 
 
 			else 
@@ -166,6 +170,11 @@ public class Player : MonoBehaviour
 			m_health = m_health - 5;
 			m_healthSlider.value = m_health;
 			ChangeImage (m_healthSlider.value);
+
+			if(!m_audio[4].isPlaying == true && m_health > 0)
+			{
+				Audios (4);
+			}
 		}
 
 		if (collision.gameObject.tag == "Boss") 
@@ -173,11 +182,20 @@ public class Player : MonoBehaviour
 			m_health = m_health - 7;
 			m_healthSlider.value = m_health;
 			ChangeImage (m_healthSlider.value);
+
+			if(!m_audio[4].isPlaying == true && m_health > 0)
+			{
+				Audios (4);
+			}
 		}
 
 		if (collision.gameObject.tag == "Projectile")
 		{
 			m_health = m_health - 3;
+			if(!m_audio[4].isPlaying == true && m_health > 0)
+			{
+				Audios (4);
+			}
 		}
 
 		foreach (ContactPoint c in collision.contacts) 
@@ -395,6 +413,12 @@ public class Player : MonoBehaviour
 	void DisableJumpTrigger()
 	{
 		m_playerBehaviour.m_animator.SetBool ("Running", false);
+	}
+
+	//Play certain audio
+	void Audios(int a_aduioClip)
+	{
+		m_audio [a_aduioClip].Play ();
 	}
 
 //	void Dead()

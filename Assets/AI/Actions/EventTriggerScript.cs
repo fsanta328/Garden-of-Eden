@@ -10,24 +10,9 @@ public class EventTriggerScript : MonoBehaviour
 	public Transform m_startingPosition;
 	public List<AudioSource> m_soundEffects;
 
-//	void Start()
-//	{
-//		for (int i = 0; i < 1/*num of sound effects*/; i++)
-//		{
-//			m_soundEffects[i] = this.GetComponent<AudioSource> ();
-//		}
-//		m_soundEffects [0].Play ();
-//	}
-
 	public void ThrowBall()
 	{
 		Instantiate (m_fireBall, m_startingPosition.position, Quaternion.identity);
-	}
-
-	public void Roar()
-	{
-		AudioSource a_roar = GetComponent<AudioSource> ();
-		a_roar.Play ();
 	}
 
 	public void FinalBossAudio(int a_audio)
