@@ -182,7 +182,6 @@ public class EnemiesLife : MonoBehaviour
 
 	void Die()
 	{
-		
 		Destroy(gameObject);
 	}
 	

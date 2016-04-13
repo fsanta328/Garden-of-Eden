@@ -72883,8 +72883,8 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 2
-    functionName: Dead
+  - time: 1.0666667
+    functionName: Respawn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

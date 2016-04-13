@@ -83,7 +83,4 @@ public class Spawn : MonoBehaviour
 		EnemiesList.Remove (anything);
 	}
 
-
-		
-
 }

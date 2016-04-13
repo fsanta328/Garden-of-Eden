@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 	public float m_visible;
 	public float m_health, m_attack, m_defence;
 	public bool invu;
-	public static float m_weaponEquipped = 1;
+	public static float m_weaponEquipped = 0;
 	public int m_weaponOn = 0;
 	public int m_pauldronOn = 0;
 	public int m_armGuardOn = 0;
@@ -327,17 +327,16 @@ public class Player : MonoBehaviour
 			//Trigger dying animation.
 			m_playerBehaviour.Animation(AnimationClip.Die);
 			m_gameManager.PanelFading ();
-			Respawn ();
 		}
 	}
 
 	void Respawn()
 	{
+		m_playerBehaviour.Animation (AnimationClip.Idle);
 		transform.position = m_startPoisition.position;
 		m_health = 100;
 		m_healthSlider.value = m_health;
 		ChangeImage (m_healthSlider.value);
-		m_playerBehaviour.Animation (AnimationClip.Idle);
 	}
 
 	//Following are the events that shall be Called inside certain animation clips.
@@ -418,9 +417,4 @@ public class Player : MonoBehaviour
 	{
 		m_audio [a_aduioClip].Play ();
 	}
-
-//	void Dead()
-//	{
-//		SceneManager.LoadScene (0);
-//	}
 }

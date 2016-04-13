@@ -11,7 +11,6 @@ public class MiniBossEventTrigger : MonoBehaviour
 
 	public void InstantiateMinion()
 	{
-		
 		for(int i = 0; i < 2; i++)
 		{
 			Instantiate (m_minion, new Vector3(transform.position.x+2+i,transform.position.y,transform.position.z+2+i) , Quaternion.identity);
@@ -32,7 +31,6 @@ public class MiniBossEventTrigger : MonoBehaviour
 	public void BlowUp ()
 	{
 		m_particleDeath.Play ();
-		//m_particles.SetActive (true);
 	}
 
 	public void Dead()

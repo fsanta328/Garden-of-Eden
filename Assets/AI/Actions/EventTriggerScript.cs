@@ -36,7 +36,6 @@ public class EventTriggerScript : MonoBehaviour
 		}
 
 		m_fireParticles.SetActive (false);
-
 	}
 
 	public void Dead()
