@@ -11,6 +11,9 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 	public int m_slotNumber;
 	public GameObject m_playerObj;
 	public Player m_player;
+	public float m_attack;
+	public float m_defence;
+	public float m_health;
 
 	private Inventory m_inventory;
 	private Vector2 m_offset;
@@ -24,6 +27,10 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 		m_toolTip = m_inventory.GetComponent<ToolTip> ();
 		m_playerObj = GameObject.Find ("Berserker");
 		m_player = m_playerObj.GetComponent<Player> ();
+		m_attack = m_player.GetComponent<Player> ().m_attack;
+		m_defence = m_player.GetComponent<Player> ().m_defence;
+		m_health = m_player.GetComponent<Player> ().m_health;
+
 	}
 
 	public void OnBeginDrag (PointerEventData eventData)
@@ -304,7 +311,6 @@ public class ItemData : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDra
 			if (m_inventory.deleteItem == true)
 			{
 				this.gameObject.transform.parent.GetComponent<Image> ().color = Color.red;
-				//this.gameObject.transform.GetComponentInChildren<Text> ().text = (Int32.Parse (this.gameObject.transform.GetComponentInChildren<Text> ().text) - 1).ToString();
 			}
 
 			else 

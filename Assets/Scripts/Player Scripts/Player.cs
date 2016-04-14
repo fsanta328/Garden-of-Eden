@@ -101,44 +101,6 @@ public class Player : MonoBehaviour
 
 	void OnCollisionEnter(Collision collision)
 	{
-		//remove
-		if (collision.gameObject.tag == "gem") 
-		{
-			m_weapon.SetActive (true);
-			collision.gameObject.SetActive (false);
-			collision.gameObject.tag = "Weapon";
-			m_inventory.AddItem (0);
-		}
-
-		if (collision.gameObject.tag == "sword") 
-		{
-			if (collision.gameObject.name == "WrenchSword") 
-			{
-				m_inventory.AddItem (1);
-				Destroy (collision.gameObject);
-			}
-
-			else if (collision.gameObject.name == "Chainsaw")
-			{
-				m_inventory.AddItem (0);
-				Destroy (collision.gameObject);
-			}
-		}
-
-		if (collision.gameObject.tag == "armour") 
-		{
-			m_inventory.AddItem (1);
-			Debug.Log ("armour");
-			Destroy (collision.gameObject);
-		}
-
-		if (collision.gameObject.tag == "food") 
-		{
-			m_inventory.AddItem (2);
-			Debug.Log ("food");
-			Destroy (collision.gameObject);
-		}
-
 		if (collision.gameObject.tag == "Item") 
 		{
 			m_inventory.AddItem(collision.gameObject.GetComponent<DropInfo> ().m_itemDropID);
@@ -202,19 +164,16 @@ public class Player : MonoBehaviour
 		{
 			if ((c.thisCollider.tag == "Weapon") && (collision.gameObject.tag == "Enemy"))
 			{
-				Debug.Log ("swordhit");
 				ApplyDamage (collision);
 			}
 
 			else if ((c.thisCollider.tag == "Weapon") && (collision.gameObject.tag == "Boss"))
 			{
-				Debug.Log ("bossDMG");
 				ApplyDamage (collision);
 			}
 
 			else if ((c.thisCollider.tag == "Weapon") && (collision.gameObject.tag == "mBoss"))
 			{
-				Debug.Log ("minibosshit");
 				ApplyDamage (collision);
 			}
 		}

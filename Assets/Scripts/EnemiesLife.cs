@@ -57,7 +57,6 @@ public class EnemiesLife : MonoBehaviour
 						//Instantiate (m_drop[1], this.transform.position, Quaternion.identity);
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 
 					else if (rnd >50 && rnd <= 60)
@@ -69,7 +68,6 @@ public class EnemiesLife : MonoBehaviour
 						//Instantiate (m_drop[2], this.transform.position, Quaternion.identity);
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 
 					else
@@ -90,7 +88,6 @@ public class EnemiesLife : MonoBehaviour
 						//Instantiate (m_drop[3], this.transform.position, Quaternion.identity);
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 
 					else if (rnd >70 && rnd <= 80)
@@ -102,7 +99,6 @@ public class EnemiesLife : MonoBehaviour
 						//Instantiate (m_drop[4], this.transform.position, Quaternion.identity);
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 
 					else if (rnd >80 && rnd <= 90)
@@ -114,7 +110,6 @@ public class EnemiesLife : MonoBehaviour
 						//Instantiate (m_drop[5], this.transform.position, Quaternion.identity);
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 
 					else
@@ -122,7 +117,6 @@ public class EnemiesLife : MonoBehaviour
 						// Remove the destroyed enemy from our list 
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 				} 
 
@@ -137,7 +131,6 @@ public class EnemiesLife : MonoBehaviour
 						//Instantiate (m_drop[6], this.transform.position, Quaternion.identity);
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 
 					else if (rnd >95 && rnd <= 100)
@@ -157,7 +150,6 @@ public class EnemiesLife : MonoBehaviour
 						// Remove the destroyed enemy from our list 
 						GameObject.Find ("SpawnManager").GetComponent<Spawn> ().Remove (gameObject);
 						m_dropCount++;
-
 					}
 				} 
 
